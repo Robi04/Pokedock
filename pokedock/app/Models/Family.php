@@ -15,8 +15,7 @@ class Family extends Model
         'path_img_family',
     ];
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
         'label_family' => 'string',
