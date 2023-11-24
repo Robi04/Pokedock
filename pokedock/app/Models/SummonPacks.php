@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class SummonPack extends Model
+class SummonPacks extends Model
 {
     use HasFactory;
 
@@ -16,8 +16,7 @@ class SummonPack extends Model
         'proba_legendary_summon',
     ];
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
         'price_summonpack' => 'float',

@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class OrderItem extends Model
+class OrderItems extends Model
 {
     use HasFactory;
 
@@ -13,7 +13,7 @@ class OrderItem extends Model
         'id_order',
         'id_shoppack',
     ];
-    
+
     public function order()
     {
         return $this->belongsTo(UserOrder::class, 'id_order');
@@ -24,6 +24,5 @@ class OrderItem extends Model
         return $this->belongsTo(Shoppack::class, 'id_shoppack');
     }
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 }

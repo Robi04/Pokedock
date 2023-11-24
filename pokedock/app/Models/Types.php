@@ -5,20 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Tier extends Model
+class Types extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'label_tier',
-        'path_img_tier',
+        'label_type',
+        'path_img_type',
     ];
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
-        'label_tier' => 'string',
-        'path_img_tier' => 'string',
+        'label_type' => 'string',
+        'path_img_type' => 'string',
     ];
 }

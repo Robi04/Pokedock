@@ -5,20 +5,19 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Region extends Model
+class Rarities extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'label_region',
-        'path_img_region',
+        'label_rarity',
+        'path_img_rarity',
     ];
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
-        'label_fregion' => 'string',
-        'path_img_region' => 'string',
+        'label_rarity' => 'string',
+        'path_img_rarity' => 'string',
     ];
 }

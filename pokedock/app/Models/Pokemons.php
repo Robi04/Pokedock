@@ -5,10 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pokemon extends Model
+class Pokemons extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'id_user',
         'id_rarity',
@@ -62,8 +61,7 @@ class Pokemon extends Model
         return $this->belongsTo(Region::class, 'id_region');
     }
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
         'catched' => 'boolean',

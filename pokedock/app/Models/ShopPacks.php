@@ -5,21 +5,21 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Family extends Model
+class ShopPacks extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'label_family',
-        'nb_candy_family',
-        'path_img_family',
+        'price_shoppack',
+        'nb_credit_shoppack',
+        'path_img_shoppack',
     ];
 
     protected $hidden = [];
 
     protected $casts = [
-        'label_family' => 'string',
-        'nb_candy_family' => 'integer',
-        'path_img_family' => 'string',
+        'price_shoppacks' => 'float',
+        'nb_credit_shoppack' => 'integer',
+        'path_img_shoppack' => 'string',
     ];
 }
