@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('username_user')->unique();
             $table->integer('credit_user')->nullable();
             $table->integer('fidelity_point_user')->nullable();
+            $table->string('email_user')->unique()->nullable();
+            $table->timestamp('add_date_user')->useCurrent();
         });
     }
 

@@ -5,22 +5,20 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Family extends Model
+class Regions extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'label_family',
-        'nb_candy_family',
-        'path_img_family',
+        'label_region',
+        'path_img_region',
     ];
 
     protected $hidden = [
     ];
 
     protected $casts = [
-        'label_family' => 'string',
-        'nb_candy_family' => 'integer',
-        'path_img_family' => 'string',
+        'label_fregion' => 'string',
+        'path_img_region' => 'string',
     ];
 }

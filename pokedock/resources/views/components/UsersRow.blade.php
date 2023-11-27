@@ -1,0 +1,9 @@
+<tr>
+    <td>{{$user->id_user}}</td>
+    <td>{{$user->password_user}}</td>
+    <td>{{$user->username_user}}</td>
+    <td>{{$user->credit_user}}</td>
+    <td>{{$user->fidelity_point_user}}</td>
+    <td>{{$user->email_user}}</td>
+    <td>{{$user->add_date_user}}</td>
+</tr>
