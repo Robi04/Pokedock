@@ -5,11 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class ShopPacks extends Model
+class Shoppacks extends Model
 {
     use HasFactory;
 
     protected $fillable = [
+        'name_shoppack',
         'price_shoppack',
         'nb_credit_shoppack',
         'path_img_shoppack',
@@ -19,6 +20,7 @@ class ShopPacks extends Model
     ];
 
     protected $casts = [
+        'name_shoppack' => 'string',
         'price_shoppacks' => 'float',
         'nb_credit_shoppack' => 'integer',
         'path_img_shoppack' => 'string',

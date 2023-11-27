@@ -1,13 +1,11 @@
-<!-- resources/views/users/index.blade.php -->
-
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Liste des utilisateurs</title>
+    <title>Users list</title>
 </head>
 <body>
 
-    <h1>Liste des utilisateurs</h1>
+    <h1>Users list</h1>
     
     <table border="1">
         <thead>
@@ -22,7 +20,7 @@
             </tr>
         </thead>
         <tbody>
-            @each('components.UsersRow', $users, 'user')
+            @each('components.UsersTable', $users, 'user')
         </tbody>
     </table>
 
