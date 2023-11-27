@@ -18,7 +18,7 @@ class UsersTableSeeder extends Seeder
         $faker = Faker::create();
         $password = $faker->regexify('^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{12}$');
 
-        foreach (range(1, 10) as $index) {
+        foreach (range(1, 50) as $index) {
             \DB::table('users')->insert([
                 'password_user' => Hash::make($password),
                 'username_user' => $faker->name,

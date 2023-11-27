@@ -27,4 +27,10 @@ class Users extends Authenticatable
         'credit_user' => 'integer',
         'fidelity_point_user' => 'integer',
     ];
+
+    public function userOrders()
+    {
+        return $this->hasMany(UserOrders::class, 'id_user');
+    }
+
 }

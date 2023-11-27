@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\ShoppacksController;
+use App\Http\Controllers\UserOrdersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,5 @@ Route::get('/', function () {
 Route::get('/users', [UsersController::class, 'showAll']);
 
 Route::get('/shoppacks', [ShoppacksController::class, 'showAll']);
+
+Route::get('/user_orders', [UserOrdersController::class, 'showAll']);

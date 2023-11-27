@@ -17,8 +17,8 @@ class UserOrders extends Model
 
     public function user()
     {
-        return $this->belongsTo(User::class, 'id_user');
-    }
+        return $this->belongsTo(User::class, 'id_user', 'id_user');
+    }    
 
     protected $hidden = [
     ];
@@ -27,4 +27,6 @@ class UserOrders extends Model
         'state_order' => 'integer',
         'state_date' => 'date',
     ];
+
+    public $timestamps = false;
 }

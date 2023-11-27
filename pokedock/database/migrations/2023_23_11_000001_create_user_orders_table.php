@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateUserOrdersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('user_orders', function (Blueprint $table) {
             $table->id('id_order');
-            $table->foreignId('id_user')->constrained('users', 'id_user');
-            $table->integer('state_order');
+            $table->foreignId('id_user')->constrained('users', 'id_user'); 
+            $table->enum('state_order', ['not_placed', 'placed']); 
             $table->date('state_date');
         });
     }
@@ -26,4 +26,4 @@ return new class extends Migration
     {
         Schema::dropIfExists('user_orders');
     }
-};
+}
