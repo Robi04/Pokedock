@@ -17,7 +17,7 @@
             </tr>
         </thead>
         <tbody>
-            @each('components.shoppacksTable', $shoppacks, 'shoppack')
+            @each('components.ShoppacksTable', $shoppacks, 'shoppack')
         </tbody>
     </table>
 

@@ -21,7 +21,7 @@ class Shoppacks extends Model
 
     protected $casts = [
         'name_shoppack' => 'string',
-        'price_shoppacks' => 'float',
+        'price_shoppack' => 'float',
         'nb_credit_shoppack' => 'integer',
         'path_img_shoppack' => 'string',
     ];

@@ -10,20 +10,26 @@ class OrderItems extends Model
     use HasFactory;
 
     protected $fillable = [
-        'id_order',
+        'id_user_order',
         'id_shoppack',
+        'quantity',
     ];
-    
+
     public function order()
     {
-        return $this->belongsTo(UserOrder::class, 'id_order');
+        return $this->belongsTo(UserOrders::class, 'id_user_order');
     }
 
     public function shoppack()
     {
-        return $this->belongsTo(Shoppack::class, 'id_shoppack');
+        return $this->belongsTo(Shoppacks::class, 'id_shoppack');
     }
 
-    protected $hidden = [
+    public $timestamps = false;
+
+    protected $hidden = [];
+
+    protected $casts = [
+        'quantity' => 'integer',
     ];
 }
