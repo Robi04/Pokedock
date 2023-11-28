@@ -10,7 +10,7 @@
     <table border="1">
         <thead>
             <tr>
-                <th>id_order</th>
+                <th>id_user_order</th>
                 <th>id_user</th>
                 <th>state_order</th>
                 <th>state_date</th>

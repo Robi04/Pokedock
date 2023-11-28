@@ -24,7 +24,7 @@ class UserOrders extends Model
     ];
 
     protected $casts = [
-        'state_order' => 'integer',
+        'state_order' => 'string',
         'state_date' => 'date',
     ];
 
