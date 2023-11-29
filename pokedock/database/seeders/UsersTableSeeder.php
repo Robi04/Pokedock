@@ -3,8 +3,9 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;  
-use Faker\Factory as Faker;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
+use App\Models\User;
 
 class UsersTableSeeder extends Seeder
 {
@@ -15,17 +16,17 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Faker::create();
-        $password = $faker->regexify('^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{12}$');
+        // Créer un utilisateur avec le nom d'utilisateur "root" et le mot de passe "root"
+        User::create([
+            'name' => 'root',
+            'email' => 'root@example.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('root'),
+            'remember_token' => Str::random(10),
+            'current_team_id' => null, // Vous pouvez ajuster cela selon vos besoins
+            'profile_photo_path' => null, // Vous pouvez ajuster cela selon vos besoins
+        ]);
 
-        foreach (range(1, 50) as $index) {
-            \DB::table('users')->insert([
-                'password_user' => Hash::make($password),
-                'username_user' => $faker->name,
-                'credit_user' => $faker->numberBetween(0, 100),
-                'fidelity_point_user' => $faker->numberBetween(0, 100),
-                'email_user' => $faker->unique()->safeEmail
-            ]);
-        }
+        // Créez d'autres utilisateurs si nécessaire
     }
 }

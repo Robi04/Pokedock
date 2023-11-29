@@ -13,7 +13,7 @@ class CreateUserOrdersTable extends Migration
     {
         Schema::create('user_orders', function (Blueprint $table) {
             $table->id('id_user_order');
-            $table->foreignId('id_user')->constrained('users', 'id_user'); 
+            $table->foreignId('id_user')->constrained('users', 'id'); 
             $table->enum('state_order', ['not_placed', 'placed']); 
             $table->date('state_date');
         });

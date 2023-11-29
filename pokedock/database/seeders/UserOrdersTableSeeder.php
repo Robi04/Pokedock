@@ -16,13 +16,13 @@ class UserOrdersTableSeeder extends Seeder
         foreach ($users as $user) {
             
             UserOrders::create([
-                'id_user' => $user->id_user,
+                'id_user' => $user->id,
                 'state_order' => 'not_placed',
                 'state_date' => now(),
             ]);
             
             UserOrders::create([
-                'id_user' => $user->id_user,
+                'id_user' => $user->id,
                 'state_order' => 'placed',
                 'state_date' => $this->generateRandomDate(),
             ]);
@@ -34,7 +34,7 @@ class UserOrdersTableSeeder extends Seeder
             $user = $users->random();
 
             UserOrders::create([
-                'id_user' => $user->id_user,
+                'id_user' => $user->id,
                 'state_order' => 'placed',
                 'state_date' => $this->generateRandomDate(),
             ]);

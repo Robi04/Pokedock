@@ -23,9 +23,14 @@ Route::get('/', function () {
 });
 
 Route::get('/users', [UsersController::class, 'showAll']);
-
 Route::get('/shoppacks', [ShoppacksController::class, 'showAll']);
-
 Route::get('/user_orders', [UserOrdersController::class, 'showAll']);
-
 Route::get('/order_items', [OrderItemsController::class, 'showAll']);
+
+Route::get('/login', function () {
+    return view('auth.login');
+})->name('login');
+
+Route::get('/register', function () {
+    return view('auth.register');
+})->name('register');

@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('pokemons', function (Blueprint $table) {
             $table->id('id_pokemon');
-            $table->foreignId('id_user')->constrained('users', 'id_user');
+            $table->foreignId('id')->constrained('users', 'id');
             $table->foreignId('id_rarity')->constrained('rarities', 'id_rarity');
             $table->foreignId('id_type')->constrained('types', 'id_type');
             $table->foreignId('id_family')->constrained('families', 'id_family');
