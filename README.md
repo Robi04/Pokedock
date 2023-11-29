@@ -74,11 +74,12 @@ Ajouter des web services Json
 > user
 
 ## Achat crédit 
-> 5 -> 0.99€
-> 
-> 10 -> 1.49€
-> 
-> 100 -> 4.99€ 
+
+|Shoppack|Prix|Crédits
+|-----|-----|-----|
+|Starter|0.99€|5|
+|Medium|1.49€|50|
+|Platinium|4.99€|100|
 
 ## Remarques
 - Laravel embarque une gestion user native.
