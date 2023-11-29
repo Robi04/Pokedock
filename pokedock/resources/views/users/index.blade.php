@@ -10,13 +10,14 @@
     <table border="1">
         <thead>
             <tr>
-                <th>id_user</th>
-                <th>password_user</th>
-                <th>username_user</th>
-                <th>credit_user</th>
-                <th>fidelity_point_user</th>
-                <th>email_user</th>
-                <th>add_date_user</th>
+                <th>id</th>
+                <th>name</th>
+                <th>email</th>
+                <th>email_vefified_at</th>
+                <th>password</th>
+                <th>profile_photo_path</th>
+                <th>create_at</th>
+                <th>update_at</th>
             </tr>
         </thead>
         <tbody>

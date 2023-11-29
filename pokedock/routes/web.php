@@ -18,14 +18,14 @@ use App\Http\Controllers\OrderItemsController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/users', [UsersController::class, 'showAll']);
 Route::get('/shoppacks', [ShoppacksController::class, 'showAll']);
 Route::get('/user_orders', [UserOrdersController::class, 'showAll']);
 Route::get('/order_items', [OrderItemsController::class, 'showAll']);
+
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/login', function () {
     return view('auth.login');

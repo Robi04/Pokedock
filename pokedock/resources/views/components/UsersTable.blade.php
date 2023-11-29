@@ -1,9 +1,10 @@
 <tr>
-    <td>{{$user->id_user}}</td>
-    <td>{{$user->password_user}}</td>
-    <td>{{$user->username_user}}</td>
-    <td>{{$user->credit_user}}</td>
-    <td>{{$user->fidelity_point_user}}</td>
-    <td>{{$user->email_user}}</td>
-    <td>{{$user->add_date_user}}</td>
+    <td>{{$user->id}}</td>
+    <td>{{$user->name}}</td>
+    <td>{{$user->email}}</td>
+    <td>{{$user->email_verified_at}}</td>
+    <td>{{$user->password}}</td>
+    <td>{{$user->profile_photo_path}}</td>
+    <td>{{$user->created_at}}</td>
+    <td>{{$user->update_at}}</td>
 </tr>
