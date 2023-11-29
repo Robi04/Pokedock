@@ -5,6 +5,8 @@
     <td>{{$user->email_verified_at}}</td>
     <td>{{$user->password}}</td>
     <td>{{$user->profile_photo_path}}</td>
+    <td>{{$user->credit}}</td>
+    <td>{{$user->fidelity_point}}</td>
     <td>{{$user->created_at}}</td>
     <td>{{$user->update_at}}</td>
 </tr>

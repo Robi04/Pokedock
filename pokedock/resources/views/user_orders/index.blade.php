@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>User orders list</title>
+    <title>User orders table</title>
 </head>
 <body>
 
-    <h1>User order list</h1>
+    <h1>User order table</h1>
     
     <table border="1">
         <thead>

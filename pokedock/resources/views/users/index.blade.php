@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Users list</title>
+    <title>Users table</title>
 </head>
 <body>
 
-    <h1>Users list</h1>
+    <h1>Users table</h1>
     
     <table border="1">
         <thead>
@@ -16,6 +16,8 @@
                 <th>email_vefified_at</th>
                 <th>password</th>
                 <th>profile_photo_path</th>
+                <th>credit</th>
+                <th>fidelity_point</th>
                 <th>create_at</th>
                 <th>update_at</th>
             </tr>
