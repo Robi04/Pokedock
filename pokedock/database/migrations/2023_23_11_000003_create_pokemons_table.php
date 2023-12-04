@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id('id_pokemon');
             $table->string('name_pokemon');
             $table->foreignId('id_user')->constrained('users', 'id_user');
-            $table->foreignId('id_rarity')->constrained('rarities', 'id_rarity');
             $table->foreignId('id_type')->constrained('types', 'id_type');
             $table->foreignId('id_family')->constrained('families', 'id_family');
             $table->boolean('catched');
