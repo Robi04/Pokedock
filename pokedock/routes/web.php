@@ -9,6 +9,7 @@ use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\LogInController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
+use App\Http\Controllers\LogOutControleur;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,5 +34,7 @@ Route::post('/login/authenticate', [LogInController::class, 'authenticate'])->na
 
 Route::get('/register', [SingUpController::class, 'showAll'])->name('register');
 Route::post('/register', [SingUpController::class, 'register']);
+
+Route::get('/logout', [LogOutControleur::class, 'logout'])->name('logout');
 
 Route::get('/dashboard', [HomeController::class, 'showAll'])->name('dashboard');
