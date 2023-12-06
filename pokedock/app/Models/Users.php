@@ -12,11 +12,11 @@ class Users extends Authenticatable
     use HasApiTokens, HasFactory, Notifiable;
 
     protected $fillable = [
-        'password_user',
-        'username_user', 
-        'credit_user',
-        'fidelity_point_user',
-        'email_user',
+        'password',
+        'username', 
+        'credit',
+        'fidelity_point',
+        'email',
     ];
 
     protected $hidden = [
@@ -30,7 +30,7 @@ class Users extends Authenticatable
 
     public function userOrders()
     {
-        return $this->hasMany(UserOrders::class, 'id_user');
+        return $this->hasMany(UserOrders::class, 'id');
     }
 
 }

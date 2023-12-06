@@ -8,6 +8,7 @@ use App\Http\Controllers\OrderItemsController;
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\LogInController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\SingUpController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,5 +30,8 @@ Route::get('/', [WelcomeController::class, 'showAll'])->name('welcome');
 
 Route::get('/login', [LogInController::class, 'showAll'])->name('login');
 Route::post('/login/authenticate', [LogInController::class, 'authenticate'])->name('login.authenticate');
+
+Route::get('/register', [SingUpController::class, 'showAll'])->name('register');
+Route::post('/register', [SingUpController::class, 'register']);
 
 Route::get('/dashboard', [HomeController::class, 'showAll'])->name('dashboard');
