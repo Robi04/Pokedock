@@ -11,6 +11,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes

@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Pokemons extends Model
 {
     use HasFactory;
-
     protected $fillable = [
         'id_user',
         'id_rarity',
@@ -62,8 +61,7 @@ class Pokemons extends Model
         return $this->belongsTo(Region::class, 'id_region');
     }
 
-    protected $hidden = [
-    ];
+    protected $hidden = [];
 
     protected $casts = [
         'catched' => 'boolean',
