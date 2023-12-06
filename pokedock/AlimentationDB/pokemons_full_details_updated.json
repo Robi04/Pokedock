@@ -1,0 +1,7867 @@
+[
+    {
+        "id": 1,
+        "name": "bulbasaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bulbasaur",
+        "tier": 1,
+        "family_id": 1,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 2,
+        "name": "ivysaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bulbasaur",
+        "tier": 2,
+        "family_id": 1,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 3,
+        "name": "venusaur",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bulbasaur",
+        "tier": 2,
+        "family_id": 1,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 4,
+        "name": "charmander",
+        "types": [
+            "fire"
+        ],
+        "family": "charmander",
+        "tier": 1,
+        "family_id": 2,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 5,
+        "name": "charmeleon",
+        "types": [
+            "fire"
+        ],
+        "family": "charmander",
+        "tier": 2,
+        "family_id": 2,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 6,
+        "name": "charizard",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "family": "charmander",
+        "tier": 2,
+        "family_id": 2,
+        "type_id": [
+            10,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 7,
+        "name": "squirtle",
+        "types": [
+            "water"
+        ],
+        "family": "squirtle",
+        "tier": 1,
+        "family_id": 3,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 8,
+        "name": "wartortle",
+        "types": [
+            "water"
+        ],
+        "family": "squirtle",
+        "tier": 2,
+        "family_id": 3,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 9,
+        "name": "blastoise",
+        "types": [
+            "water"
+        ],
+        "family": "squirtle",
+        "tier": 2,
+        "family_id": 3,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 10,
+        "name": "caterpie",
+        "types": [
+            "bug"
+        ],
+        "family": "caterpie",
+        "tier": 1,
+        "family_id": 4,
+        "type_id": [
+            7
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 11,
+        "name": "metapod",
+        "types": [
+            "bug"
+        ],
+        "family": "caterpie",
+        "tier": 2,
+        "family_id": 4,
+        "type_id": [
+            7
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 12,
+        "name": "butterfree",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "caterpie",
+        "tier": 2,
+        "family_id": 4,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 13,
+        "name": "weedle",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "weedle",
+        "tier": 1,
+        "family_id": 5,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 14,
+        "name": "kakuna",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "weedle",
+        "tier": 2,
+        "family_id": 5,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 15,
+        "name": "beedrill",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "weedle",
+        "tier": 2,
+        "family_id": 5,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 16,
+        "name": "pidgey",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "pidgey",
+        "tier": 1,
+        "family_id": 6,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 17,
+        "name": "pidgeotto",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "pidgey",
+        "tier": 2,
+        "family_id": 6,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 18,
+        "name": "pidgeot",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "pidgey",
+        "tier": 2,
+        "family_id": 6,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 19,
+        "name": "rattata",
+        "types": [
+            "normal"
+        ],
+        "family": "rattata",
+        "tier": 1,
+        "family_id": 7,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 20,
+        "name": "raticate",
+        "types": [
+            "normal"
+        ],
+        "family": "rattata",
+        "tier": 2,
+        "family_id": 7,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 21,
+        "name": "spearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "spearow",
+        "tier": 1,
+        "family_id": 8,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 22,
+        "name": "fearow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "spearow",
+        "tier": 2,
+        "family_id": 8,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 23,
+        "name": "ekans",
+        "types": [
+            "poison"
+        ],
+        "family": "ekans",
+        "tier": 1,
+        "family_id": 9,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 24,
+        "name": "arbok",
+        "types": [
+            "poison"
+        ],
+        "family": "ekans",
+        "tier": 2,
+        "family_id": 9,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 25,
+        "name": "pikachu",
+        "types": [
+            "electric"
+        ],
+        "family": "pichu",
+        "tier": 1,
+        "family_id": 10,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 26,
+        "name": "raichu",
+        "types": [
+            "electric"
+        ],
+        "family": "pichu",
+        "tier": 2,
+        "family_id": 10,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 27,
+        "name": "sandshrew",
+        "types": [
+            "ground"
+        ],
+        "family": "sandshrew",
+        "tier": 1,
+        "family_id": 11,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 28,
+        "name": "sandslash",
+        "types": [
+            "ground"
+        ],
+        "family": "sandshrew",
+        "tier": 2,
+        "family_id": 11,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 29,
+        "name": "nidoran-f",
+        "types": [
+            "poison"
+        ],
+        "family": "nidoran-f",
+        "tier": 1,
+        "family_id": 12,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 30,
+        "name": "nidorina",
+        "types": [
+            "poison"
+        ],
+        "family": "nidoran-f",
+        "tier": 2,
+        "family_id": 12,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 31,
+        "name": "nidoqueen",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "family": "nidoran-f",
+        "tier": 2,
+        "family_id": 12,
+        "type_id": [
+            4,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 32,
+        "name": "nidoran-m",
+        "types": [
+            "poison"
+        ],
+        "family": "nidoran-m",
+        "tier": 1,
+        "family_id": 13,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 33,
+        "name": "nidorino",
+        "types": [
+            "poison"
+        ],
+        "family": "nidoran-m",
+        "tier": 2,
+        "family_id": 13,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 34,
+        "name": "nidoking",
+        "types": [
+            "poison",
+            "ground"
+        ],
+        "family": "nidoran-m",
+        "tier": 2,
+        "family_id": 13,
+        "type_id": [
+            4,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 35,
+        "name": "clefairy",
+        "types": [
+            "fairy"
+        ],
+        "family": "cleffa",
+        "tier": 1,
+        "family_id": 14,
+        "type_id": [
+            18
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 36,
+        "name": "clefable",
+        "types": [
+            "fairy"
+        ],
+        "family": "cleffa",
+        "tier": 2,
+        "family_id": 14,
+        "type_id": [
+            18
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 37,
+        "name": "vulpix",
+        "types": [
+            "fire"
+        ],
+        "family": "vulpix",
+        "tier": 1,
+        "family_id": 15,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 38,
+        "name": "ninetales",
+        "types": [
+            "fire"
+        ],
+        "family": "vulpix",
+        "tier": 2,
+        "family_id": 15,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 39,
+        "name": "jigglypuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "family": "igglybuff",
+        "tier": 1,
+        "family_id": 16,
+        "type_id": [
+            1,
+            18
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 40,
+        "name": "wigglytuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "family": "igglybuff",
+        "tier": 2,
+        "family_id": 16,
+        "type_id": [
+            1,
+            18
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 41,
+        "name": "zubat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "family": "zubat",
+        "tier": 1,
+        "family_id": 17,
+        "type_id": [
+            4,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 42,
+        "name": "golbat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "family": "zubat",
+        "tier": 2,
+        "family_id": 17,
+        "type_id": [
+            4,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 43,
+        "name": "oddish",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "oddish",
+        "tier": 1,
+        "family_id": 18,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 44,
+        "name": "gloom",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "oddish",
+        "tier": 2,
+        "family_id": 18,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 45,
+        "name": "vileplume",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "oddish",
+        "tier": 2,
+        "family_id": 18,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 46,
+        "name": "paras",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "family": "paras",
+        "tier": 1,
+        "family_id": 19,
+        "type_id": [
+            7,
+            12
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 47,
+        "name": "parasect",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "family": "paras",
+        "tier": 2,
+        "family_id": 19,
+        "type_id": [
+            7,
+            12
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 48,
+        "name": "venonat",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "venonat",
+        "tier": 1,
+        "family_id": 20,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 49,
+        "name": "venomoth",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "venonat",
+        "tier": 2,
+        "family_id": 20,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 50,
+        "name": "diglett",
+        "types": [
+            "ground"
+        ],
+        "family": "diglett",
+        "tier": 1,
+        "family_id": 21,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 51,
+        "name": "dugtrio",
+        "types": [
+            "ground"
+        ],
+        "family": "diglett",
+        "tier": 2,
+        "family_id": 21,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 52,
+        "name": "meowth",
+        "types": [
+            "normal"
+        ],
+        "family": "meowth",
+        "tier": 1,
+        "family_id": 22,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 53,
+        "name": "persian",
+        "types": [
+            "normal"
+        ],
+        "family": "meowth",
+        "tier": 2,
+        "family_id": 22,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 54,
+        "name": "psyduck",
+        "types": [
+            "water"
+        ],
+        "family": "psyduck",
+        "tier": 1,
+        "family_id": 23,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 55,
+        "name": "golduck",
+        "types": [
+            "water"
+        ],
+        "family": "psyduck",
+        "tier": 2,
+        "family_id": 23,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 56,
+        "name": "mankey",
+        "types": [
+            "fighting"
+        ],
+        "family": "mankey",
+        "tier": 1,
+        "family_id": 24,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 57,
+        "name": "primeape",
+        "types": [
+            "fighting"
+        ],
+        "family": "mankey",
+        "tier": 2,
+        "family_id": 24,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 58,
+        "name": "growlithe",
+        "types": [
+            "fire"
+        ],
+        "family": "growlithe",
+        "tier": 1,
+        "family_id": 25,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 59,
+        "name": "arcanine",
+        "types": [
+            "fire"
+        ],
+        "family": "growlithe",
+        "tier": 2,
+        "family_id": 25,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 60,
+        "name": "poliwag",
+        "types": [
+            "water"
+        ],
+        "family": "poliwag",
+        "tier": 1,
+        "family_id": 26,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 61,
+        "name": "poliwhirl",
+        "types": [
+            "water"
+        ],
+        "family": "poliwag",
+        "tier": 2,
+        "family_id": 26,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 62,
+        "name": "poliwrath",
+        "types": [
+            "water",
+            "fighting"
+        ],
+        "family": "poliwag",
+        "tier": 2,
+        "family_id": 26,
+        "type_id": [
+            11,
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 63,
+        "name": "abra",
+        "types": [
+            "psychic"
+        ],
+        "family": "abra",
+        "tier": 1,
+        "family_id": 27,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 64,
+        "name": "kadabra",
+        "types": [
+            "psychic"
+        ],
+        "family": "abra",
+        "tier": 2,
+        "family_id": 27,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 65,
+        "name": "alakazam",
+        "types": [
+            "psychic"
+        ],
+        "family": "abra",
+        "tier": 2,
+        "family_id": 27,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 66,
+        "name": "machop",
+        "types": [
+            "fighting"
+        ],
+        "family": "machop",
+        "tier": 1,
+        "family_id": 28,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 67,
+        "name": "machoke",
+        "types": [
+            "fighting"
+        ],
+        "family": "machop",
+        "tier": 2,
+        "family_id": 28,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 68,
+        "name": "machamp",
+        "types": [
+            "fighting"
+        ],
+        "family": "machop",
+        "tier": 2,
+        "family_id": 28,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 69,
+        "name": "bellsprout",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bellsprout",
+        "tier": 1,
+        "family_id": 29,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 70,
+        "name": "weepinbell",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bellsprout",
+        "tier": 2,
+        "family_id": 29,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 71,
+        "name": "victreebel",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "bellsprout",
+        "tier": 2,
+        "family_id": 29,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 72,
+        "name": "tentacool",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "family": "tentacool",
+        "tier": 1,
+        "family_id": 30,
+        "type_id": [
+            11,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 73,
+        "name": "tentacruel",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "family": "tentacool",
+        "tier": 2,
+        "family_id": 30,
+        "type_id": [
+            11,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 74,
+        "name": "geodude",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "geodude",
+        "tier": 1,
+        "family_id": 31,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 75,
+        "name": "graveler",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "geodude",
+        "tier": 2,
+        "family_id": 31,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 76,
+        "name": "golem",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "geodude",
+        "tier": 2,
+        "family_id": 31,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 77,
+        "name": "ponyta",
+        "types": [
+            "fire"
+        ],
+        "family": "ponyta",
+        "tier": 1,
+        "family_id": 32,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 78,
+        "name": "rapidash",
+        "types": [
+            "fire"
+        ],
+        "family": "ponyta",
+        "tier": 2,
+        "family_id": 32,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 79,
+        "name": "slowpoke",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "family": "slowpoke",
+        "tier": 1,
+        "family_id": 33,
+        "type_id": [
+            11,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 80,
+        "name": "slowbro",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "family": "slowpoke",
+        "tier": 2,
+        "family_id": 33,
+        "type_id": [
+            11,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 81,
+        "name": "magnemite",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "family": "magnemite",
+        "tier": 1,
+        "family_id": 34,
+        "type_id": [
+            13,
+            9
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 82,
+        "name": "magneton",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "family": "magnemite",
+        "tier": 2,
+        "family_id": 34,
+        "type_id": [
+            13,
+            9
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 83,
+        "name": "farfetchd",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "farfetchd",
+        "tier": 1,
+        "family_id": 35,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 84,
+        "name": "doduo",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "doduo",
+        "tier": 1,
+        "family_id": 36,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 85,
+        "name": "dodrio",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "doduo",
+        "tier": 2,
+        "family_id": 36,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 86,
+        "name": "seel",
+        "types": [
+            "water"
+        ],
+        "family": "seel",
+        "tier": 1,
+        "family_id": 37,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 87,
+        "name": "dewgong",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "family": "seel",
+        "tier": 2,
+        "family_id": 37,
+        "type_id": [
+            11,
+            15
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 88,
+        "name": "grimer",
+        "types": [
+            "poison"
+        ],
+        "family": "grimer",
+        "tier": 1,
+        "family_id": 38,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 89,
+        "name": "muk",
+        "types": [
+            "poison"
+        ],
+        "family": "grimer",
+        "tier": 2,
+        "family_id": 38,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 90,
+        "name": "shellder",
+        "types": [
+            "water"
+        ],
+        "family": "shellder",
+        "tier": 1,
+        "family_id": 39,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 91,
+        "name": "cloyster",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "family": "shellder",
+        "tier": 2,
+        "family_id": 39,
+        "type_id": [
+            11,
+            15
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 92,
+        "name": "gastly",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "family": "gastly",
+        "tier": 1,
+        "family_id": 40,
+        "type_id": [
+            8,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 93,
+        "name": "haunter",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "family": "gastly",
+        "tier": 2,
+        "family_id": 40,
+        "type_id": [
+            8,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 94,
+        "name": "gengar",
+        "types": [
+            "ghost",
+            "poison"
+        ],
+        "family": "gastly",
+        "tier": 2,
+        "family_id": 40,
+        "type_id": [
+            8,
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 95,
+        "name": "onix",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "onix",
+        "tier": 1,
+        "family_id": 41,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 96,
+        "name": "drowzee",
+        "types": [
+            "psychic"
+        ],
+        "family": "drowzee",
+        "tier": 1,
+        "family_id": 42,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 97,
+        "name": "hypno",
+        "types": [
+            "psychic"
+        ],
+        "family": "drowzee",
+        "tier": 2,
+        "family_id": 42,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 98,
+        "name": "krabby",
+        "types": [
+            "water"
+        ],
+        "family": "krabby",
+        "tier": 1,
+        "family_id": 43,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 99,
+        "name": "kingler",
+        "types": [
+            "water"
+        ],
+        "family": "krabby",
+        "tier": 2,
+        "family_id": 43,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 100,
+        "name": "voltorb",
+        "types": [
+            "electric"
+        ],
+        "family": "voltorb",
+        "tier": 1,
+        "family_id": 44,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 101,
+        "name": "electrode",
+        "types": [
+            "electric"
+        ],
+        "family": "voltorb",
+        "tier": 2,
+        "family_id": 44,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 102,
+        "name": "exeggcute",
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "family": "exeggcute",
+        "tier": 1,
+        "family_id": 45,
+        "type_id": [
+            12,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 103,
+        "name": "exeggutor",
+        "types": [
+            "grass",
+            "psychic"
+        ],
+        "family": "exeggcute",
+        "tier": 2,
+        "family_id": 45,
+        "type_id": [
+            12,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 104,
+        "name": "cubone",
+        "types": [
+            "ground"
+        ],
+        "family": "cubone",
+        "tier": 1,
+        "family_id": 46,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 105,
+        "name": "marowak",
+        "types": [
+            "ground"
+        ],
+        "family": "cubone",
+        "tier": 2,
+        "family_id": 46,
+        "type_id": [
+            5
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 106,
+        "name": "hitmonlee",
+        "types": [
+            "fighting"
+        ],
+        "family": "tyrogue",
+        "tier": 1,
+        "family_id": 47,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 107,
+        "name": "hitmonchan",
+        "types": [
+            "fighting"
+        ],
+        "family": "tyrogue",
+        "tier": 2,
+        "family_id": 47,
+        "type_id": [
+            2
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 108,
+        "name": "lickitung",
+        "types": [
+            "normal"
+        ],
+        "family": "lickitung",
+        "tier": 1,
+        "family_id": 48,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 109,
+        "name": "koffing",
+        "types": [
+            "poison"
+        ],
+        "family": "koffing",
+        "tier": 1,
+        "family_id": 49,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 110,
+        "name": "weezing",
+        "types": [
+            "poison"
+        ],
+        "family": "koffing",
+        "tier": 2,
+        "family_id": 49,
+        "type_id": [
+            4
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 111,
+        "name": "rhyhorn",
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "family": "rhyhorn",
+        "tier": 1,
+        "family_id": 50,
+        "type_id": [
+            5,
+            6
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 112,
+        "name": "rhydon",
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "family": "rhyhorn",
+        "tier": 2,
+        "family_id": 50,
+        "type_id": [
+            5,
+            6
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 113,
+        "name": "chansey",
+        "types": [
+            "normal"
+        ],
+        "family": "happiny",
+        "tier": 1,
+        "family_id": 51,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 114,
+        "name": "tangela",
+        "types": [
+            "grass"
+        ],
+        "family": "tangela",
+        "tier": 1,
+        "family_id": 52,
+        "type_id": [
+            12
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 115,
+        "name": "kangaskhan",
+        "types": [
+            "normal"
+        ],
+        "family": "kangaskhan",
+        "tier": 1,
+        "family_id": 53,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 116,
+        "name": "horsea",
+        "types": [
+            "water"
+        ],
+        "family": "horsea",
+        "tier": 1,
+        "family_id": 54,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 117,
+        "name": "seadra",
+        "types": [
+            "water"
+        ],
+        "family": "horsea",
+        "tier": 2,
+        "family_id": 54,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 118,
+        "name": "goldeen",
+        "types": [
+            "water"
+        ],
+        "family": "goldeen",
+        "tier": 1,
+        "family_id": 55,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 119,
+        "name": "seaking",
+        "types": [
+            "water"
+        ],
+        "family": "goldeen",
+        "tier": 2,
+        "family_id": 55,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 120,
+        "name": "staryu",
+        "types": [
+            "water"
+        ],
+        "family": "staryu",
+        "tier": 1,
+        "family_id": 56,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 121,
+        "name": "starmie",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "family": "staryu",
+        "tier": 2,
+        "family_id": 56,
+        "type_id": [
+            11,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 122,
+        "name": "mr-mime",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "family": "mime-jr",
+        "tier": 1,
+        "family_id": 57,
+        "type_id": [
+            14,
+            18
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 123,
+        "name": "scyther",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "scyther",
+        "tier": 1,
+        "family_id": 58,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 124,
+        "name": "jynx",
+        "types": [
+            "ice",
+            "psychic"
+        ],
+        "family": "smoochum",
+        "tier": 1,
+        "family_id": 59,
+        "type_id": [
+            15,
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 125,
+        "name": "electabuzz",
+        "types": [
+            "electric"
+        ],
+        "family": "elekid",
+        "tier": 1,
+        "family_id": 60,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 126,
+        "name": "magmar",
+        "types": [
+            "fire"
+        ],
+        "family": "magby",
+        "tier": 1,
+        "family_id": 61,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 127,
+        "name": "pinsir",
+        "types": [
+            "bug"
+        ],
+        "family": "pinsir",
+        "tier": 1,
+        "family_id": 62,
+        "type_id": [
+            7
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 128,
+        "name": "tauros",
+        "types": [
+            "normal"
+        ],
+        "family": "tauros",
+        "tier": 1,
+        "family_id": 63,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 129,
+        "name": "magikarp",
+        "types": [
+            "water"
+        ],
+        "family": "magikarp",
+        "tier": 1,
+        "family_id": 64,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 130,
+        "name": "gyarados",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "family": "magikarp",
+        "tier": 2,
+        "family_id": 64,
+        "type_id": [
+            11,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 131,
+        "name": "lapras",
+        "types": [
+            "water",
+            "ice"
+        ],
+        "family": "lapras",
+        "tier": 1,
+        "family_id": 65,
+        "type_id": [
+            11,
+            15
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 132,
+        "name": "ditto",
+        "types": [
+            "normal"
+        ],
+        "family": "ditto",
+        "tier": 1,
+        "family_id": 66,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 133,
+        "name": "eevee",
+        "types": [
+            "normal"
+        ],
+        "family": "eevee",
+        "tier": 1,
+        "family_id": 67,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 134,
+        "name": "vaporeon",
+        "types": [
+            "water"
+        ],
+        "family": "eevee",
+        "tier": 2,
+        "family_id": 67,
+        "type_id": [
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 135,
+        "name": "jolteon",
+        "types": [
+            "electric"
+        ],
+        "family": "eevee",
+        "tier": 2,
+        "family_id": 67,
+        "type_id": [
+            13
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 136,
+        "name": "flareon",
+        "types": [
+            "fire"
+        ],
+        "family": "eevee",
+        "tier": 2,
+        "family_id": 67,
+        "type_id": [
+            10
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 137,
+        "name": "porygon",
+        "types": [
+            "normal"
+        ],
+        "family": "porygon",
+        "tier": 1,
+        "family_id": 68,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 138,
+        "name": "omanyte",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "family": "omanyte",
+        "tier": 1,
+        "family_id": 69,
+        "type_id": [
+            6,
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 139,
+        "name": "omastar",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "family": "omanyte",
+        "tier": 2,
+        "family_id": 69,
+        "type_id": [
+            6,
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 140,
+        "name": "kabuto",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "family": "kabuto",
+        "tier": 1,
+        "family_id": 70,
+        "type_id": [
+            6,
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 141,
+        "name": "kabutops",
+        "types": [
+            "rock",
+            "water"
+        ],
+        "family": "kabuto",
+        "tier": 2,
+        "family_id": 70,
+        "type_id": [
+            6,
+            11
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 142,
+        "name": "aerodactyl",
+        "types": [
+            "rock",
+            "flying"
+        ],
+        "family": "aerodactyl",
+        "tier": 1,
+        "family_id": 71,
+        "type_id": [
+            6,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 143,
+        "name": "snorlax",
+        "types": [
+            "normal"
+        ],
+        "family": "munchlax",
+        "tier": 1,
+        "family_id": 72,
+        "type_id": [
+            1
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 144,
+        "name": "articuno",
+        "types": [
+            "ice",
+            "flying"
+        ],
+        "family": "articuno",
+        "tier": 3,
+        "family_id": 73,
+        "type_id": [
+            15,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 145,
+        "name": "zapdos",
+        "types": [
+            "electric",
+            "flying"
+        ],
+        "family": "zapdos",
+        "tier": 3,
+        "family_id": 74,
+        "type_id": [
+            13,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 146,
+        "name": "moltres",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "family": "moltres",
+        "tier": 3,
+        "family_id": 75,
+        "type_id": [
+            10,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 147,
+        "name": "dratini",
+        "types": [
+            "dragon"
+        ],
+        "family": "dratini",
+        "tier": 1,
+        "family_id": 76,
+        "type_id": [
+            16
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 148,
+        "name": "dragonair",
+        "types": [
+            "dragon"
+        ],
+        "family": "dratini",
+        "tier": 2,
+        "family_id": 76,
+        "type_id": [
+            16
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 149,
+        "name": "dragonite",
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "family": "dratini",
+        "tier": 2,
+        "family_id": 76,
+        "type_id": [
+            16,
+            3
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 150,
+        "name": "mewtwo",
+        "types": [
+            "psychic"
+        ],
+        "family": "mewtwo",
+        "tier": 3,
+        "family_id": 77,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 151,
+        "name": "mew",
+        "types": [
+            "psychic"
+        ],
+        "family": "mew",
+        "tier": 3,
+        "family_id": 78,
+        "type_id": [
+            14
+        ],
+        "region_id": 1,
+        "region": "Kanto"
+    },
+    {
+        "id": 152,
+        "name": "chikorita",
+        "types": [
+            "grass"
+        ],
+        "family": "chikorita",
+        "tier": 1,
+        "family_id": 79,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 153,
+        "name": "bayleef",
+        "types": [
+            "grass"
+        ],
+        "family": "chikorita",
+        "tier": 2,
+        "family_id": 79,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 154,
+        "name": "meganium",
+        "types": [
+            "grass"
+        ],
+        "family": "chikorita",
+        "tier": 2,
+        "family_id": 79,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 155,
+        "name": "cyndaquil",
+        "types": [
+            "fire"
+        ],
+        "family": "cyndaquil",
+        "tier": 1,
+        "family_id": 80,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 156,
+        "name": "quilava",
+        "types": [
+            "fire"
+        ],
+        "family": "cyndaquil",
+        "tier": 2,
+        "family_id": 80,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 157,
+        "name": "typhlosion",
+        "types": [
+            "fire"
+        ],
+        "family": "cyndaquil",
+        "tier": 2,
+        "family_id": 80,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 158,
+        "name": "totodile",
+        "types": [
+            "water"
+        ],
+        "family": "totodile",
+        "tier": 1,
+        "family_id": 81,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 159,
+        "name": "croconaw",
+        "types": [
+            "water"
+        ],
+        "family": "totodile",
+        "tier": 2,
+        "family_id": 81,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 160,
+        "name": "feraligatr",
+        "types": [
+            "water"
+        ],
+        "family": "totodile",
+        "tier": 2,
+        "family_id": 81,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 161,
+        "name": "sentret",
+        "types": [
+            "normal"
+        ],
+        "family": "sentret",
+        "tier": 1,
+        "family_id": 82,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 162,
+        "name": "furret",
+        "types": [
+            "normal"
+        ],
+        "family": "sentret",
+        "tier": 2,
+        "family_id": 82,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 163,
+        "name": "hoothoot",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "hoothoot",
+        "tier": 1,
+        "family_id": 83,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 164,
+        "name": "noctowl",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "hoothoot",
+        "tier": 2,
+        "family_id": 83,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 165,
+        "name": "ledyba",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "ledyba",
+        "tier": 1,
+        "family_id": 84,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 166,
+        "name": "ledian",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "ledyba",
+        "tier": 2,
+        "family_id": 84,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 167,
+        "name": "spinarak",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "spinarak",
+        "tier": 1,
+        "family_id": 85,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 168,
+        "name": "ariados",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "spinarak",
+        "tier": 2,
+        "family_id": 85,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 169,
+        "name": "crobat",
+        "types": [
+            "poison",
+            "flying"
+        ],
+        "family": "zubat",
+        "tier": 1,
+        "family_id": 86,
+        "type_id": [
+            4,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 170,
+        "name": "chinchou",
+        "types": [
+            "water",
+            "electric"
+        ],
+        "family": "chinchou",
+        "tier": 1,
+        "family_id": 87,
+        "type_id": [
+            11,
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 171,
+        "name": "lanturn",
+        "types": [
+            "water",
+            "electric"
+        ],
+        "family": "chinchou",
+        "tier": 2,
+        "family_id": 87,
+        "type_id": [
+            11,
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 172,
+        "name": "pichu",
+        "types": [
+            "electric"
+        ],
+        "family": "pichu",
+        "tier": 1,
+        "family_id": 88,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 173,
+        "name": "cleffa",
+        "types": [
+            "fairy"
+        ],
+        "family": "cleffa",
+        "tier": 1,
+        "family_id": 89,
+        "type_id": [
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 174,
+        "name": "igglybuff",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "family": "igglybuff",
+        "tier": 1,
+        "family_id": 90,
+        "type_id": [
+            1,
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 175,
+        "name": "togepi",
+        "types": [
+            "fairy"
+        ],
+        "family": "togepi",
+        "tier": 1,
+        "family_id": 91,
+        "type_id": [
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 176,
+        "name": "togetic",
+        "types": [
+            "fairy",
+            "flying"
+        ],
+        "family": "togepi",
+        "tier": 2,
+        "family_id": 91,
+        "type_id": [
+            18,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 177,
+        "name": "natu",
+        "types": [
+            "psychic",
+            "flying"
+        ],
+        "family": "natu",
+        "tier": 1,
+        "family_id": 92,
+        "type_id": [
+            14,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 178,
+        "name": "xatu",
+        "types": [
+            "psychic",
+            "flying"
+        ],
+        "family": "natu",
+        "tier": 2,
+        "family_id": 92,
+        "type_id": [
+            14,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 179,
+        "name": "mareep",
+        "types": [
+            "electric"
+        ],
+        "family": "mareep",
+        "tier": 1,
+        "family_id": 93,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 180,
+        "name": "flaaffy",
+        "types": [
+            "electric"
+        ],
+        "family": "mareep",
+        "tier": 2,
+        "family_id": 93,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 181,
+        "name": "ampharos",
+        "types": [
+            "electric"
+        ],
+        "family": "mareep",
+        "tier": 2,
+        "family_id": 93,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 182,
+        "name": "bellossom",
+        "types": [
+            "grass"
+        ],
+        "family": "oddish",
+        "tier": 1,
+        "family_id": 94,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 183,
+        "name": "marill",
+        "types": [
+            "water",
+            "fairy"
+        ],
+        "family": "azurill",
+        "tier": 1,
+        "family_id": 95,
+        "type_id": [
+            11,
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 184,
+        "name": "azumarill",
+        "types": [
+            "water",
+            "fairy"
+        ],
+        "family": "azurill",
+        "tier": 2,
+        "family_id": 95,
+        "type_id": [
+            11,
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 185,
+        "name": "sudowoodo",
+        "types": [
+            "rock"
+        ],
+        "family": "bonsly",
+        "tier": 1,
+        "family_id": 96,
+        "type_id": [
+            6
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 186,
+        "name": "politoed",
+        "types": [
+            "water"
+        ],
+        "family": "poliwag",
+        "tier": 1,
+        "family_id": 97,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 187,
+        "name": "hoppip",
+        "types": [
+            "grass",
+            "flying"
+        ],
+        "family": "hoppip",
+        "tier": 1,
+        "family_id": 98,
+        "type_id": [
+            12,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 188,
+        "name": "skiploom",
+        "types": [
+            "grass",
+            "flying"
+        ],
+        "family": "hoppip",
+        "tier": 2,
+        "family_id": 98,
+        "type_id": [
+            12,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 189,
+        "name": "jumpluff",
+        "types": [
+            "grass",
+            "flying"
+        ],
+        "family": "hoppip",
+        "tier": 2,
+        "family_id": 98,
+        "type_id": [
+            12,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 190,
+        "name": "aipom",
+        "types": [
+            "normal"
+        ],
+        "family": "aipom",
+        "tier": 1,
+        "family_id": 99,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 191,
+        "name": "sunkern",
+        "types": [
+            "grass"
+        ],
+        "family": "sunkern",
+        "tier": 1,
+        "family_id": 100,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 192,
+        "name": "sunflora",
+        "types": [
+            "grass"
+        ],
+        "family": "sunkern",
+        "tier": 2,
+        "family_id": 100,
+        "type_id": [
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 193,
+        "name": "yanma",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "yanma",
+        "tier": 1,
+        "family_id": 101,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 194,
+        "name": "wooper",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "wooper",
+        "tier": 1,
+        "family_id": 102,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 195,
+        "name": "quagsire",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "wooper",
+        "tier": 2,
+        "family_id": 102,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 196,
+        "name": "espeon",
+        "types": [
+            "psychic"
+        ],
+        "family": "eevee",
+        "tier": 1,
+        "family_id": 103,
+        "type_id": [
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 197,
+        "name": "umbreon",
+        "types": [
+            "dark"
+        ],
+        "family": "eevee",
+        "tier": 2,
+        "family_id": 103,
+        "type_id": [
+            17
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 198,
+        "name": "murkrow",
+        "types": [
+            "dark",
+            "flying"
+        ],
+        "family": "murkrow",
+        "tier": 1,
+        "family_id": 104,
+        "type_id": [
+            17,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 199,
+        "name": "slowking",
+        "types": [
+            "water",
+            "psychic"
+        ],
+        "family": "slowpoke",
+        "tier": 1,
+        "family_id": 105,
+        "type_id": [
+            11,
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 200,
+        "name": "misdreavus",
+        "types": [
+            "ghost"
+        ],
+        "family": "misdreavus",
+        "tier": 1,
+        "family_id": 106,
+        "type_id": [
+            8
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 201,
+        "name": "unown",
+        "types": [
+            "psychic"
+        ],
+        "family": "unown",
+        "tier": 1,
+        "family_id": 107,
+        "type_id": [
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 202,
+        "name": "wobbuffet",
+        "types": [
+            "psychic"
+        ],
+        "family": "wynaut",
+        "tier": 1,
+        "family_id": 108,
+        "type_id": [
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 203,
+        "name": "girafarig",
+        "types": [
+            "normal",
+            "psychic"
+        ],
+        "family": "girafarig",
+        "tier": 1,
+        "family_id": 109,
+        "type_id": [
+            1,
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 204,
+        "name": "pineco",
+        "types": [
+            "bug"
+        ],
+        "family": "pineco",
+        "tier": 1,
+        "family_id": 110,
+        "type_id": [
+            7
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 205,
+        "name": "forretress",
+        "types": [
+            "bug",
+            "steel"
+        ],
+        "family": "pineco",
+        "tier": 2,
+        "family_id": 110,
+        "type_id": [
+            7,
+            9
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 206,
+        "name": "dunsparce",
+        "types": [
+            "normal"
+        ],
+        "family": "dunsparce",
+        "tier": 1,
+        "family_id": 111,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 207,
+        "name": "gligar",
+        "types": [
+            "ground",
+            "flying"
+        ],
+        "family": "gligar",
+        "tier": 1,
+        "family_id": 112,
+        "type_id": [
+            5,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 208,
+        "name": "steelix",
+        "types": [
+            "steel",
+            "ground"
+        ],
+        "family": "onix",
+        "tier": 1,
+        "family_id": 113,
+        "type_id": [
+            9,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 209,
+        "name": "snubbull",
+        "types": [
+            "fairy"
+        ],
+        "family": "snubbull",
+        "tier": 1,
+        "family_id": 114,
+        "type_id": [
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 210,
+        "name": "granbull",
+        "types": [
+            "fairy"
+        ],
+        "family": "snubbull",
+        "tier": 2,
+        "family_id": 114,
+        "type_id": [
+            18
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 211,
+        "name": "qwilfish",
+        "types": [
+            "water",
+            "poison"
+        ],
+        "family": "qwilfish",
+        "tier": 1,
+        "family_id": 115,
+        "type_id": [
+            11,
+            4
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 212,
+        "name": "scizor",
+        "types": [
+            "bug",
+            "steel"
+        ],
+        "family": "scyther",
+        "tier": 1,
+        "family_id": 116,
+        "type_id": [
+            7,
+            9
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 213,
+        "name": "shuckle",
+        "types": [
+            "bug",
+            "rock"
+        ],
+        "family": "shuckle",
+        "tier": 1,
+        "family_id": 117,
+        "type_id": [
+            7,
+            6
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 214,
+        "name": "heracross",
+        "types": [
+            "bug",
+            "fighting"
+        ],
+        "family": "heracross",
+        "tier": 1,
+        "family_id": 118,
+        "type_id": [
+            7,
+            2
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 215,
+        "name": "sneasel",
+        "types": [
+            "dark",
+            "ice"
+        ],
+        "family": "sneasel",
+        "tier": 1,
+        "family_id": 119,
+        "type_id": [
+            17,
+            15
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 216,
+        "name": "teddiursa",
+        "types": [
+            "normal"
+        ],
+        "family": "teddiursa",
+        "tier": 1,
+        "family_id": 120,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 217,
+        "name": "ursaring",
+        "types": [
+            "normal"
+        ],
+        "family": "teddiursa",
+        "tier": 2,
+        "family_id": 120,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 218,
+        "name": "slugma",
+        "types": [
+            "fire"
+        ],
+        "family": "slugma",
+        "tier": 1,
+        "family_id": 121,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 219,
+        "name": "magcargo",
+        "types": [
+            "fire",
+            "rock"
+        ],
+        "family": "slugma",
+        "tier": 2,
+        "family_id": 121,
+        "type_id": [
+            10,
+            6
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 220,
+        "name": "swinub",
+        "types": [
+            "ice",
+            "ground"
+        ],
+        "family": "swinub",
+        "tier": 1,
+        "family_id": 122,
+        "type_id": [
+            15,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 221,
+        "name": "piloswine",
+        "types": [
+            "ice",
+            "ground"
+        ],
+        "family": "swinub",
+        "tier": 2,
+        "family_id": 122,
+        "type_id": [
+            15,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 222,
+        "name": "corsola",
+        "types": [
+            "water",
+            "rock"
+        ],
+        "family": "corsola",
+        "tier": 1,
+        "family_id": 123,
+        "type_id": [
+            11,
+            6
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 223,
+        "name": "remoraid",
+        "types": [
+            "water"
+        ],
+        "family": "remoraid",
+        "tier": 1,
+        "family_id": 124,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 224,
+        "name": "octillery",
+        "types": [
+            "water"
+        ],
+        "family": "remoraid",
+        "tier": 2,
+        "family_id": 124,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 225,
+        "name": "delibird",
+        "types": [
+            "ice",
+            "flying"
+        ],
+        "family": "delibird",
+        "tier": 1,
+        "family_id": 125,
+        "type_id": [
+            15,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 226,
+        "name": "mantine",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "family": "mantyke",
+        "tier": 1,
+        "family_id": 126,
+        "type_id": [
+            11,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 227,
+        "name": "skarmory",
+        "types": [
+            "steel",
+            "flying"
+        ],
+        "family": "skarmory",
+        "tier": 1,
+        "family_id": 127,
+        "type_id": [
+            9,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 228,
+        "name": "houndour",
+        "types": [
+            "dark",
+            "fire"
+        ],
+        "family": "houndour",
+        "tier": 1,
+        "family_id": 128,
+        "type_id": [
+            17,
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 229,
+        "name": "houndoom",
+        "types": [
+            "dark",
+            "fire"
+        ],
+        "family": "houndour",
+        "tier": 2,
+        "family_id": 128,
+        "type_id": [
+            17,
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 230,
+        "name": "kingdra",
+        "types": [
+            "water",
+            "dragon"
+        ],
+        "family": "horsea",
+        "tier": 1,
+        "family_id": 129,
+        "type_id": [
+            11,
+            16
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 231,
+        "name": "phanpy",
+        "types": [
+            "ground"
+        ],
+        "family": "phanpy",
+        "tier": 1,
+        "family_id": 130,
+        "type_id": [
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 232,
+        "name": "donphan",
+        "types": [
+            "ground"
+        ],
+        "family": "phanpy",
+        "tier": 2,
+        "family_id": 130,
+        "type_id": [
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 233,
+        "name": "porygon2",
+        "types": [
+            "normal"
+        ],
+        "family": "porygon",
+        "tier": 1,
+        "family_id": 131,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 234,
+        "name": "stantler",
+        "types": [
+            "normal"
+        ],
+        "family": "stantler",
+        "tier": 1,
+        "family_id": 132,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 235,
+        "name": "smeargle",
+        "types": [
+            "normal"
+        ],
+        "family": "smeargle",
+        "tier": 1,
+        "family_id": 133,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 236,
+        "name": "tyrogue",
+        "types": [
+            "fighting"
+        ],
+        "family": "tyrogue",
+        "tier": 1,
+        "family_id": 134,
+        "type_id": [
+            2
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 237,
+        "name": "hitmontop",
+        "types": [
+            "fighting"
+        ],
+        "family": "tyrogue",
+        "tier": 2,
+        "family_id": 134,
+        "type_id": [
+            2
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 238,
+        "name": "smoochum",
+        "types": [
+            "ice",
+            "psychic"
+        ],
+        "family": "smoochum",
+        "tier": 1,
+        "family_id": 135,
+        "type_id": [
+            15,
+            14
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 239,
+        "name": "elekid",
+        "types": [
+            "electric"
+        ],
+        "family": "elekid",
+        "tier": 1,
+        "family_id": 136,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 240,
+        "name": "magby",
+        "types": [
+            "fire"
+        ],
+        "family": "magby",
+        "tier": 1,
+        "family_id": 137,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 241,
+        "name": "miltank",
+        "types": [
+            "normal"
+        ],
+        "family": "miltank",
+        "tier": 1,
+        "family_id": 138,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 242,
+        "name": "blissey",
+        "types": [
+            "normal"
+        ],
+        "family": "happiny",
+        "tier": 1,
+        "family_id": 139,
+        "type_id": [
+            1
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 243,
+        "name": "raikou",
+        "types": [
+            "electric"
+        ],
+        "family": "raikou",
+        "tier": 3,
+        "family_id": 140,
+        "type_id": [
+            13
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 244,
+        "name": "entei",
+        "types": [
+            "fire"
+        ],
+        "family": "entei",
+        "tier": 3,
+        "family_id": 141,
+        "type_id": [
+            10
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 245,
+        "name": "suicune",
+        "types": [
+            "water"
+        ],
+        "family": "suicune",
+        "tier": 3,
+        "family_id": 142,
+        "type_id": [
+            11
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 246,
+        "name": "larvitar",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "larvitar",
+        "tier": 1,
+        "family_id": 143,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 247,
+        "name": "pupitar",
+        "types": [
+            "rock",
+            "ground"
+        ],
+        "family": "larvitar",
+        "tier": 2,
+        "family_id": 143,
+        "type_id": [
+            6,
+            5
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 248,
+        "name": "tyranitar",
+        "types": [
+            "rock",
+            "dark"
+        ],
+        "family": "larvitar",
+        "tier": 2,
+        "family_id": 143,
+        "type_id": [
+            6,
+            17
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 249,
+        "name": "lugia",
+        "types": [
+            "psychic",
+            "flying"
+        ],
+        "family": "lugia",
+        "tier": 3,
+        "family_id": 144,
+        "type_id": [
+            14,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 250,
+        "name": "ho-oh",
+        "types": [
+            "fire",
+            "flying"
+        ],
+        "family": "ho-oh",
+        "tier": 3,
+        "family_id": 145,
+        "type_id": [
+            10,
+            3
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 251,
+        "name": "celebi",
+        "types": [
+            "psychic",
+            "grass"
+        ],
+        "family": "celebi",
+        "tier": 3,
+        "family_id": 146,
+        "type_id": [
+            14,
+            12
+        ],
+        "region_id": 2,
+        "region": "Johto"
+    },
+    {
+        "id": 252,
+        "name": "treecko",
+        "types": [
+            "grass"
+        ],
+        "family": "treecko",
+        "tier": 1,
+        "family_id": 147,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 253,
+        "name": "grovyle",
+        "types": [
+            "grass"
+        ],
+        "family": "treecko",
+        "tier": 2,
+        "family_id": 147,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 254,
+        "name": "sceptile",
+        "types": [
+            "grass"
+        ],
+        "family": "treecko",
+        "tier": 2,
+        "family_id": 147,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 255,
+        "name": "torchic",
+        "types": [
+            "fire"
+        ],
+        "family": "torchic",
+        "tier": 1,
+        "family_id": 148,
+        "type_id": [
+            10
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 256,
+        "name": "combusken",
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "family": "torchic",
+        "tier": 2,
+        "family_id": 148,
+        "type_id": [
+            10,
+            2
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 257,
+        "name": "blaziken",
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "family": "torchic",
+        "tier": 2,
+        "family_id": 148,
+        "type_id": [
+            10,
+            2
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 258,
+        "name": "mudkip",
+        "types": [
+            "water"
+        ],
+        "family": "mudkip",
+        "tier": 1,
+        "family_id": 149,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 259,
+        "name": "marshtomp",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "mudkip",
+        "tier": 2,
+        "family_id": 149,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 260,
+        "name": "swampert",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "mudkip",
+        "tier": 2,
+        "family_id": 149,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 261,
+        "name": "poochyena",
+        "types": [
+            "dark"
+        ],
+        "family": "poochyena",
+        "tier": 1,
+        "family_id": 150,
+        "type_id": [
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 262,
+        "name": "mightyena",
+        "types": [
+            "dark"
+        ],
+        "family": "poochyena",
+        "tier": 2,
+        "family_id": 150,
+        "type_id": [
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 263,
+        "name": "zigzagoon",
+        "types": [
+            "normal"
+        ],
+        "family": "zigzagoon",
+        "tier": 1,
+        "family_id": 151,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 264,
+        "name": "linoone",
+        "types": [
+            "normal"
+        ],
+        "family": "zigzagoon",
+        "tier": 2,
+        "family_id": 151,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 265,
+        "name": "wurmple",
+        "types": [
+            "bug"
+        ],
+        "family": "wurmple",
+        "tier": 1,
+        "family_id": 152,
+        "type_id": [
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 266,
+        "name": "silcoon",
+        "types": [
+            "bug"
+        ],
+        "family": "wurmple",
+        "tier": 2,
+        "family_id": 152,
+        "type_id": [
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 267,
+        "name": "beautifly",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "wurmple",
+        "tier": 2,
+        "family_id": 152,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 268,
+        "name": "cascoon",
+        "types": [
+            "bug"
+        ],
+        "family": "wurmple",
+        "tier": 2,
+        "family_id": 152,
+        "type_id": [
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 269,
+        "name": "dustox",
+        "types": [
+            "bug",
+            "poison"
+        ],
+        "family": "wurmple",
+        "tier": 2,
+        "family_id": 152,
+        "type_id": [
+            7,
+            4
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 270,
+        "name": "lotad",
+        "types": [
+            "water",
+            "grass"
+        ],
+        "family": "lotad",
+        "tier": 1,
+        "family_id": 153,
+        "type_id": [
+            11,
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 271,
+        "name": "lombre",
+        "types": [
+            "water",
+            "grass"
+        ],
+        "family": "lotad",
+        "tier": 2,
+        "family_id": 153,
+        "type_id": [
+            11,
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 272,
+        "name": "ludicolo",
+        "types": [
+            "water",
+            "grass"
+        ],
+        "family": "lotad",
+        "tier": 2,
+        "family_id": 153,
+        "type_id": [
+            11,
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 273,
+        "name": "seedot",
+        "types": [
+            "grass"
+        ],
+        "family": "seedot",
+        "tier": 1,
+        "family_id": 154,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 274,
+        "name": "nuzleaf",
+        "types": [
+            "grass",
+            "dark"
+        ],
+        "family": "seedot",
+        "tier": 2,
+        "family_id": 154,
+        "type_id": [
+            12,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 275,
+        "name": "shiftry",
+        "types": [
+            "grass",
+            "dark"
+        ],
+        "family": "seedot",
+        "tier": 2,
+        "family_id": 154,
+        "type_id": [
+            12,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 276,
+        "name": "taillow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "taillow",
+        "tier": 1,
+        "family_id": 155,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 277,
+        "name": "swellow",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "taillow",
+        "tier": 2,
+        "family_id": 155,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 278,
+        "name": "wingull",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "family": "wingull",
+        "tier": 1,
+        "family_id": 156,
+        "type_id": [
+            11,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 279,
+        "name": "pelipper",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "family": "wingull",
+        "tier": 2,
+        "family_id": 156,
+        "type_id": [
+            11,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 280,
+        "name": "ralts",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "family": "ralts",
+        "tier": 1,
+        "family_id": 157,
+        "type_id": [
+            14,
+            18
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 281,
+        "name": "kirlia",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "family": "ralts",
+        "tier": 2,
+        "family_id": 157,
+        "type_id": [
+            14,
+            18
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 282,
+        "name": "gardevoir",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "family": "ralts",
+        "tier": 2,
+        "family_id": 157,
+        "type_id": [
+            14,
+            18
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 283,
+        "name": "surskit",
+        "types": [
+            "bug",
+            "water"
+        ],
+        "family": "surskit",
+        "tier": 1,
+        "family_id": 158,
+        "type_id": [
+            7,
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 284,
+        "name": "masquerain",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "surskit",
+        "tier": 2,
+        "family_id": 158,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 285,
+        "name": "shroomish",
+        "types": [
+            "grass"
+        ],
+        "family": "shroomish",
+        "tier": 1,
+        "family_id": 159,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 286,
+        "name": "breloom",
+        "types": [
+            "grass",
+            "fighting"
+        ],
+        "family": "shroomish",
+        "tier": 2,
+        "family_id": 159,
+        "type_id": [
+            12,
+            2
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 287,
+        "name": "slakoth",
+        "types": [
+            "normal"
+        ],
+        "family": "slakoth",
+        "tier": 1,
+        "family_id": 160,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 288,
+        "name": "vigoroth",
+        "types": [
+            "normal"
+        ],
+        "family": "slakoth",
+        "tier": 2,
+        "family_id": 160,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 289,
+        "name": "slaking",
+        "types": [
+            "normal"
+        ],
+        "family": "slakoth",
+        "tier": 2,
+        "family_id": 160,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 290,
+        "name": "nincada",
+        "types": [
+            "bug",
+            "ground"
+        ],
+        "family": "nincada",
+        "tier": 1,
+        "family_id": 161,
+        "type_id": [
+            7,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 291,
+        "name": "ninjask",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "nincada",
+        "tier": 2,
+        "family_id": 161,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 292,
+        "name": "shedinja",
+        "types": [
+            "bug",
+            "ghost"
+        ],
+        "family": "nincada",
+        "tier": 2,
+        "family_id": 161,
+        "type_id": [
+            7,
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 293,
+        "name": "whismur",
+        "types": [
+            "normal"
+        ],
+        "family": "whismur",
+        "tier": 1,
+        "family_id": 162,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 294,
+        "name": "loudred",
+        "types": [
+            "normal"
+        ],
+        "family": "whismur",
+        "tier": 2,
+        "family_id": 162,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 295,
+        "name": "exploud",
+        "types": [
+            "normal"
+        ],
+        "family": "whismur",
+        "tier": 2,
+        "family_id": 162,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 296,
+        "name": "makuhita",
+        "types": [
+            "fighting"
+        ],
+        "family": "makuhita",
+        "tier": 1,
+        "family_id": 163,
+        "type_id": [
+            2
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 297,
+        "name": "hariyama",
+        "types": [
+            "fighting"
+        ],
+        "family": "makuhita",
+        "tier": 2,
+        "family_id": 163,
+        "type_id": [
+            2
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 298,
+        "name": "azurill",
+        "types": [
+            "normal",
+            "fairy"
+        ],
+        "family": "azurill",
+        "tier": 1,
+        "family_id": 164,
+        "type_id": [
+            1,
+            18
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 299,
+        "name": "nosepass",
+        "types": [
+            "rock"
+        ],
+        "family": "nosepass",
+        "tier": 1,
+        "family_id": 165,
+        "type_id": [
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 300,
+        "name": "skitty",
+        "types": [
+            "normal"
+        ],
+        "family": "skitty",
+        "tier": 1,
+        "family_id": 166,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 301,
+        "name": "delcatty",
+        "types": [
+            "normal"
+        ],
+        "family": "skitty",
+        "tier": 2,
+        "family_id": 166,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 302,
+        "name": "sableye",
+        "types": [
+            "dark",
+            "ghost"
+        ],
+        "family": "sableye",
+        "tier": 1,
+        "family_id": 167,
+        "type_id": [
+            17,
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 303,
+        "name": "mawile",
+        "types": [
+            "steel",
+            "fairy"
+        ],
+        "family": "mawile",
+        "tier": 1,
+        "family_id": 168,
+        "type_id": [
+            9,
+            18
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 304,
+        "name": "aron",
+        "types": [
+            "steel",
+            "rock"
+        ],
+        "family": "aron",
+        "tier": 1,
+        "family_id": 169,
+        "type_id": [
+            9,
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 305,
+        "name": "lairon",
+        "types": [
+            "steel",
+            "rock"
+        ],
+        "family": "aron",
+        "tier": 2,
+        "family_id": 169,
+        "type_id": [
+            9,
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 306,
+        "name": "aggron",
+        "types": [
+            "steel",
+            "rock"
+        ],
+        "family": "aron",
+        "tier": 2,
+        "family_id": 169,
+        "type_id": [
+            9,
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 307,
+        "name": "meditite",
+        "types": [
+            "fighting",
+            "psychic"
+        ],
+        "family": "meditite",
+        "tier": 1,
+        "family_id": 170,
+        "type_id": [
+            2,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 308,
+        "name": "medicham",
+        "types": [
+            "fighting",
+            "psychic"
+        ],
+        "family": "meditite",
+        "tier": 2,
+        "family_id": 170,
+        "type_id": [
+            2,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 309,
+        "name": "electrike",
+        "types": [
+            "electric"
+        ],
+        "family": "electrike",
+        "tier": 1,
+        "family_id": 171,
+        "type_id": [
+            13
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 310,
+        "name": "manectric",
+        "types": [
+            "electric"
+        ],
+        "family": "electrike",
+        "tier": 2,
+        "family_id": 171,
+        "type_id": [
+            13
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 311,
+        "name": "plusle",
+        "types": [
+            "electric"
+        ],
+        "family": "plusle",
+        "tier": 1,
+        "family_id": 172,
+        "type_id": [
+            13
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 312,
+        "name": "minun",
+        "types": [
+            "electric"
+        ],
+        "family": "minun",
+        "tier": 1,
+        "family_id": 173,
+        "type_id": [
+            13
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 313,
+        "name": "volbeat",
+        "types": [
+            "bug"
+        ],
+        "family": "volbeat",
+        "tier": 1,
+        "family_id": 174,
+        "type_id": [
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 314,
+        "name": "illumise",
+        "types": [
+            "bug"
+        ],
+        "family": "illumise",
+        "tier": 1,
+        "family_id": 175,
+        "type_id": [
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 315,
+        "name": "roselia",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "budew",
+        "tier": 1,
+        "family_id": 176,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 316,
+        "name": "gulpin",
+        "types": [
+            "poison"
+        ],
+        "family": "gulpin",
+        "tier": 1,
+        "family_id": 177,
+        "type_id": [
+            4
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 317,
+        "name": "swalot",
+        "types": [
+            "poison"
+        ],
+        "family": "gulpin",
+        "tier": 2,
+        "family_id": 177,
+        "type_id": [
+            4
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 318,
+        "name": "carvanha",
+        "types": [
+            "water",
+            "dark"
+        ],
+        "family": "carvanha",
+        "tier": 1,
+        "family_id": 178,
+        "type_id": [
+            11,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 319,
+        "name": "sharpedo",
+        "types": [
+            "water",
+            "dark"
+        ],
+        "family": "carvanha",
+        "tier": 2,
+        "family_id": 178,
+        "type_id": [
+            11,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 320,
+        "name": "wailmer",
+        "types": [
+            "water"
+        ],
+        "family": "wailmer",
+        "tier": 1,
+        "family_id": 179,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 321,
+        "name": "wailord",
+        "types": [
+            "water"
+        ],
+        "family": "wailmer",
+        "tier": 2,
+        "family_id": 179,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 322,
+        "name": "numel",
+        "types": [
+            "fire",
+            "ground"
+        ],
+        "family": "numel",
+        "tier": 1,
+        "family_id": 180,
+        "type_id": [
+            10,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 323,
+        "name": "camerupt",
+        "types": [
+            "fire",
+            "ground"
+        ],
+        "family": "numel",
+        "tier": 2,
+        "family_id": 180,
+        "type_id": [
+            10,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 324,
+        "name": "torkoal",
+        "types": [
+            "fire"
+        ],
+        "family": "torkoal",
+        "tier": 1,
+        "family_id": 181,
+        "type_id": [
+            10
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 325,
+        "name": "spoink",
+        "types": [
+            "psychic"
+        ],
+        "family": "spoink",
+        "tier": 1,
+        "family_id": 182,
+        "type_id": [
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 326,
+        "name": "grumpig",
+        "types": [
+            "psychic"
+        ],
+        "family": "spoink",
+        "tier": 2,
+        "family_id": 182,
+        "type_id": [
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 327,
+        "name": "spinda",
+        "types": [
+            "normal"
+        ],
+        "family": "spinda",
+        "tier": 1,
+        "family_id": 183,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 328,
+        "name": "trapinch",
+        "types": [
+            "ground"
+        ],
+        "family": "trapinch",
+        "tier": 1,
+        "family_id": 184,
+        "type_id": [
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 329,
+        "name": "vibrava",
+        "types": [
+            "ground",
+            "dragon"
+        ],
+        "family": "trapinch",
+        "tier": 2,
+        "family_id": 184,
+        "type_id": [
+            5,
+            16
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 330,
+        "name": "flygon",
+        "types": [
+            "ground",
+            "dragon"
+        ],
+        "family": "trapinch",
+        "tier": 2,
+        "family_id": 184,
+        "type_id": [
+            5,
+            16
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 331,
+        "name": "cacnea",
+        "types": [
+            "grass"
+        ],
+        "family": "cacnea",
+        "tier": 1,
+        "family_id": 185,
+        "type_id": [
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 332,
+        "name": "cacturne",
+        "types": [
+            "grass",
+            "dark"
+        ],
+        "family": "cacnea",
+        "tier": 2,
+        "family_id": 185,
+        "type_id": [
+            12,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 333,
+        "name": "swablu",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "swablu",
+        "tier": 1,
+        "family_id": 186,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 334,
+        "name": "altaria",
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "family": "swablu",
+        "tier": 2,
+        "family_id": 186,
+        "type_id": [
+            16,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 335,
+        "name": "zangoose",
+        "types": [
+            "normal"
+        ],
+        "family": "zangoose",
+        "tier": 1,
+        "family_id": 187,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 336,
+        "name": "seviper",
+        "types": [
+            "poison"
+        ],
+        "family": "seviper",
+        "tier": 1,
+        "family_id": 188,
+        "type_id": [
+            4
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 337,
+        "name": "lunatone",
+        "types": [
+            "rock",
+            "psychic"
+        ],
+        "family": "lunatone",
+        "tier": 1,
+        "family_id": 189,
+        "type_id": [
+            6,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 338,
+        "name": "solrock",
+        "types": [
+            "rock",
+            "psychic"
+        ],
+        "family": "solrock",
+        "tier": 1,
+        "family_id": 190,
+        "type_id": [
+            6,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 339,
+        "name": "barboach",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "barboach",
+        "tier": 1,
+        "family_id": 191,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 340,
+        "name": "whiscash",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "barboach",
+        "tier": 2,
+        "family_id": 191,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 341,
+        "name": "corphish",
+        "types": [
+            "water"
+        ],
+        "family": "corphish",
+        "tier": 1,
+        "family_id": 192,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 342,
+        "name": "crawdaunt",
+        "types": [
+            "water",
+            "dark"
+        ],
+        "family": "corphish",
+        "tier": 2,
+        "family_id": 192,
+        "type_id": [
+            11,
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 343,
+        "name": "baltoy",
+        "types": [
+            "ground",
+            "psychic"
+        ],
+        "family": "baltoy",
+        "tier": 1,
+        "family_id": 193,
+        "type_id": [
+            5,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 344,
+        "name": "claydol",
+        "types": [
+            "ground",
+            "psychic"
+        ],
+        "family": "baltoy",
+        "tier": 2,
+        "family_id": 193,
+        "type_id": [
+            5,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 345,
+        "name": "lileep",
+        "types": [
+            "rock",
+            "grass"
+        ],
+        "family": "lileep",
+        "tier": 1,
+        "family_id": 194,
+        "type_id": [
+            6,
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 346,
+        "name": "cradily",
+        "types": [
+            "rock",
+            "grass"
+        ],
+        "family": "lileep",
+        "tier": 2,
+        "family_id": 194,
+        "type_id": [
+            6,
+            12
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 347,
+        "name": "anorith",
+        "types": [
+            "rock",
+            "bug"
+        ],
+        "family": "anorith",
+        "tier": 1,
+        "family_id": 195,
+        "type_id": [
+            6,
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 348,
+        "name": "armaldo",
+        "types": [
+            "rock",
+            "bug"
+        ],
+        "family": "anorith",
+        "tier": 2,
+        "family_id": 195,
+        "type_id": [
+            6,
+            7
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 349,
+        "name": "feebas",
+        "types": [
+            "water"
+        ],
+        "family": "feebas",
+        "tier": 1,
+        "family_id": 196,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 350,
+        "name": "milotic",
+        "types": [
+            "water"
+        ],
+        "family": "feebas",
+        "tier": 2,
+        "family_id": 196,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 351,
+        "name": "castform",
+        "types": [
+            "normal"
+        ],
+        "family": "castform",
+        "tier": 1,
+        "family_id": 197,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 352,
+        "name": "kecleon",
+        "types": [
+            "normal"
+        ],
+        "family": "kecleon",
+        "tier": 1,
+        "family_id": 198,
+        "type_id": [
+            1
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 353,
+        "name": "shuppet",
+        "types": [
+            "ghost"
+        ],
+        "family": "shuppet",
+        "tier": 1,
+        "family_id": 199,
+        "type_id": [
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 354,
+        "name": "banette",
+        "types": [
+            "ghost"
+        ],
+        "family": "shuppet",
+        "tier": 2,
+        "family_id": 199,
+        "type_id": [
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 355,
+        "name": "duskull",
+        "types": [
+            "ghost"
+        ],
+        "family": "duskull",
+        "tier": 1,
+        "family_id": 200,
+        "type_id": [
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 356,
+        "name": "dusclops",
+        "types": [
+            "ghost"
+        ],
+        "family": "duskull",
+        "tier": 2,
+        "family_id": 200,
+        "type_id": [
+            8
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 357,
+        "name": "tropius",
+        "types": [
+            "grass",
+            "flying"
+        ],
+        "family": "tropius",
+        "tier": 1,
+        "family_id": 201,
+        "type_id": [
+            12,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 358,
+        "name": "chimecho",
+        "types": [
+            "psychic"
+        ],
+        "family": "chingling",
+        "tier": 1,
+        "family_id": 202,
+        "type_id": [
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 359,
+        "name": "absol",
+        "types": [
+            "dark"
+        ],
+        "family": "absol",
+        "tier": 1,
+        "family_id": 203,
+        "type_id": [
+            17
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 360,
+        "name": "wynaut",
+        "types": [
+            "psychic"
+        ],
+        "family": "wynaut",
+        "tier": 1,
+        "family_id": 204,
+        "type_id": [
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 361,
+        "name": "snorunt",
+        "types": [
+            "ice"
+        ],
+        "family": "snorunt",
+        "tier": 1,
+        "family_id": 205,
+        "type_id": [
+            15
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 362,
+        "name": "glalie",
+        "types": [
+            "ice"
+        ],
+        "family": "snorunt",
+        "tier": 2,
+        "family_id": 205,
+        "type_id": [
+            15
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 363,
+        "name": "spheal",
+        "types": [
+            "ice",
+            "water"
+        ],
+        "family": "spheal",
+        "tier": 1,
+        "family_id": 206,
+        "type_id": [
+            15,
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 364,
+        "name": "sealeo",
+        "types": [
+            "ice",
+            "water"
+        ],
+        "family": "spheal",
+        "tier": 2,
+        "family_id": 206,
+        "type_id": [
+            15,
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 365,
+        "name": "walrein",
+        "types": [
+            "ice",
+            "water"
+        ],
+        "family": "spheal",
+        "tier": 2,
+        "family_id": 206,
+        "type_id": [
+            15,
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 366,
+        "name": "clamperl",
+        "types": [
+            "water"
+        ],
+        "family": "clamperl",
+        "tier": 1,
+        "family_id": 207,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 367,
+        "name": "huntail",
+        "types": [
+            "water"
+        ],
+        "family": "clamperl",
+        "tier": 2,
+        "family_id": 207,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 368,
+        "name": "gorebyss",
+        "types": [
+            "water"
+        ],
+        "family": "clamperl",
+        "tier": 2,
+        "family_id": 207,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 369,
+        "name": "relicanth",
+        "types": [
+            "water",
+            "rock"
+        ],
+        "family": "relicanth",
+        "tier": 1,
+        "family_id": 208,
+        "type_id": [
+            11,
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 370,
+        "name": "luvdisc",
+        "types": [
+            "water"
+        ],
+        "family": "luvdisc",
+        "tier": 1,
+        "family_id": 209,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 371,
+        "name": "bagon",
+        "types": [
+            "dragon"
+        ],
+        "family": "bagon",
+        "tier": 1,
+        "family_id": 210,
+        "type_id": [
+            16
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 372,
+        "name": "shelgon",
+        "types": [
+            "dragon"
+        ],
+        "family": "bagon",
+        "tier": 2,
+        "family_id": 210,
+        "type_id": [
+            16
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 373,
+        "name": "salamence",
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "family": "bagon",
+        "tier": 2,
+        "family_id": 210,
+        "type_id": [
+            16,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 374,
+        "name": "beldum",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "beldum",
+        "tier": 1,
+        "family_id": 211,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 375,
+        "name": "metang",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "beldum",
+        "tier": 2,
+        "family_id": 211,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 376,
+        "name": "metagross",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "beldum",
+        "tier": 2,
+        "family_id": 211,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 377,
+        "name": "regirock",
+        "types": [
+            "rock"
+        ],
+        "family": "regirock",
+        "tier": 3,
+        "family_id": 212,
+        "type_id": [
+            6
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 378,
+        "name": "regice",
+        "types": [
+            "ice"
+        ],
+        "family": "regice",
+        "tier": 3,
+        "family_id": 213,
+        "type_id": [
+            15
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 379,
+        "name": "registeel",
+        "types": [
+            "steel"
+        ],
+        "family": "registeel",
+        "tier": 3,
+        "family_id": 214,
+        "type_id": [
+            9
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 380,
+        "name": "latias",
+        "types": [
+            "dragon",
+            "psychic"
+        ],
+        "family": "latias",
+        "tier": 3,
+        "family_id": 215,
+        "type_id": [
+            16,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 381,
+        "name": "latios",
+        "types": [
+            "dragon",
+            "psychic"
+        ],
+        "family": "latios",
+        "tier": 3,
+        "family_id": 216,
+        "type_id": [
+            16,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 382,
+        "name": "kyogre",
+        "types": [
+            "water"
+        ],
+        "family": "kyogre",
+        "tier": 3,
+        "family_id": 217,
+        "type_id": [
+            11
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 383,
+        "name": "groudon",
+        "types": [
+            "ground"
+        ],
+        "family": "groudon",
+        "tier": 3,
+        "family_id": 218,
+        "type_id": [
+            5
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 384,
+        "name": "rayquaza",
+        "types": [
+            "dragon",
+            "flying"
+        ],
+        "family": "rayquaza",
+        "tier": 3,
+        "family_id": 219,
+        "type_id": [
+            16,
+            3
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 385,
+        "name": "jirachi",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "jirachi",
+        "tier": 3,
+        "family_id": 220,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 386,
+        "name": "deoxys-normal",
+        "types": [
+            "psychic"
+        ],
+        "family": "deoxys",
+        "tier": 3,
+        "family_id": 221,
+        "type_id": [
+            14
+        ],
+        "region_id": 3,
+        "region": "Hoen"
+    },
+    {
+        "id": 387,
+        "name": "turtwig",
+        "types": [
+            "grass"
+        ],
+        "family": "turtwig",
+        "tier": 1,
+        "family_id": 222,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 388,
+        "name": "grotle",
+        "types": [
+            "grass"
+        ],
+        "family": "turtwig",
+        "tier": 2,
+        "family_id": 222,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 389,
+        "name": "torterra",
+        "types": [
+            "grass",
+            "ground"
+        ],
+        "family": "turtwig",
+        "tier": 2,
+        "family_id": 222,
+        "type_id": [
+            12,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 390,
+        "name": "chimchar",
+        "types": [
+            "fire"
+        ],
+        "family": "chimchar",
+        "tier": 1,
+        "family_id": 223,
+        "type_id": [
+            10
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 391,
+        "name": "monferno",
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "family": "chimchar",
+        "tier": 2,
+        "family_id": 223,
+        "type_id": [
+            10,
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 392,
+        "name": "infernape",
+        "types": [
+            "fire",
+            "fighting"
+        ],
+        "family": "chimchar",
+        "tier": 2,
+        "family_id": 223,
+        "type_id": [
+            10,
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 393,
+        "name": "piplup",
+        "types": [
+            "water"
+        ],
+        "family": "piplup",
+        "tier": 1,
+        "family_id": 224,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 394,
+        "name": "prinplup",
+        "types": [
+            "water"
+        ],
+        "family": "piplup",
+        "tier": 2,
+        "family_id": 224,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 395,
+        "name": "empoleon",
+        "types": [
+            "water",
+            "steel"
+        ],
+        "family": "piplup",
+        "tier": 2,
+        "family_id": 224,
+        "type_id": [
+            11,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 396,
+        "name": "starly",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "starly",
+        "tier": 1,
+        "family_id": 225,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 397,
+        "name": "staravia",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "starly",
+        "tier": 2,
+        "family_id": 225,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 398,
+        "name": "staraptor",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "starly",
+        "tier": 2,
+        "family_id": 225,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 399,
+        "name": "bidoof",
+        "types": [
+            "normal"
+        ],
+        "family": "bidoof",
+        "tier": 1,
+        "family_id": 226,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 400,
+        "name": "bibarel",
+        "types": [
+            "normal",
+            "water"
+        ],
+        "family": "bidoof",
+        "tier": 2,
+        "family_id": 226,
+        "type_id": [
+            1,
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 401,
+        "name": "kricketot",
+        "types": [
+            "bug"
+        ],
+        "family": "kricketot",
+        "tier": 1,
+        "family_id": 227,
+        "type_id": [
+            7
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 402,
+        "name": "kricketune",
+        "types": [
+            "bug"
+        ],
+        "family": "kricketot",
+        "tier": 2,
+        "family_id": 227,
+        "type_id": [
+            7
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 403,
+        "name": "shinx",
+        "types": [
+            "electric"
+        ],
+        "family": "shinx",
+        "tier": 1,
+        "family_id": 228,
+        "type_id": [
+            13
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 404,
+        "name": "luxio",
+        "types": [
+            "electric"
+        ],
+        "family": "shinx",
+        "tier": 2,
+        "family_id": 228,
+        "type_id": [
+            13
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 405,
+        "name": "luxray",
+        "types": [
+            "electric"
+        ],
+        "family": "shinx",
+        "tier": 2,
+        "family_id": 228,
+        "type_id": [
+            13
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 406,
+        "name": "budew",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "budew",
+        "tier": 1,
+        "family_id": 229,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 407,
+        "name": "roserade",
+        "types": [
+            "grass",
+            "poison"
+        ],
+        "family": "budew",
+        "tier": 2,
+        "family_id": 229,
+        "type_id": [
+            12,
+            4
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 408,
+        "name": "cranidos",
+        "types": [
+            "rock"
+        ],
+        "family": "cranidos",
+        "tier": 1,
+        "family_id": 230,
+        "type_id": [
+            6
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 409,
+        "name": "rampardos",
+        "types": [
+            "rock"
+        ],
+        "family": "cranidos",
+        "tier": 2,
+        "family_id": 230,
+        "type_id": [
+            6
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 410,
+        "name": "shieldon",
+        "types": [
+            "rock",
+            "steel"
+        ],
+        "family": "shieldon",
+        "tier": 1,
+        "family_id": 231,
+        "type_id": [
+            6,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 411,
+        "name": "bastiodon",
+        "types": [
+            "rock",
+            "steel"
+        ],
+        "family": "shieldon",
+        "tier": 2,
+        "family_id": 231,
+        "type_id": [
+            6,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 412,
+        "name": "burmy",
+        "types": [
+            "bug"
+        ],
+        "family": "burmy",
+        "tier": 1,
+        "family_id": 232,
+        "type_id": [
+            7
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 413,
+        "name": "wormadam-plant",
+        "types": [
+            "bug",
+            "grass"
+        ],
+        "family": "burmy",
+        "tier": 2,
+        "family_id": 232,
+        "type_id": [
+            7,
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 414,
+        "name": "mothim",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "burmy",
+        "tier": 2,
+        "family_id": 232,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 415,
+        "name": "combee",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "combee",
+        "tier": 1,
+        "family_id": 233,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 416,
+        "name": "vespiquen",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "combee",
+        "tier": 2,
+        "family_id": 233,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 417,
+        "name": "pachirisu",
+        "types": [
+            "electric"
+        ],
+        "family": "pachirisu",
+        "tier": 1,
+        "family_id": 234,
+        "type_id": [
+            13
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 418,
+        "name": "buizel",
+        "types": [
+            "water"
+        ],
+        "family": "buizel",
+        "tier": 1,
+        "family_id": 235,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 419,
+        "name": "floatzel",
+        "types": [
+            "water"
+        ],
+        "family": "buizel",
+        "tier": 2,
+        "family_id": 235,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 420,
+        "name": "cherubi",
+        "types": [
+            "grass"
+        ],
+        "family": "cherubi",
+        "tier": 1,
+        "family_id": 236,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 421,
+        "name": "cherrim",
+        "types": [
+            "grass"
+        ],
+        "family": "cherubi",
+        "tier": 2,
+        "family_id": 236,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 422,
+        "name": "shellos",
+        "types": [
+            "water"
+        ],
+        "family": "shellos",
+        "tier": 1,
+        "family_id": 237,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 423,
+        "name": "gastrodon",
+        "types": [
+            "water",
+            "ground"
+        ],
+        "family": "shellos",
+        "tier": 2,
+        "family_id": 237,
+        "type_id": [
+            11,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 424,
+        "name": "ambipom",
+        "types": [
+            "normal"
+        ],
+        "family": "aipom",
+        "tier": 1,
+        "family_id": 238,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 425,
+        "name": "drifloon",
+        "types": [
+            "ghost",
+            "flying"
+        ],
+        "family": "drifloon",
+        "tier": 1,
+        "family_id": 239,
+        "type_id": [
+            8,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 426,
+        "name": "drifblim",
+        "types": [
+            "ghost",
+            "flying"
+        ],
+        "family": "drifloon",
+        "tier": 2,
+        "family_id": 239,
+        "type_id": [
+            8,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 427,
+        "name": "buneary",
+        "types": [
+            "normal"
+        ],
+        "family": "buneary",
+        "tier": 1,
+        "family_id": 240,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 428,
+        "name": "lopunny",
+        "types": [
+            "normal"
+        ],
+        "family": "buneary",
+        "tier": 2,
+        "family_id": 240,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 429,
+        "name": "mismagius",
+        "types": [
+            "ghost"
+        ],
+        "family": "misdreavus",
+        "tier": 1,
+        "family_id": 241,
+        "type_id": [
+            8
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 430,
+        "name": "honchkrow",
+        "types": [
+            "dark",
+            "flying"
+        ],
+        "family": "murkrow",
+        "tier": 1,
+        "family_id": 242,
+        "type_id": [
+            17,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 431,
+        "name": "glameow",
+        "types": [
+            "normal"
+        ],
+        "family": "glameow",
+        "tier": 1,
+        "family_id": 243,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 432,
+        "name": "purugly",
+        "types": [
+            "normal"
+        ],
+        "family": "glameow",
+        "tier": 2,
+        "family_id": 243,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 433,
+        "name": "chingling",
+        "types": [
+            "psychic"
+        ],
+        "family": "chingling",
+        "tier": 1,
+        "family_id": 244,
+        "type_id": [
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 434,
+        "name": "stunky",
+        "types": [
+            "poison",
+            "dark"
+        ],
+        "family": "stunky",
+        "tier": 1,
+        "family_id": 245,
+        "type_id": [
+            4,
+            17
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 435,
+        "name": "skuntank",
+        "types": [
+            "poison",
+            "dark"
+        ],
+        "family": "stunky",
+        "tier": 2,
+        "family_id": 245,
+        "type_id": [
+            4,
+            17
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 436,
+        "name": "bronzor",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "bronzor",
+        "tier": 1,
+        "family_id": 246,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 437,
+        "name": "bronzong",
+        "types": [
+            "steel",
+            "psychic"
+        ],
+        "family": "bronzor",
+        "tier": 2,
+        "family_id": 246,
+        "type_id": [
+            9,
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 438,
+        "name": "bonsly",
+        "types": [
+            "rock"
+        ],
+        "family": "bonsly",
+        "tier": 1,
+        "family_id": 247,
+        "type_id": [
+            6
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 439,
+        "name": "mime-jr",
+        "types": [
+            "psychic",
+            "fairy"
+        ],
+        "family": "mime-jr",
+        "tier": 1,
+        "family_id": 248,
+        "type_id": [
+            14,
+            18
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 440,
+        "name": "happiny",
+        "types": [
+            "normal"
+        ],
+        "family": "happiny",
+        "tier": 1,
+        "family_id": 249,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 441,
+        "name": "chatot",
+        "types": [
+            "normal",
+            "flying"
+        ],
+        "family": "chatot",
+        "tier": 1,
+        "family_id": 250,
+        "type_id": [
+            1,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 442,
+        "name": "spiritomb",
+        "types": [
+            "ghost",
+            "dark"
+        ],
+        "family": "spiritomb",
+        "tier": 1,
+        "family_id": 251,
+        "type_id": [
+            8,
+            17
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 443,
+        "name": "gible",
+        "types": [
+            "dragon",
+            "ground"
+        ],
+        "family": "gible",
+        "tier": 1,
+        "family_id": 252,
+        "type_id": [
+            16,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 444,
+        "name": "gabite",
+        "types": [
+            "dragon",
+            "ground"
+        ],
+        "family": "gible",
+        "tier": 2,
+        "family_id": 252,
+        "type_id": [
+            16,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 445,
+        "name": "garchomp",
+        "types": [
+            "dragon",
+            "ground"
+        ],
+        "family": "gible",
+        "tier": 2,
+        "family_id": 252,
+        "type_id": [
+            16,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 446,
+        "name": "munchlax",
+        "types": [
+            "normal"
+        ],
+        "family": "munchlax",
+        "tier": 1,
+        "family_id": 253,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 447,
+        "name": "riolu",
+        "types": [
+            "fighting"
+        ],
+        "family": "riolu",
+        "tier": 1,
+        "family_id": 254,
+        "type_id": [
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 448,
+        "name": "lucario",
+        "types": [
+            "fighting",
+            "steel"
+        ],
+        "family": "riolu",
+        "tier": 2,
+        "family_id": 254,
+        "type_id": [
+            2,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 449,
+        "name": "hippopotas",
+        "types": [
+            "ground"
+        ],
+        "family": "hippopotas",
+        "tier": 1,
+        "family_id": 255,
+        "type_id": [
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 450,
+        "name": "hippowdon",
+        "types": [
+            "ground"
+        ],
+        "family": "hippopotas",
+        "tier": 2,
+        "family_id": 255,
+        "type_id": [
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 451,
+        "name": "skorupi",
+        "types": [
+            "poison",
+            "bug"
+        ],
+        "family": "skorupi",
+        "tier": 1,
+        "family_id": 256,
+        "type_id": [
+            4,
+            7
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 452,
+        "name": "drapion",
+        "types": [
+            "poison",
+            "dark"
+        ],
+        "family": "skorupi",
+        "tier": 2,
+        "family_id": 256,
+        "type_id": [
+            4,
+            17
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 453,
+        "name": "croagunk",
+        "types": [
+            "poison",
+            "fighting"
+        ],
+        "family": "croagunk",
+        "tier": 1,
+        "family_id": 257,
+        "type_id": [
+            4,
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 454,
+        "name": "toxicroak",
+        "types": [
+            "poison",
+            "fighting"
+        ],
+        "family": "croagunk",
+        "tier": 2,
+        "family_id": 257,
+        "type_id": [
+            4,
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 455,
+        "name": "carnivine",
+        "types": [
+            "grass"
+        ],
+        "family": "carnivine",
+        "tier": 1,
+        "family_id": 258,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 456,
+        "name": "finneon",
+        "types": [
+            "water"
+        ],
+        "family": "finneon",
+        "tier": 1,
+        "family_id": 259,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 457,
+        "name": "lumineon",
+        "types": [
+            "water"
+        ],
+        "family": "finneon",
+        "tier": 2,
+        "family_id": 259,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 458,
+        "name": "mantyke",
+        "types": [
+            "water",
+            "flying"
+        ],
+        "family": "mantyke",
+        "tier": 1,
+        "family_id": 260,
+        "type_id": [
+            11,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 459,
+        "name": "snover",
+        "types": [
+            "grass",
+            "ice"
+        ],
+        "family": "snover",
+        "tier": 1,
+        "family_id": 261,
+        "type_id": [
+            12,
+            15
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 460,
+        "name": "abomasnow",
+        "types": [
+            "grass",
+            "ice"
+        ],
+        "family": "snover",
+        "tier": 2,
+        "family_id": 261,
+        "type_id": [
+            12,
+            15
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 461,
+        "name": "weavile",
+        "types": [
+            "dark",
+            "ice"
+        ],
+        "family": "sneasel",
+        "tier": 1,
+        "family_id": 262,
+        "type_id": [
+            17,
+            15
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 462,
+        "name": "magnezone",
+        "types": [
+            "electric",
+            "steel"
+        ],
+        "family": "magnemite",
+        "tier": 1,
+        "family_id": 263,
+        "type_id": [
+            13,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 463,
+        "name": "lickilicky",
+        "types": [
+            "normal"
+        ],
+        "family": "lickitung",
+        "tier": 1,
+        "family_id": 264,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 464,
+        "name": "rhyperior",
+        "types": [
+            "ground",
+            "rock"
+        ],
+        "family": "rhyhorn",
+        "tier": 1,
+        "family_id": 265,
+        "type_id": [
+            5,
+            6
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 465,
+        "name": "tangrowth",
+        "types": [
+            "grass"
+        ],
+        "family": "tangela",
+        "tier": 1,
+        "family_id": 266,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 466,
+        "name": "electivire",
+        "types": [
+            "electric"
+        ],
+        "family": "elekid",
+        "tier": 1,
+        "family_id": 267,
+        "type_id": [
+            13
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 467,
+        "name": "magmortar",
+        "types": [
+            "fire"
+        ],
+        "family": "magby",
+        "tier": 1,
+        "family_id": 268,
+        "type_id": [
+            10
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 468,
+        "name": "togekiss",
+        "types": [
+            "fairy",
+            "flying"
+        ],
+        "family": "togepi",
+        "tier": 1,
+        "family_id": 269,
+        "type_id": [
+            18,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 469,
+        "name": "yanmega",
+        "types": [
+            "bug",
+            "flying"
+        ],
+        "family": "yanma",
+        "tier": 1,
+        "family_id": 270,
+        "type_id": [
+            7,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 470,
+        "name": "leafeon",
+        "types": [
+            "grass"
+        ],
+        "family": "eevee",
+        "tier": 1,
+        "family_id": 271,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 471,
+        "name": "glaceon",
+        "types": [
+            "ice"
+        ],
+        "family": "eevee",
+        "tier": 2,
+        "family_id": 271,
+        "type_id": [
+            15
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 472,
+        "name": "gliscor",
+        "types": [
+            "ground",
+            "flying"
+        ],
+        "family": "gligar",
+        "tier": 1,
+        "family_id": 272,
+        "type_id": [
+            5,
+            3
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 473,
+        "name": "mamoswine",
+        "types": [
+            "ice",
+            "ground"
+        ],
+        "family": "swinub",
+        "tier": 1,
+        "family_id": 273,
+        "type_id": [
+            15,
+            5
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 474,
+        "name": "porygon-z",
+        "types": [
+            "normal"
+        ],
+        "family": "porygon",
+        "tier": 1,
+        "family_id": 274,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 475,
+        "name": "gallade",
+        "types": [
+            "psychic",
+            "fighting"
+        ],
+        "family": "ralts",
+        "tier": 1,
+        "family_id": 275,
+        "type_id": [
+            14,
+            2
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 476,
+        "name": "probopass",
+        "types": [
+            "rock",
+            "steel"
+        ],
+        "family": "nosepass",
+        "tier": 1,
+        "family_id": 276,
+        "type_id": [
+            6,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 477,
+        "name": "dusknoir",
+        "types": [
+            "ghost"
+        ],
+        "family": "duskull",
+        "tier": 1,
+        "family_id": 277,
+        "type_id": [
+            8
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 478,
+        "name": "froslass",
+        "types": [
+            "ice",
+            "ghost"
+        ],
+        "family": "snorunt",
+        "tier": 1,
+        "family_id": 278,
+        "type_id": [
+            15,
+            8
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 479,
+        "name": "rotom",
+        "types": [
+            "electric",
+            "ghost"
+        ],
+        "family": "rotom",
+        "tier": 1,
+        "family_id": 279,
+        "type_id": [
+            13,
+            8
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 480,
+        "name": "uxie",
+        "types": [
+            "psychic"
+        ],
+        "family": "uxie",
+        "tier": 3,
+        "family_id": 280,
+        "type_id": [
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 481,
+        "name": "mesprit",
+        "types": [
+            "psychic"
+        ],
+        "family": "mesprit",
+        "tier": 3,
+        "family_id": 281,
+        "type_id": [
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 482,
+        "name": "azelf",
+        "types": [
+            "psychic"
+        ],
+        "family": "azelf",
+        "tier": 3,
+        "family_id": 282,
+        "type_id": [
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 483,
+        "name": "dialga",
+        "types": [
+            "steel",
+            "dragon"
+        ],
+        "family": "dialga",
+        "tier": 3,
+        "family_id": 283,
+        "type_id": [
+            9,
+            16
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 484,
+        "name": "palkia",
+        "types": [
+            "water",
+            "dragon"
+        ],
+        "family": "palkia",
+        "tier": 3,
+        "family_id": 284,
+        "type_id": [
+            11,
+            16
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 485,
+        "name": "heatran",
+        "types": [
+            "fire",
+            "steel"
+        ],
+        "family": "heatran",
+        "tier": 3,
+        "family_id": 285,
+        "type_id": [
+            10,
+            9
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 486,
+        "name": "regigigas",
+        "types": [
+            "normal"
+        ],
+        "family": "regigigas",
+        "tier": 3,
+        "family_id": 286,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 487,
+        "name": "giratina-altered",
+        "types": [
+            "ghost",
+            "dragon"
+        ],
+        "family": "giratina",
+        "tier": 3,
+        "family_id": 287,
+        "type_id": [
+            8,
+            16
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 488,
+        "name": "cresselia",
+        "types": [
+            "psychic"
+        ],
+        "family": "cresselia",
+        "tier": 1,
+        "family_id": 288,
+        "type_id": [
+            14
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 489,
+        "name": "phione",
+        "types": [
+            "water"
+        ],
+        "family": "phione",
+        "tier": 1,
+        "family_id": 289,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 490,
+        "name": "manaphy",
+        "types": [
+            "water"
+        ],
+        "family": "phione",
+        "tier": 2,
+        "family_id": 289,
+        "type_id": [
+            11
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 491,
+        "name": "darkrai",
+        "types": [
+            "dark"
+        ],
+        "family": "darkrai",
+        "tier": 1,
+        "family_id": 290,
+        "type_id": [
+            17
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 492,
+        "name": "shaymin-land",
+        "types": [
+            "grass"
+        ],
+        "family": "shaymin",
+        "tier": 1,
+        "family_id": 291,
+        "type_id": [
+            12
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    },
+    {
+        "id": 493,
+        "name": "arceus",
+        "types": [
+            "normal"
+        ],
+        "family": "arceus",
+        "tier": 1,
+        "family_id": 292,
+        "type_id": [
+            1
+        ],
+        "region_id": 4,
+        "region": "Sinnoh"
+    }
+]

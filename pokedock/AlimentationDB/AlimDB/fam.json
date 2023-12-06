@@ -1,0 +1,1170 @@
+[
+    {
+        "id": 1,
+        "family": "bulbasaur"
+    },
+    {
+        "id": 2,
+        "family": "charmander"
+    },
+    {
+        "id": 3,
+        "family": "squirtle"
+    },
+    {
+        "id": 4,
+        "family": "caterpie"
+    },
+    {
+        "id": 5,
+        "family": "weedle"
+    },
+    {
+        "id": 6,
+        "family": "pidgey"
+    },
+    {
+        "id": 7,
+        "family": "rattata"
+    },
+    {
+        "id": 8,
+        "family": "spearow"
+    },
+    {
+        "id": 9,
+        "family": "ekans"
+    },
+    {
+        "id": 10,
+        "family": "pichu"
+    },
+    {
+        "id": 11,
+        "family": "sandshrew"
+    },
+    {
+        "id": 12,
+        "family": "nidoran-f"
+    },
+    {
+        "id": 13,
+        "family": "nidoran-m"
+    },
+    {
+        "id": 14,
+        "family": "cleffa"
+    },
+    {
+        "id": 15,
+        "family": "vulpix"
+    },
+    {
+        "id": 16,
+        "family": "igglybuff"
+    },
+    {
+        "id": 17,
+        "family": "zubat"
+    },
+    {
+        "id": 18,
+        "family": "oddish"
+    },
+    {
+        "id": 19,
+        "family": "paras"
+    },
+    {
+        "id": 20,
+        "family": "venonat"
+    },
+    {
+        "id": 21,
+        "family": "diglett"
+    },
+    {
+        "id": 22,
+        "family": "meowth"
+    },
+    {
+        "id": 23,
+        "family": "psyduck"
+    },
+    {
+        "id": 24,
+        "family": "mankey"
+    },
+    {
+        "id": 25,
+        "family": "growlithe"
+    },
+    {
+        "id": 26,
+        "family": "poliwag"
+    },
+    {
+        "id": 27,
+        "family": "abra"
+    },
+    {
+        "id": 28,
+        "family": "machop"
+    },
+    {
+        "id": 29,
+        "family": "bellsprout"
+    },
+    {
+        "id": 30,
+        "family": "tentacool"
+    },
+    {
+        "id": 31,
+        "family": "geodude"
+    },
+    {
+        "id": 32,
+        "family": "ponyta"
+    },
+    {
+        "id": 33,
+        "family": "slowpoke"
+    },
+    {
+        "id": 34,
+        "family": "magnemite"
+    },
+    {
+        "id": 35,
+        "family": "farfetchd"
+    },
+    {
+        "id": 36,
+        "family": "doduo"
+    },
+    {
+        "id": 37,
+        "family": "seel"
+    },
+    {
+        "id": 38,
+        "family": "grimer"
+    },
+    {
+        "id": 39,
+        "family": "shellder"
+    },
+    {
+        "id": 40,
+        "family": "gastly"
+    },
+    {
+        "id": 41,
+        "family": "onix"
+    },
+    {
+        "id": 42,
+        "family": "drowzee"
+    },
+    {
+        "id": 43,
+        "family": "krabby"
+    },
+    {
+        "id": 44,
+        "family": "voltorb"
+    },
+    {
+        "id": 45,
+        "family": "exeggcute"
+    },
+    {
+        "id": 46,
+        "family": "cubone"
+    },
+    {
+        "id": 47,
+        "family": "tyrogue"
+    },
+    {
+        "id": 48,
+        "family": "lickitung"
+    },
+    {
+        "id": 49,
+        "family": "koffing"
+    },
+    {
+        "id": 50,
+        "family": "rhyhorn"
+    },
+    {
+        "id": 51,
+        "family": "happiny"
+    },
+    {
+        "id": 52,
+        "family": "tangela"
+    },
+    {
+        "id": 53,
+        "family": "kangaskhan"
+    },
+    {
+        "id": 54,
+        "family": "horsea"
+    },
+    {
+        "id": 55,
+        "family": "goldeen"
+    },
+    {
+        "id": 56,
+        "family": "staryu"
+    },
+    {
+        "id": 57,
+        "family": "mime-jr"
+    },
+    {
+        "id": 58,
+        "family": "scyther"
+    },
+    {
+        "id": 59,
+        "family": "smoochum"
+    },
+    {
+        "id": 60,
+        "family": "elekid"
+    },
+    {
+        "id": 61,
+        "family": "magby"
+    },
+    {
+        "id": 62,
+        "family": "pinsir"
+    },
+    {
+        "id": 63,
+        "family": "tauros"
+    },
+    {
+        "id": 64,
+        "family": "magikarp"
+    },
+    {
+        "id": 65,
+        "family": "lapras"
+    },
+    {
+        "id": 66,
+        "family": "ditto"
+    },
+    {
+        "id": 67,
+        "family": "eevee"
+    },
+    {
+        "id": 68,
+        "family": "porygon"
+    },
+    {
+        "id": 69,
+        "family": "omanyte"
+    },
+    {
+        "id": 70,
+        "family": "kabuto"
+    },
+    {
+        "id": 71,
+        "family": "aerodactyl"
+    },
+    {
+        "id": 72,
+        "family": "munchlax"
+    },
+    {
+        "id": 73,
+        "family": "articuno"
+    },
+    {
+        "id": 74,
+        "family": "zapdos"
+    },
+    {
+        "id": 75,
+        "family": "moltres"
+    },
+    {
+        "id": 76,
+        "family": "dratini"
+    },
+    {
+        "id": 77,
+        "family": "mewtwo"
+    },
+    {
+        "id": 78,
+        "family": "mew"
+    },
+    {
+        "id": 79,
+        "family": "chikorita"
+    },
+    {
+        "id": 80,
+        "family": "cyndaquil"
+    },
+    {
+        "id": 81,
+        "family": "totodile"
+    },
+    {
+        "id": 82,
+        "family": "sentret"
+    },
+    {
+        "id": 83,
+        "family": "hoothoot"
+    },
+    {
+        "id": 84,
+        "family": "ledyba"
+    },
+    {
+        "id": 85,
+        "family": "spinarak"
+    },
+    {
+        "id": 86,
+        "family": "zubat"
+    },
+    {
+        "id": 87,
+        "family": "chinchou"
+    },
+    {
+        "id": 88,
+        "family": "pichu"
+    },
+    {
+        "id": 89,
+        "family": "cleffa"
+    },
+    {
+        "id": 90,
+        "family": "igglybuff"
+    },
+    {
+        "id": 91,
+        "family": "togepi"
+    },
+    {
+        "id": 92,
+        "family": "natu"
+    },
+    {
+        "id": 93,
+        "family": "mareep"
+    },
+    {
+        "id": 94,
+        "family": "oddish"
+    },
+    {
+        "id": 95,
+        "family": "azurill"
+    },
+    {
+        "id": 96,
+        "family": "bonsly"
+    },
+    {
+        "id": 97,
+        "family": "poliwag"
+    },
+    {
+        "id": 98,
+        "family": "hoppip"
+    },
+    {
+        "id": 99,
+        "family": "aipom"
+    },
+    {
+        "id": 100,
+        "family": "sunkern"
+    },
+    {
+        "id": 101,
+        "family": "yanma"
+    },
+    {
+        "id": 102,
+        "family": "wooper"
+    },
+    {
+        "id": 103,
+        "family": "eevee"
+    },
+    {
+        "id": 104,
+        "family": "murkrow"
+    },
+    {
+        "id": 105,
+        "family": "slowpoke"
+    },
+    {
+        "id": 106,
+        "family": "misdreavus"
+    },
+    {
+        "id": 107,
+        "family": "unown"
+    },
+    {
+        "id": 108,
+        "family": "wynaut"
+    },
+    {
+        "id": 109,
+        "family": "girafarig"
+    },
+    {
+        "id": 110,
+        "family": "pineco"
+    },
+    {
+        "id": 111,
+        "family": "dunsparce"
+    },
+    {
+        "id": 112,
+        "family": "gligar"
+    },
+    {
+        "id": 113,
+        "family": "onix"
+    },
+    {
+        "id": 114,
+        "family": "snubbull"
+    },
+    {
+        "id": 115,
+        "family": "qwilfish"
+    },
+    {
+        "id": 116,
+        "family": "scyther"
+    },
+    {
+        "id": 117,
+        "family": "shuckle"
+    },
+    {
+        "id": 118,
+        "family": "heracross"
+    },
+    {
+        "id": 119,
+        "family": "sneasel"
+    },
+    {
+        "id": 120,
+        "family": "teddiursa"
+    },
+    {
+        "id": 121,
+        "family": "slugma"
+    },
+    {
+        "id": 122,
+        "family": "swinub"
+    },
+    {
+        "id": 123,
+        "family": "corsola"
+    },
+    {
+        "id": 124,
+        "family": "remoraid"
+    },
+    {
+        "id": 125,
+        "family": "delibird"
+    },
+    {
+        "id": 126,
+        "family": "mantyke"
+    },
+    {
+        "id": 127,
+        "family": "skarmory"
+    },
+    {
+        "id": 128,
+        "family": "houndour"
+    },
+    {
+        "id": 129,
+        "family": "horsea"
+    },
+    {
+        "id": 130,
+        "family": "phanpy"
+    },
+    {
+        "id": 131,
+        "family": "porygon"
+    },
+    {
+        "id": 132,
+        "family": "stantler"
+    },
+    {
+        "id": 133,
+        "family": "smeargle"
+    },
+    {
+        "id": 134,
+        "family": "tyrogue"
+    },
+    {
+        "id": 135,
+        "family": "smoochum"
+    },
+    {
+        "id": 136,
+        "family": "elekid"
+    },
+    {
+        "id": 137,
+        "family": "magby"
+    },
+    {
+        "id": 138,
+        "family": "miltank"
+    },
+    {
+        "id": 139,
+        "family": "happiny"
+    },
+    {
+        "id": 140,
+        "family": "raikou"
+    },
+    {
+        "id": 141,
+        "family": "entei"
+    },
+    {
+        "id": 142,
+        "family": "suicune"
+    },
+    {
+        "id": 143,
+        "family": "larvitar"
+    },
+    {
+        "id": 144,
+        "family": "lugia"
+    },
+    {
+        "id": 145,
+        "family": "ho-oh"
+    },
+    {
+        "id": 146,
+        "family": "celebi"
+    },
+    {
+        "id": 147,
+        "family": "treecko"
+    },
+    {
+        "id": 148,
+        "family": "torchic"
+    },
+    {
+        "id": 149,
+        "family": "mudkip"
+    },
+    {
+        "id": 150,
+        "family": "poochyena"
+    },
+    {
+        "id": 151,
+        "family": "zigzagoon"
+    },
+    {
+        "id": 152,
+        "family": "wurmple"
+    },
+    {
+        "id": 153,
+        "family": "lotad"
+    },
+    {
+        "id": 154,
+        "family": "seedot"
+    },
+    {
+        "id": 155,
+        "family": "taillow"
+    },
+    {
+        "id": 156,
+        "family": "wingull"
+    },
+    {
+        "id": 157,
+        "family": "ralts"
+    },
+    {
+        "id": 158,
+        "family": "surskit"
+    },
+    {
+        "id": 159,
+        "family": "shroomish"
+    },
+    {
+        "id": 160,
+        "family": "slakoth"
+    },
+    {
+        "id": 161,
+        "family": "nincada"
+    },
+    {
+        "id": 162,
+        "family": "whismur"
+    },
+    {
+        "id": 163,
+        "family": "makuhita"
+    },
+    {
+        "id": 164,
+        "family": "azurill"
+    },
+    {
+        "id": 165,
+        "family": "nosepass"
+    },
+    {
+        "id": 166,
+        "family": "skitty"
+    },
+    {
+        "id": 167,
+        "family": "sableye"
+    },
+    {
+        "id": 168,
+        "family": "mawile"
+    },
+    {
+        "id": 169,
+        "family": "aron"
+    },
+    {
+        "id": 170,
+        "family": "meditite"
+    },
+    {
+        "id": 171,
+        "family": "electrike"
+    },
+    {
+        "id": 172,
+        "family": "plusle"
+    },
+    {
+        "id": 173,
+        "family": "minun"
+    },
+    {
+        "id": 174,
+        "family": "volbeat"
+    },
+    {
+        "id": 175,
+        "family": "illumise"
+    },
+    {
+        "id": 176,
+        "family": "budew"
+    },
+    {
+        "id": 177,
+        "family": "gulpin"
+    },
+    {
+        "id": 178,
+        "family": "carvanha"
+    },
+    {
+        "id": 179,
+        "family": "wailmer"
+    },
+    {
+        "id": 180,
+        "family": "numel"
+    },
+    {
+        "id": 181,
+        "family": "torkoal"
+    },
+    {
+        "id": 182,
+        "family": "spoink"
+    },
+    {
+        "id": 183,
+        "family": "spinda"
+    },
+    {
+        "id": 184,
+        "family": "trapinch"
+    },
+    {
+        "id": 185,
+        "family": "cacnea"
+    },
+    {
+        "id": 186,
+        "family": "swablu"
+    },
+    {
+        "id": 187,
+        "family": "zangoose"
+    },
+    {
+        "id": 188,
+        "family": "seviper"
+    },
+    {
+        "id": 189,
+        "family": "lunatone"
+    },
+    {
+        "id": 190,
+        "family": "solrock"
+    },
+    {
+        "id": 191,
+        "family": "barboach"
+    },
+    {
+        "id": 192,
+        "family": "corphish"
+    },
+    {
+        "id": 193,
+        "family": "baltoy"
+    },
+    {
+        "id": 194,
+        "family": "lileep"
+    },
+    {
+        "id": 195,
+        "family": "anorith"
+    },
+    {
+        "id": 196,
+        "family": "feebas"
+    },
+    {
+        "id": 197,
+        "family": "castform"
+    },
+    {
+        "id": 198,
+        "family": "kecleon"
+    },
+    {
+        "id": 199,
+        "family": "shuppet"
+    },
+    {
+        "id": 200,
+        "family": "duskull"
+    },
+    {
+        "id": 201,
+        "family": "tropius"
+    },
+    {
+        "id": 202,
+        "family": "chingling"
+    },
+    {
+        "id": 203,
+        "family": "absol"
+    },
+    {
+        "id": 204,
+        "family": "wynaut"
+    },
+    {
+        "id": 205,
+        "family": "snorunt"
+    },
+    {
+        "id": 206,
+        "family": "spheal"
+    },
+    {
+        "id": 207,
+        "family": "clamperl"
+    },
+    {
+        "id": 208,
+        "family": "relicanth"
+    },
+    {
+        "id": 209,
+        "family": "luvdisc"
+    },
+    {
+        "id": 210,
+        "family": "bagon"
+    },
+    {
+        "id": 211,
+        "family": "beldum"
+    },
+    {
+        "id": 212,
+        "family": "regirock"
+    },
+    {
+        "id": 213,
+        "family": "regice"
+    },
+    {
+        "id": 214,
+        "family": "registeel"
+    },
+    {
+        "id": 215,
+        "family": "latias"
+    },
+    {
+        "id": 216,
+        "family": "latios"
+    },
+    {
+        "id": 217,
+        "family": "kyogre"
+    },
+    {
+        "id": 218,
+        "family": "groudon"
+    },
+    {
+        "id": 219,
+        "family": "rayquaza"
+    },
+    {
+        "id": 220,
+        "family": "jirachi"
+    },
+    {
+        "id": 221,
+        "family": "deoxys"
+    },
+    {
+        "id": 222,
+        "family": "turtwig"
+    },
+    {
+        "id": 223,
+        "family": "chimchar"
+    },
+    {
+        "id": 224,
+        "family": "piplup"
+    },
+    {
+        "id": 225,
+        "family": "starly"
+    },
+    {
+        "id": 226,
+        "family": "bidoof"
+    },
+    {
+        "id": 227,
+        "family": "kricketot"
+    },
+    {
+        "id": 228,
+        "family": "shinx"
+    },
+    {
+        "id": 229,
+        "family": "budew"
+    },
+    {
+        "id": 230,
+        "family": "cranidos"
+    },
+    {
+        "id": 231,
+        "family": "shieldon"
+    },
+    {
+        "id": 232,
+        "family": "burmy"
+    },
+    {
+        "id": 233,
+        "family": "combee"
+    },
+    {
+        "id": 234,
+        "family": "pachirisu"
+    },
+    {
+        "id": 235,
+        "family": "buizel"
+    },
+    {
+        "id": 236,
+        "family": "cherubi"
+    },
+    {
+        "id": 237,
+        "family": "shellos"
+    },
+    {
+        "id": 238,
+        "family": "aipom"
+    },
+    {
+        "id": 239,
+        "family": "drifloon"
+    },
+    {
+        "id": 240,
+        "family": "buneary"
+    },
+    {
+        "id": 241,
+        "family": "misdreavus"
+    },
+    {
+        "id": 242,
+        "family": "murkrow"
+    },
+    {
+        "id": 243,
+        "family": "glameow"
+    },
+    {
+        "id": 244,
+        "family": "chingling"
+    },
+    {
+        "id": 245,
+        "family": "stunky"
+    },
+    {
+        "id": 246,
+        "family": "bronzor"
+    },
+    {
+        "id": 247,
+        "family": "bonsly"
+    },
+    {
+        "id": 248,
+        "family": "mime-jr"
+    },
+    {
+        "id": 249,
+        "family": "happiny"
+    },
+    {
+        "id": 250,
+        "family": "chatot"
+    },
+    {
+        "id": 251,
+        "family": "spiritomb"
+    },
+    {
+        "id": 252,
+        "family": "gible"
+    },
+    {
+        "id": 253,
+        "family": "munchlax"
+    },
+    {
+        "id": 254,
+        "family": "riolu"
+    },
+    {
+        "id": 255,
+        "family": "hippopotas"
+    },
+    {
+        "id": 256,
+        "family": "skorupi"
+    },
+    {
+        "id": 257,
+        "family": "croagunk"
+    },
+    {
+        "id": 258,
+        "family": "carnivine"
+    },
+    {
+        "id": 259,
+        "family": "finneon"
+    },
+    {
+        "id": 260,
+        "family": "mantyke"
+    },
+    {
+        "id": 261,
+        "family": "snover"
+    },
+    {
+        "id": 262,
+        "family": "sneasel"
+    },
+    {
+        "id": 263,
+        "family": "magnemite"
+    },
+    {
+        "id": 264,
+        "family": "lickitung"
+    },
+    {
+        "id": 265,
+        "family": "rhyhorn"
+    },
+    {
+        "id": 266,
+        "family": "tangela"
+    },
+    {
+        "id": 267,
+        "family": "elekid"
+    },
+    {
+        "id": 268,
+        "family": "magby"
+    },
+    {
+        "id": 269,
+        "family": "togepi"
+    },
+    {
+        "id": 270,
+        "family": "yanma"
+    },
+    {
+        "id": 271,
+        "family": "eevee"
+    },
+    {
+        "id": 272,
+        "family": "gligar"
+    },
+    {
+        "id": 273,
+        "family": "swinub"
+    },
+    {
+        "id": 274,
+        "family": "porygon"
+    },
+    {
+        "id": 275,
+        "family": "ralts"
+    },
+    {
+        "id": 276,
+        "family": "nosepass"
+    },
+    {
+        "id": 277,
+        "family": "duskull"
+    },
+    {
+        "id": 278,
+        "family": "snorunt"
+    },
+    {
+        "id": 279,
+        "family": "rotom"
+    },
+    {
+        "id": 280,
+        "family": "uxie"
+    },
+    {
+        "id": 281,
+        "family": "mesprit"
+    },
+    {
+        "id": 282,
+        "family": "azelf"
+    },
+    {
+        "id": 283,
+        "family": "dialga"
+    },
+    {
+        "id": 284,
+        "family": "palkia"
+    },
+    {
+        "id": 285,
+        "family": "heatran"
+    },
+    {
+        "id": 286,
+        "family": "regigigas"
+    },
+    {
+        "id": 287,
+        "family": "giratina"
+    },
+    {
+        "id": 288,
+        "family": "cresselia"
+    },
+    {
+        "id": 289,
+        "family": "phione"
+    },
+    {
+        "id": 290,
+        "family": "darkrai"
+    },
+    {
+        "id": 291,
+        "family": "shaymin"
+    },
+    {
+        "id": 292,
+        "family": "arceus"
+    }
+]
