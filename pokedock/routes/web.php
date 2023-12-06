@@ -5,7 +5,9 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\ShoppacksController;
 use App\Http\Controllers\UserOrdersController;
 use App\Http\Controllers\OrderItemsController;
-
+use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\LogInController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,19 +20,14 @@ use App\Http\Controllers\OrderItemsController;
 |
 */
 
-Route::get('/users', [UsersController::class, 'showAll']);
-Route::get('/shoppacks', [ShoppacksController::class, 'showAll']);
-Route::get('/user_orders', [UserOrdersController::class, 'showAll']);
-Route::get('/order_items', [OrderItemsController::class, 'showAll']);
+Route::get('/users', [UsersController::class, 'showAll'])->name('users');
+Route::get('/shoppacks', [ShoppacksController::class, 'showAll'])->name('shoppacks');
+Route::get('/user_orders', [UserOrdersController::class, 'showAll'])->name('user_orders');
+Route::get('/order_items', [OrderItemsController::class, 'showAll'])->name('order_items');
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [WelcomeController::class, 'showAll'])->name('welcome');
 
-Route::get('/login', function () {
-    return view('auth.login');
-})->name('login');
+Route::get('/login', [LogInController::class, 'showAll'])->name('login');
+Route::post('/login/authenticate', [LogInController::class, 'authenticate'])->name('login.authenticate');
 
-Route::get('/register', function () {
-    return view('auth.register');
-})->name('register');
+Route::get('/dashboard', [HomeController::class, 'showAll'])->name('dashboard');
