@@ -14,7 +14,8 @@ class Types extends Model
         'path_img_type',
     ];
 
-    protected $hidden = [];
+    protected $hidden = [
+    ];
 
     protected $casts = [
         'label_type' => 'string',

@@ -13,9 +13,10 @@ class Users extends Authenticatable
 
     protected $fillable = [
         'password_user',
-        'username_user',
+        'username_user', 
         'credit_user',
         'fidelity_point_user',
+        'email_user',
     ];
 
     protected $hidden = [
@@ -26,4 +27,10 @@ class Users extends Authenticatable
         'credit_user' => 'integer',
         'fidelity_point_user' => 'integer',
     ];
+
+    public function userOrders()
+    {
+        return $this->hasMany(UserOrders::class, 'id_user');
+    }
+
 }

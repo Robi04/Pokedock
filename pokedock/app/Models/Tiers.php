@@ -14,7 +14,8 @@ class Tiers extends Model
         'path_img_tier',
     ];
 
-    protected $hidden = [];
+    protected $hidden = [
+    ];
 
     protected $casts = [
         'label_tier' => 'string',

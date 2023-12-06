@@ -16,7 +16,8 @@ class SummonPacks extends Model
         'proba_legendary_summon',
     ];
 
-    protected $hidden = [];
+    protected $hidden = [
+    ];
 
     protected $casts = [
         'price_summonpack' => 'float',

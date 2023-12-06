@@ -14,7 +14,8 @@ class Regions extends Model
         'path_img_region',
     ];
 
-    protected $hidden = [];
+    protected $hidden = [
+    ];
 
     protected $casts = [
         'label_fregion' => 'string',

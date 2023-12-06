@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('shoppacks', function (Blueprint $table) {
             $table->id('id_shoppack');
+            $table->string('name_shoppack');
             $table->float('price_shoppack');
-            $table->integer('nb_credit_shoppack')->nullable();
-            $table->string('path_img_shoppack');
+            $table->integer('nb_credit_shoppack');
+            $table->string('path_img_shoppack')->nullable();
         });
     }
 

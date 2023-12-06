@@ -14,7 +14,8 @@ class Rarities extends Model
         'path_img_rarity',
     ];
 
-    protected $hidden = [];
+    protected $hidden = [
+    ];
 
     protected $casts = [
         'label_rarity' => 'string',
