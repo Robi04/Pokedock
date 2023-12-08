@@ -8,8 +8,7 @@
     <title>Shop</title>
   </head>
   <body>
-    <h1 class="">Shop</h1>
-    <div class="flex flex-row mt-14 items-center">
+@include('header')    <div class="flex flex-row mt-14 items-center">
       @foreach ($shoppacks as $sp)
           <div class="max-w-sm rounded-lg overflow-hidden shadow-lg w-1/3">
   <img class="w-full" src="/images/zizi.png" alt="/images/zizi.png">
@@ -24,6 +23,6 @@
       @endforeach
 
     </div>
-
+@include('footer')
   </body>
 </html>
