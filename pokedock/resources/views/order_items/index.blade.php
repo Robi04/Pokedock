@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Order items table</title>
+    <title>Panier</title>
+    @vite('resources/css/app.css')
 </head>
-<body>
-
-    <h1>Order items table</h1>
+<body class="flex flex-col h-screen justify-between">
+    @include('header')
+    <div class="flex-grow">
+    <h1 class="text-center font-bold text-4xl m-4">Panier</h1>
     
-    <table border="1">
-        <thead>
-            <tr>
-                <th>id_user_order</th>
-                <th>id_choppack</th>
-                <th>quantity</th>
-            </tr>
-        </thead>
-        <tbody>
-            @each('components.OrderItmesTable', $order_items, 'order_item')
-        </tbody>
-    </table>
-
+    </div>
+    @include('footer')
 </body>
 </html>

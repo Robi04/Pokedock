@@ -10,6 +10,7 @@ use App\Http\Controllers\LogInController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
+use App\Http\Controllers\ShoppingList;
 
 
 /*
