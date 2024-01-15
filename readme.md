@@ -1,6 +1,23 @@
 # PokeDock
 Pokémon Web Game.
 
+# Lancer le projet
+Requis : 
+- PHP 8 minimum
+- Docker
+- Git
+- Node / npm
+
+Lancement : 
+- git clone <lien du repo>
+- cd Pokedock
+- docker compose-up
+- cd pokedock
+- php artisan migrate
+- composer update
+- npm run dev
+- php artisan serve
+
 ## Sujet 
 Projet 2023-2024 : 
 
