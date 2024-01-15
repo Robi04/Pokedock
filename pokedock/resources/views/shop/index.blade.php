@@ -18,6 +18,12 @@
             <p class="text-gray-700 text-base">Nombre de bonbons : {{$sp -> nb_credit_shoppack}}
             <p class="text-gray-700 text-base">{{$sp -> price_shoppack}} €</p>
           </div>
+            <select id="number" name="number" class="mr-4 ml-4">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
           <button type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow items-center">Add to cart</button>
         </div>
       @endforeach
