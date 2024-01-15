@@ -8,7 +8,9 @@
         "family_id": 1,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 2
     },
     {
         "id": 2,
@@ -19,7 +21,9 @@
         "family_id": 1,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 1,
+        "evolve_to": 3
     },
     {
         "id": 3,
@@ -30,7 +34,9 @@
         "family_id": 1,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 2,
+        "evolve_to": ""
     },
     {
         "id": 4,
@@ -41,7 +47,9 @@
         "family_id": 2,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 5
     },
     {
         "id": 5,
@@ -52,7 +60,9 @@
         "family_id": 2,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 4,
+        "evolve_to": 6
     },
     {
         "id": 6,
@@ -63,7 +73,9 @@
         "family_id": 2,
         "type_id": [10, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 5,
+        "evolve_to": ""
     },
     {
         "id": 7,
@@ -74,7 +86,9 @@
         "family_id": 3,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 8
     },
     {
         "id": 8,
@@ -85,7 +99,9 @@
         "family_id": 3,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 7,
+        "evolve_to": 9
     },
     {
         "id": 9,
@@ -96,7 +112,9 @@
         "family_id": 3,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 8,
+        "evolve_to": ""
     },
     {
         "id": 10,
@@ -107,7 +125,9 @@
         "family_id": 4,
         "type_id": [7],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 11
     },
     {
         "id": 11,
@@ -118,7 +138,9 @@
         "family_id": 4,
         "type_id": [7],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 10,
+        "evolve_to": 12
     },
     {
         "id": 12,
@@ -129,7 +151,9 @@
         "family_id": 4,
         "type_id": [7, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 11,
+        "evolve_to": ""
     },
     {
         "id": 13,
@@ -140,7 +164,9 @@
         "family_id": 5,
         "type_id": [7, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 14
     },
     {
         "id": 14,
@@ -151,7 +177,9 @@
         "family_id": 5,
         "type_id": [7, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 13,
+        "evolve_to": 15
     },
     {
         "id": 15,
@@ -162,7 +190,9 @@
         "family_id": 5,
         "type_id": [7, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 14,
+        "evolve_to": ""
     },
     {
         "id": 16,
@@ -173,7 +203,9 @@
         "family_id": 6,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 17
     },
     {
         "id": 17,
@@ -184,7 +216,9 @@
         "family_id": 6,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 16,
+        "evolve_to": 18
     },
     {
         "id": 18,
@@ -195,7 +229,9 @@
         "family_id": 6,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 17,
+        "evolve_to": ""
     },
     {
         "id": 19,
@@ -206,7 +242,9 @@
         "family_id": 7,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 20
     },
     {
         "id": 20,
@@ -217,7 +255,9 @@
         "family_id": 7,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 19,
+        "evolve_to": ""
     },
     {
         "id": 21,
@@ -228,7 +268,9 @@
         "family_id": 8,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 22
     },
     {
         "id": 22,
@@ -239,7 +281,9 @@
         "family_id": 8,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 21,
+        "evolve_to": ""
     },
     {
         "id": 23,
@@ -250,7 +294,9 @@
         "family_id": 9,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 24
     },
     {
         "id": 24,
@@ -261,7 +307,9 @@
         "family_id": 9,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 23,
+        "evolve_to": ""
     },
     {
         "id": 25,
@@ -272,7 +320,9 @@
         "family_id": 10,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 26
     },
     {
         "id": 26,
@@ -283,7 +333,9 @@
         "family_id": 10,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 25,
+        "evolve_to": ""
     },
     {
         "id": 27,
@@ -294,7 +346,9 @@
         "family_id": 11,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 28
     },
     {
         "id": 28,
@@ -305,7 +359,9 @@
         "family_id": 11,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 27,
+        "evolve_to": ""
     },
     {
         "id": 29,
@@ -316,7 +372,9 @@
         "family_id": 12,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 30
     },
     {
         "id": 30,
@@ -327,7 +385,9 @@
         "family_id": 12,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 29,
+        "evolve_to": 31
     },
     {
         "id": 31,
@@ -338,7 +398,9 @@
         "family_id": 12,
         "type_id": [4, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 30,
+        "evolve_to": ""
     },
     {
         "id": 32,
@@ -349,7 +411,9 @@
         "family_id": 13,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 33
     },
     {
         "id": 33,
@@ -360,7 +424,9 @@
         "family_id": 13,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 32,
+        "evolve_to": 34
     },
     {
         "id": 34,
@@ -371,7 +437,9 @@
         "family_id": 13,
         "type_id": [4, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 33,
+        "evolve_to": ""
     },
     {
         "id": 35,
@@ -382,7 +450,9 @@
         "family_id": 14,
         "type_id": [18],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 36
     },
     {
         "id": 36,
@@ -393,7 +463,9 @@
         "family_id": 14,
         "type_id": [18],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 35,
+        "evolve_to": ""
     },
     {
         "id": 37,
@@ -404,7 +476,9 @@
         "family_id": 15,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 38
     },
     {
         "id": 38,
@@ -415,7 +489,9 @@
         "family_id": 15,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 37,
+        "evolve_to": ""
     },
     {
         "id": 39,
@@ -426,7 +502,9 @@
         "family_id": 16,
         "type_id": [1, 18],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 40
     },
     {
         "id": 40,
@@ -437,7 +515,9 @@
         "family_id": 16,
         "type_id": [1, 18],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 39,
+        "evolve_to": ""
     },
     {
         "id": 41,
@@ -448,7 +528,9 @@
         "family_id": 17,
         "type_id": [4, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 42
     },
     {
         "id": 42,
@@ -459,7 +541,9 @@
         "family_id": 17,
         "type_id": [4, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 41,
+        "evolve_to": ""
     },
     {
         "id": 43,
@@ -470,7 +554,9 @@
         "family_id": 18,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 44
     },
     {
         "id": 44,
@@ -481,7 +567,9 @@
         "family_id": 18,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 43,
+        "evolve_to": 45
     },
     {
         "id": 45,
@@ -492,7 +580,9 @@
         "family_id": 18,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 44,
+        "evolve_to": ""
     },
     {
         "id": 46,
@@ -503,7 +593,9 @@
         "family_id": 19,
         "type_id": [7, 12],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 47
     },
     {
         "id": 47,
@@ -514,7 +606,9 @@
         "family_id": 19,
         "type_id": [7, 12],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 46,
+        "evolve_to": ""
     },
     {
         "id": 48,
@@ -525,7 +619,9 @@
         "family_id": 20,
         "type_id": [7, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 49
     },
     {
         "id": 49,
@@ -536,7 +632,9 @@
         "family_id": 20,
         "type_id": [7, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 48,
+        "evolve_to": ""
     },
     {
         "id": 50,
@@ -547,7 +645,9 @@
         "family_id": 21,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 51
     },
     {
         "id": 51,
@@ -558,7 +658,9 @@
         "family_id": 21,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 50,
+        "evolve_to": ""
     },
     {
         "id": 52,
@@ -569,7 +671,9 @@
         "family_id": 22,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 53
     },
     {
         "id": 53,
@@ -580,7 +684,9 @@
         "family_id": 22,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 52,
+        "evolve_to": ""
     },
     {
         "id": 54,
@@ -591,7 +697,9 @@
         "family_id": 23,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 55
     },
     {
         "id": 55,
@@ -602,7 +710,9 @@
         "family_id": 23,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 54,
+        "evolve_to": ""
     },
     {
         "id": 56,
@@ -613,7 +723,9 @@
         "family_id": 24,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 57
     },
     {
         "id": 57,
@@ -624,7 +736,9 @@
         "family_id": 24,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 56,
+        "evolve_to": ""
     },
     {
         "id": 58,
@@ -635,7 +749,9 @@
         "family_id": 25,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 59
     },
     {
         "id": 59,
@@ -646,7 +762,9 @@
         "family_id": 25,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 58,
+        "evolve_to": ""
     },
     {
         "id": 60,
@@ -657,7 +775,9 @@
         "family_id": 26,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 61
     },
     {
         "id": 61,
@@ -668,7 +788,9 @@
         "family_id": 26,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 60,
+        "evolve_to": 62
     },
     {
         "id": 62,
@@ -679,7 +801,9 @@
         "family_id": 26,
         "type_id": [11, 2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 61,
+        "evolve_to": ""
     },
     {
         "id": 63,
@@ -690,7 +814,9 @@
         "family_id": 27,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 64
     },
     {
         "id": 64,
@@ -701,7 +827,9 @@
         "family_id": 27,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 63,
+        "evolve_to": 65
     },
     {
         "id": 65,
@@ -712,7 +840,9 @@
         "family_id": 27,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 64,
+        "evolve_to": ""
     },
     {
         "id": 66,
@@ -723,7 +853,9 @@
         "family_id": 28,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 67
     },
     {
         "id": 67,
@@ -734,7 +866,9 @@
         "family_id": 28,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 66,
+        "evolve_to": 68
     },
     {
         "id": 68,
@@ -745,7 +879,9 @@
         "family_id": 28,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 67,
+        "evolve_to": ""
     },
     {
         "id": 69,
@@ -756,7 +892,9 @@
         "family_id": 29,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 70
     },
     {
         "id": 70,
@@ -767,7 +905,9 @@
         "family_id": 29,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 69,
+        "evolve_to": 71
     },
     {
         "id": 71,
@@ -778,7 +918,9 @@
         "family_id": 29,
         "type_id": [12, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 70,
+        "evolve_to": ""
     },
     {
         "id": 72,
@@ -789,7 +931,9 @@
         "family_id": 30,
         "type_id": [11, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 73
     },
     {
         "id": 73,
@@ -800,7 +944,9 @@
         "family_id": 30,
         "type_id": [11, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 72,
+        "evolve_to": ""
     },
     {
         "id": 74,
@@ -811,7 +957,9 @@
         "family_id": 31,
         "type_id": [6, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 75
     },
     {
         "id": 75,
@@ -822,7 +970,9 @@
         "family_id": 31,
         "type_id": [6, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 74,
+        "evolve_to": 76
     },
     {
         "id": 76,
@@ -833,7 +983,9 @@
         "family_id": 31,
         "type_id": [6, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 75,
+        "evolve_to": ""
     },
     {
         "id": 77,
@@ -844,7 +996,9 @@
         "family_id": 32,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 78
     },
     {
         "id": 78,
@@ -855,7 +1009,9 @@
         "family_id": 32,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 77,
+        "evolve_to": ""
     },
     {
         "id": 79,
@@ -866,7 +1022,9 @@
         "family_id": 33,
         "type_id": [11, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 80
     },
     {
         "id": 80,
@@ -877,7 +1035,9 @@
         "family_id": 33,
         "type_id": [11, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 79,
+        "evolve_to": ""
     },
     {
         "id": 81,
@@ -888,7 +1048,9 @@
         "family_id": 34,
         "type_id": [13, 9],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 82
     },
     {
         "id": 82,
@@ -899,7 +1061,9 @@
         "family_id": 34,
         "type_id": [13, 9],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 81,
+        "evolve_to": ""
     },
     {
         "id": 83,
@@ -910,7 +1074,9 @@
         "family_id": 35,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 84,
@@ -921,7 +1087,9 @@
         "family_id": 36,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 85
     },
     {
         "id": 85,
@@ -932,7 +1100,9 @@
         "family_id": 36,
         "type_id": [1, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 84,
+        "evolve_to": ""
     },
     {
         "id": 86,
@@ -943,7 +1113,9 @@
         "family_id": 37,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 87
     },
     {
         "id": 87,
@@ -954,7 +1126,9 @@
         "family_id": 37,
         "type_id": [11, 15],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 86,
+        "evolve_to": ""
     },
     {
         "id": 88,
@@ -965,7 +1139,9 @@
         "family_id": 38,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 89
     },
     {
         "id": 89,
@@ -976,7 +1152,9 @@
         "family_id": 38,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 88,
+        "evolve_to": ""
     },
     {
         "id": 90,
@@ -987,7 +1165,9 @@
         "family_id": 39,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 91
     },
     {
         "id": 91,
@@ -998,7 +1178,9 @@
         "family_id": 39,
         "type_id": [11, 15],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 90,
+        "evolve_to": ""
     },
     {
         "id": 92,
@@ -1009,7 +1191,9 @@
         "family_id": 40,
         "type_id": [8, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 93
     },
     {
         "id": 93,
@@ -1020,7 +1204,9 @@
         "family_id": 40,
         "type_id": [8, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 92,
+        "evolve_to": 94
     },
     {
         "id": 94,
@@ -1031,7 +1217,9 @@
         "family_id": 40,
         "type_id": [8, 4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 93,
+        "evolve_to": ""
     },
     {
         "id": 95,
@@ -1042,7 +1230,9 @@
         "family_id": 41,
         "type_id": [6, 5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 96,
@@ -1053,7 +1243,9 @@
         "family_id": 42,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 97
     },
     {
         "id": 97,
@@ -1064,7 +1256,9 @@
         "family_id": 42,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 96,
+        "evolve_to": ""
     },
     {
         "id": 98,
@@ -1075,7 +1269,9 @@
         "family_id": 43,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 99
     },
     {
         "id": 99,
@@ -1086,7 +1282,9 @@
         "family_id": 43,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 98,
+        "evolve_to": ""
     },
     {
         "id": 100,
@@ -1097,7 +1295,9 @@
         "family_id": 44,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 101
     },
     {
         "id": 101,
@@ -1108,7 +1308,9 @@
         "family_id": 44,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 100,
+        "evolve_to": ""
     },
     {
         "id": 102,
@@ -1119,7 +1321,9 @@
         "family_id": 45,
         "type_id": [12, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 103
     },
     {
         "id": 103,
@@ -1130,7 +1334,9 @@
         "family_id": 45,
         "type_id": [12, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 102,
+        "evolve_to": ""
     },
     {
         "id": 104,
@@ -1141,7 +1347,9 @@
         "family_id": 46,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 105
     },
     {
         "id": 105,
@@ -1152,7 +1360,9 @@
         "family_id": 46,
         "type_id": [5],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 104,
+        "evolve_to": ""
     },
     {
         "id": 106,
@@ -1163,7 +1373,9 @@
         "family_id": 47,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 107
     },
     {
         "id": 107,
@@ -1174,7 +1386,9 @@
         "family_id": 47,
         "type_id": [2],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 106,
+        "evolve_to": ""
     },
     {
         "id": 108,
@@ -1185,7 +1399,9 @@
         "family_id": 48,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 109,
@@ -1196,7 +1412,9 @@
         "family_id": 49,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 110
     },
     {
         "id": 110,
@@ -1207,7 +1425,9 @@
         "family_id": 49,
         "type_id": [4],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 109,
+        "evolve_to": ""
     },
     {
         "id": 111,
@@ -1218,7 +1438,9 @@
         "family_id": 50,
         "type_id": [5, 6],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 112
     },
     {
         "id": 112,
@@ -1229,7 +1451,9 @@
         "family_id": 50,
         "type_id": [5, 6],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 111,
+        "evolve_to": ""
     },
     {
         "id": 113,
@@ -1240,7 +1464,9 @@
         "family_id": 51,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 114,
@@ -1251,7 +1477,9 @@
         "family_id": 52,
         "type_id": [12],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 115,
@@ -1262,7 +1490,9 @@
         "family_id": 53,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 116,
@@ -1273,7 +1503,9 @@
         "family_id": 54,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 117
     },
     {
         "id": 117,
@@ -1284,7 +1516,9 @@
         "family_id": 54,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 116,
+        "evolve_to": ""
     },
     {
         "id": 118,
@@ -1295,7 +1529,9 @@
         "family_id": 55,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 119
     },
     {
         "id": 119,
@@ -1306,7 +1542,9 @@
         "family_id": 55,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 118,
+        "evolve_to": ""
     },
     {
         "id": 120,
@@ -1317,7 +1555,9 @@
         "family_id": 56,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 121
     },
     {
         "id": 121,
@@ -1328,7 +1568,9 @@
         "family_id": 56,
         "type_id": [11, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 120,
+        "evolve_to": ""
     },
     {
         "id": 122,
@@ -1339,7 +1581,9 @@
         "family_id": 57,
         "type_id": [14, 18],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 123,
@@ -1350,7 +1594,9 @@
         "family_id": 58,
         "type_id": [7, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 124,
@@ -1361,7 +1607,9 @@
         "family_id": 59,
         "type_id": [15, 14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 125,
@@ -1372,7 +1620,9 @@
         "family_id": 60,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 126,
@@ -1383,7 +1633,9 @@
         "family_id": 61,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 127,
@@ -1394,7 +1646,9 @@
         "family_id": 62,
         "type_id": [7],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 128,
@@ -1405,7 +1659,9 @@
         "family_id": 63,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 129,
@@ -1416,7 +1672,9 @@
         "family_id": 64,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 130
     },
     {
         "id": 130,
@@ -1427,7 +1685,9 @@
         "family_id": 64,
         "type_id": [11, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 129,
+        "evolve_to": ""
     },
     {
         "id": 131,
@@ -1438,7 +1698,9 @@
         "family_id": 65,
         "type_id": [11, 15],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 132,
@@ -1449,7 +1711,9 @@
         "family_id": 66,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 133,
@@ -1460,7 +1724,9 @@
         "family_id": 67,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 134
     },
     {
         "id": 134,
@@ -1471,7 +1737,9 @@
         "family_id": 67,
         "type_id": [11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 133,
+        "evolve_to": 135
     },
     {
         "id": 135,
@@ -1482,7 +1750,9 @@
         "family_id": 67,
         "type_id": [13],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 134,
+        "evolve_to": 136
     },
     {
         "id": 136,
@@ -1493,7 +1763,9 @@
         "family_id": 67,
         "type_id": [10],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 135,
+        "evolve_to": ""
     },
     {
         "id": 137,
@@ -1504,7 +1776,9 @@
         "family_id": 68,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 138,
@@ -1515,7 +1789,9 @@
         "family_id": 69,
         "type_id": [6, 11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 139
     },
     {
         "id": 139,
@@ -1526,7 +1802,9 @@
         "family_id": 69,
         "type_id": [6, 11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 138,
+        "evolve_to": ""
     },
     {
         "id": 140,
@@ -1537,7 +1815,9 @@
         "family_id": 70,
         "type_id": [6, 11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 141
     },
     {
         "id": 141,
@@ -1548,7 +1828,9 @@
         "family_id": 70,
         "type_id": [6, 11],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 140,
+        "evolve_to": ""
     },
     {
         "id": 142,
@@ -1559,7 +1841,9 @@
         "family_id": 71,
         "type_id": [6, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 143,
@@ -1570,7 +1854,9 @@
         "family_id": 72,
         "type_id": [1],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 144,
@@ -1581,7 +1867,9 @@
         "family_id": 73,
         "type_id": [15, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 145,
@@ -1592,7 +1880,9 @@
         "family_id": 74,
         "type_id": [13, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 146,
@@ -1603,7 +1893,9 @@
         "family_id": 75,
         "type_id": [10, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 147,
@@ -1614,7 +1906,9 @@
         "family_id": 76,
         "type_id": [16],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": 148
     },
     {
         "id": 148,
@@ -1625,7 +1919,9 @@
         "family_id": 76,
         "type_id": [16],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 147,
+        "evolve_to": 149
     },
     {
         "id": 149,
@@ -1636,7 +1932,9 @@
         "family_id": 76,
         "type_id": [16, 3],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": 148,
+        "evolve_to": ""
     },
     {
         "id": 150,
@@ -1647,7 +1945,9 @@
         "family_id": 77,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 151,
@@ -1658,7 +1958,9 @@
         "family_id": 78,
         "type_id": [14],
         "region_id": 1,
-        "region": "Kanto"
+        "region": "Kanto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 152,
@@ -1669,7 +1971,9 @@
         "family_id": 79,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 153
     },
     {
         "id": 153,
@@ -1680,7 +1984,9 @@
         "family_id": 79,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 152,
+        "evolve_to": 154
     },
     {
         "id": 154,
@@ -1691,7 +1997,9 @@
         "family_id": 79,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 153,
+        "evolve_to": ""
     },
     {
         "id": 155,
@@ -1702,7 +2010,9 @@
         "family_id": 80,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 156
     },
     {
         "id": 156,
@@ -1713,7 +2023,9 @@
         "family_id": 80,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 155,
+        "evolve_to": 157
     },
     {
         "id": 157,
@@ -1724,7 +2036,9 @@
         "family_id": 80,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 156,
+        "evolve_to": ""
     },
     {
         "id": 158,
@@ -1735,7 +2049,9 @@
         "family_id": 81,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 159
     },
     {
         "id": 159,
@@ -1746,7 +2062,9 @@
         "family_id": 81,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 158,
+        "evolve_to": 160
     },
     {
         "id": 160,
@@ -1757,7 +2075,9 @@
         "family_id": 81,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 159,
+        "evolve_to": ""
     },
     {
         "id": 161,
@@ -1768,7 +2088,9 @@
         "family_id": 82,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 162
     },
     {
         "id": 162,
@@ -1779,7 +2101,9 @@
         "family_id": 82,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 161,
+        "evolve_to": ""
     },
     {
         "id": 163,
@@ -1790,7 +2114,9 @@
         "family_id": 83,
         "type_id": [1, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 164
     },
     {
         "id": 164,
@@ -1801,7 +2127,9 @@
         "family_id": 83,
         "type_id": [1, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 163,
+        "evolve_to": ""
     },
     {
         "id": 165,
@@ -1812,7 +2140,9 @@
         "family_id": 84,
         "type_id": [7, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 166
     },
     {
         "id": 166,
@@ -1823,7 +2153,9 @@
         "family_id": 84,
         "type_id": [7, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 165,
+        "evolve_to": ""
     },
     {
         "id": 167,
@@ -1834,7 +2166,9 @@
         "family_id": 85,
         "type_id": [7, 4],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 168
     },
     {
         "id": 168,
@@ -1845,18 +2179,22 @@
         "family_id": 85,
         "type_id": [7, 4],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 167,
+        "evolve_to": ""
     },
     {
         "id": 169,
         "name": "crobat",
         "types": ["poison", "flying"],
-        "family": "zubat",
+        "family": "spinarak",
         "tier": 1,
         "family_id": 85,
         "type_id": [4, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 170,
@@ -1864,10 +2202,12 @@
         "types": ["water", "electric"],
         "family": "chinchou",
         "tier": 1,
-        "family_id": 86,
+        "family_id": 87,
         "type_id": [11, 13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 171
     },
     {
         "id": 171,
@@ -1875,10 +2215,12 @@
         "types": ["water", "electric"],
         "family": "chinchou",
         "tier": 2,
-        "family_id": 86,
+        "family_id": 87,
         "type_id": [11, 13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 170,
+        "evolve_to": ""
     },
     {
         "id": 172,
@@ -1886,10 +2228,12 @@
         "types": ["electric"],
         "family": "pichu",
         "tier": 1,
-        "family_id": 87,
+        "family_id": 88,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 173,
@@ -1900,7 +2244,9 @@
         "family_id": 89,
         "type_id": [18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 174,
@@ -1911,7 +2257,9 @@
         "family_id": 90,
         "type_id": [1, 18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 175,
@@ -1922,7 +2270,9 @@
         "family_id": 91,
         "type_id": [18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 176
     },
     {
         "id": 176,
@@ -1933,7 +2283,9 @@
         "family_id": 91,
         "type_id": [18, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 175,
+        "evolve_to": ""
     },
     {
         "id": 177,
@@ -1944,7 +2296,9 @@
         "family_id": 92,
         "type_id": [14, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 178
     },
     {
         "id": 178,
@@ -1955,7 +2309,9 @@
         "family_id": 92,
         "type_id": [14, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 177,
+        "evolve_to": ""
     },
     {
         "id": 179,
@@ -1966,7 +2322,9 @@
         "family_id": 93,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 180
     },
     {
         "id": 180,
@@ -1977,7 +2335,9 @@
         "family_id": 93,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 179,
+        "evolve_to": 181
     },
     {
         "id": 181,
@@ -1988,7 +2348,9 @@
         "family_id": 93,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 180,
+        "evolve_to": ""
     },
     {
         "id": 182,
@@ -1999,7 +2361,9 @@
         "family_id": 94,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 183,
@@ -2010,7 +2374,9 @@
         "family_id": 95,
         "type_id": [11, 18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 184
     },
     {
         "id": 184,
@@ -2021,7 +2387,9 @@
         "family_id": 95,
         "type_id": [11, 18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 183,
+        "evolve_to": ""
     },
     {
         "id": 185,
@@ -2032,7 +2400,9 @@
         "family_id": 96,
         "type_id": [6],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 186,
@@ -2043,7 +2413,9 @@
         "family_id": 97,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 187,
@@ -2054,7 +2426,9 @@
         "family_id": 98,
         "type_id": [12, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 188
     },
     {
         "id": 188,
@@ -2065,7 +2439,9 @@
         "family_id": 98,
         "type_id": [12, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 187,
+        "evolve_to": 189
     },
     {
         "id": 189,
@@ -2076,7 +2452,9 @@
         "family_id": 98,
         "type_id": [12, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 188,
+        "evolve_to": ""
     },
     {
         "id": 190,
@@ -2087,7 +2465,9 @@
         "family_id": 99,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 191,
@@ -2098,7 +2478,9 @@
         "family_id": 100,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 192
     },
     {
         "id": 192,
@@ -2109,7 +2491,9 @@
         "family_id": 100,
         "type_id": [12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 191,
+        "evolve_to": ""
     },
     {
         "id": 193,
@@ -2120,7 +2504,9 @@
         "family_id": 101,
         "type_id": [7, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 194,
@@ -2131,7 +2517,9 @@
         "family_id": 102,
         "type_id": [11, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 195
     },
     {
         "id": 195,
@@ -2142,7 +2530,9 @@
         "family_id": 102,
         "type_id": [11, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 194,
+        "evolve_to": ""
     },
     {
         "id": 196,
@@ -2153,7 +2543,9 @@
         "family_id": 103,
         "type_id": [14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 197
     },
     {
         "id": 197,
@@ -2164,7 +2556,9 @@
         "family_id": 103,
         "type_id": [17],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 196,
+        "evolve_to": ""
     },
     {
         "id": 198,
@@ -2175,7 +2569,9 @@
         "family_id": 104,
         "type_id": [17, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 199,
@@ -2186,7 +2582,9 @@
         "family_id": 105,
         "type_id": [11, 14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 200,
@@ -2197,7 +2595,9 @@
         "family_id": 106,
         "type_id": [8],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 201,
@@ -2208,7 +2608,9 @@
         "family_id": 107,
         "type_id": [14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 202,
@@ -2219,7 +2621,9 @@
         "family_id": 108,
         "type_id": [14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 203,
@@ -2230,7 +2634,9 @@
         "family_id": 109,
         "type_id": [1, 14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 204,
@@ -2241,7 +2647,9 @@
         "family_id": 110,
         "type_id": [7],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 205
     },
     {
         "id": 205,
@@ -2252,7 +2660,9 @@
         "family_id": 110,
         "type_id": [7, 9],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 204,
+        "evolve_to": ""
     },
     {
         "id": 206,
@@ -2263,7 +2673,9 @@
         "family_id": 111,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 207,
@@ -2274,7 +2686,9 @@
         "family_id": 112,
         "type_id": [5, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 208,
@@ -2285,7 +2699,9 @@
         "family_id": 113,
         "type_id": [9, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 209,
@@ -2296,7 +2712,9 @@
         "family_id": 114,
         "type_id": [18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 210
     },
     {
         "id": 210,
@@ -2307,7 +2725,9 @@
         "family_id": 114,
         "type_id": [18],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 209,
+        "evolve_to": ""
     },
     {
         "id": 211,
@@ -2318,7 +2738,9 @@
         "family_id": 115,
         "type_id": [11, 4],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 212,
@@ -2329,7 +2751,9 @@
         "family_id": 116,
         "type_id": [7, 9],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 213,
@@ -2340,7 +2764,9 @@
         "family_id": 117,
         "type_id": [7, 6],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 214,
@@ -2351,7 +2777,9 @@
         "family_id": 118,
         "type_id": [7, 2],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 215,
@@ -2362,7 +2790,9 @@
         "family_id": 119,
         "type_id": [17, 15],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 216,
@@ -2373,7 +2803,9 @@
         "family_id": 120,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 217
     },
     {
         "id": 217,
@@ -2384,7 +2816,9 @@
         "family_id": 120,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 216,
+        "evolve_to": ""
     },
     {
         "id": 218,
@@ -2395,7 +2829,9 @@
         "family_id": 121,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 219
     },
     {
         "id": 219,
@@ -2406,7 +2842,9 @@
         "family_id": 121,
         "type_id": [10, 6],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 218,
+        "evolve_to": ""
     },
     {
         "id": 220,
@@ -2417,7 +2855,9 @@
         "family_id": 122,
         "type_id": [15, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 221
     },
     {
         "id": 221,
@@ -2428,7 +2868,9 @@
         "family_id": 122,
         "type_id": [15, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 220,
+        "evolve_to": ""
     },
     {
         "id": 222,
@@ -2439,7 +2881,9 @@
         "family_id": 123,
         "type_id": [11, 6],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 223,
@@ -2450,7 +2894,9 @@
         "family_id": 124,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 224
     },
     {
         "id": 224,
@@ -2461,7 +2907,9 @@
         "family_id": 124,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 223,
+        "evolve_to": ""
     },
     {
         "id": 225,
@@ -2472,7 +2920,9 @@
         "family_id": 125,
         "type_id": [15, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 226,
@@ -2483,7 +2933,9 @@
         "family_id": 126,
         "type_id": [11, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 227,
@@ -2494,7 +2946,9 @@
         "family_id": 127,
         "type_id": [9, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 228,
@@ -2505,7 +2959,9 @@
         "family_id": 128,
         "type_id": [17, 10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 229
     },
     {
         "id": 229,
@@ -2516,7 +2972,9 @@
         "family_id": 128,
         "type_id": [17, 10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 228,
+        "evolve_to": ""
     },
     {
         "id": 230,
@@ -2527,7 +2985,9 @@
         "family_id": 129,
         "type_id": [11, 16],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 231,
@@ -2538,7 +2998,9 @@
         "family_id": 130,
         "type_id": [5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 232
     },
     {
         "id": 232,
@@ -2549,7 +3011,9 @@
         "family_id": 130,
         "type_id": [5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 231,
+        "evolve_to": ""
     },
     {
         "id": 233,
@@ -2560,7 +3024,9 @@
         "family_id": 131,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 234,
@@ -2571,7 +3037,9 @@
         "family_id": 132,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 235,
@@ -2582,7 +3050,9 @@
         "family_id": 133,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 236,
@@ -2593,7 +3063,9 @@
         "family_id": 134,
         "type_id": [2],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 237
     },
     {
         "id": 237,
@@ -2604,7 +3076,9 @@
         "family_id": 134,
         "type_id": [2],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 236,
+        "evolve_to": ""
     },
     {
         "id": 238,
@@ -2615,7 +3089,9 @@
         "family_id": 135,
         "type_id": [15, 14],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 239,
@@ -2626,7 +3102,9 @@
         "family_id": 136,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 240,
@@ -2637,7 +3115,9 @@
         "family_id": 137,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 241,
@@ -2648,7 +3128,9 @@
         "family_id": 138,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 242,
@@ -2659,7 +3141,9 @@
         "family_id": 139,
         "type_id": [1],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 243,
@@ -2670,7 +3154,9 @@
         "family_id": 140,
         "type_id": [13],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 244,
@@ -2681,7 +3167,9 @@
         "family_id": 141,
         "type_id": [10],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 245,
@@ -2692,7 +3180,9 @@
         "family_id": 142,
         "type_id": [11],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 246,
@@ -2703,7 +3193,9 @@
         "family_id": 143,
         "type_id": [6, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": 247
     },
     {
         "id": 247,
@@ -2714,7 +3206,9 @@
         "family_id": 143,
         "type_id": [6, 5],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 246,
+        "evolve_to": 248
     },
     {
         "id": 248,
@@ -2725,7 +3219,9 @@
         "family_id": 143,
         "type_id": [6, 17],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": 247,
+        "evolve_to": ""
     },
     {
         "id": 249,
@@ -2736,7 +3232,9 @@
         "family_id": 144,
         "type_id": [14, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 250,
@@ -2747,7 +3245,9 @@
         "family_id": 145,
         "type_id": [10, 3],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 251,
@@ -2758,7 +3258,9 @@
         "family_id": 146,
         "type_id": [14, 12],
         "region_id": 2,
-        "region": "Johto"
+        "region": "Johto",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 252,
@@ -2769,7 +3271,9 @@
         "family_id": 147,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 253
     },
     {
         "id": 253,
@@ -2780,7 +3284,9 @@
         "family_id": 147,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 252,
+        "evolve_to": 254
     },
     {
         "id": 254,
@@ -2791,7 +3297,9 @@
         "family_id": 147,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 253,
+        "evolve_to": ""
     },
     {
         "id": 255,
@@ -2802,7 +3310,9 @@
         "family_id": 148,
         "type_id": [10],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 256
     },
     {
         "id": 256,
@@ -2813,7 +3323,9 @@
         "family_id": 148,
         "type_id": [10, 2],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 255,
+        "evolve_to": 257
     },
     {
         "id": 257,
@@ -2824,7 +3336,9 @@
         "family_id": 148,
         "type_id": [10, 2],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 256,
+        "evolve_to": ""
     },
     {
         "id": 258,
@@ -2835,7 +3349,9 @@
         "family_id": 149,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 259
     },
     {
         "id": 259,
@@ -2846,7 +3362,9 @@
         "family_id": 149,
         "type_id": [11, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 258,
+        "evolve_to": 260
     },
     {
         "id": 260,
@@ -2857,7 +3375,9 @@
         "family_id": 149,
         "type_id": [11, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 259,
+        "evolve_to": ""
     },
     {
         "id": 261,
@@ -2868,7 +3388,9 @@
         "family_id": 150,
         "type_id": [17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 262
     },
     {
         "id": 262,
@@ -2879,7 +3401,9 @@
         "family_id": 150,
         "type_id": [17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 261,
+        "evolve_to": ""
     },
     {
         "id": 263,
@@ -2890,7 +3414,9 @@
         "family_id": 151,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 264
     },
     {
         "id": 264,
@@ -2901,7 +3427,9 @@
         "family_id": 151,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 263,
+        "evolve_to": ""
     },
     {
         "id": 265,
@@ -2912,7 +3440,9 @@
         "family_id": 152,
         "type_id": [7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 266
     },
     {
         "id": 266,
@@ -2923,7 +3453,9 @@
         "family_id": 152,
         "type_id": [7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 265,
+        "evolve_to": 267
     },
     {
         "id": 267,
@@ -2934,7 +3466,9 @@
         "family_id": 152,
         "type_id": [7, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 266,
+        "evolve_to": 268
     },
     {
         "id": 268,
@@ -2945,7 +3479,9 @@
         "family_id": 152,
         "type_id": [7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 267,
+        "evolve_to": 269
     },
     {
         "id": 269,
@@ -2956,7 +3492,9 @@
         "family_id": 152,
         "type_id": [7, 4],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 268,
+        "evolve_to": ""
     },
     {
         "id": 270,
@@ -2967,7 +3505,9 @@
         "family_id": 153,
         "type_id": [11, 12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 271
     },
     {
         "id": 271,
@@ -2978,7 +3518,9 @@
         "family_id": 153,
         "type_id": [11, 12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 270,
+        "evolve_to": 272
     },
     {
         "id": 272,
@@ -2989,7 +3531,9 @@
         "family_id": 153,
         "type_id": [11, 12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 271,
+        "evolve_to": ""
     },
     {
         "id": 273,
@@ -3000,7 +3544,9 @@
         "family_id": 154,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 274
     },
     {
         "id": 274,
@@ -3011,7 +3557,9 @@
         "family_id": 154,
         "type_id": [12, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 273,
+        "evolve_to": 275
     },
     {
         "id": 275,
@@ -3022,7 +3570,9 @@
         "family_id": 154,
         "type_id": [12, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 274,
+        "evolve_to": ""
     },
     {
         "id": 276,
@@ -3033,7 +3583,9 @@
         "family_id": 155,
         "type_id": [1, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 277
     },
     {
         "id": 277,
@@ -3044,7 +3596,9 @@
         "family_id": 155,
         "type_id": [1, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 276,
+        "evolve_to": ""
     },
     {
         "id": 278,
@@ -3055,7 +3609,9 @@
         "family_id": 156,
         "type_id": [11, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 279
     },
     {
         "id": 279,
@@ -3066,7 +3622,9 @@
         "family_id": 156,
         "type_id": [11, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 278,
+        "evolve_to": ""
     },
     {
         "id": 280,
@@ -3077,7 +3635,9 @@
         "family_id": 157,
         "type_id": [14, 18],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 281
     },
     {
         "id": 281,
@@ -3088,7 +3648,9 @@
         "family_id": 157,
         "type_id": [14, 18],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 280,
+        "evolve_to": 282
     },
     {
         "id": 282,
@@ -3099,7 +3661,9 @@
         "family_id": 157,
         "type_id": [14, 18],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 281,
+        "evolve_to": ""
     },
     {
         "id": 283,
@@ -3110,7 +3674,9 @@
         "family_id": 158,
         "type_id": [7, 11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 284
     },
     {
         "id": 284,
@@ -3121,7 +3687,9 @@
         "family_id": 158,
         "type_id": [7, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 283,
+        "evolve_to": ""
     },
     {
         "id": 285,
@@ -3132,7 +3700,9 @@
         "family_id": 159,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 286
     },
     {
         "id": 286,
@@ -3143,7 +3713,9 @@
         "family_id": 159,
         "type_id": [12, 2],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 285,
+        "evolve_to": ""
     },
     {
         "id": 287,
@@ -3154,7 +3726,9 @@
         "family_id": 160,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 288
     },
     {
         "id": 288,
@@ -3165,7 +3739,9 @@
         "family_id": 160,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 287,
+        "evolve_to": 289
     },
     {
         "id": 289,
@@ -3176,7 +3752,9 @@
         "family_id": 160,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 288,
+        "evolve_to": ""
     },
     {
         "id": 290,
@@ -3187,7 +3765,9 @@
         "family_id": 161,
         "type_id": [7, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 291
     },
     {
         "id": 291,
@@ -3198,7 +3778,9 @@
         "family_id": 161,
         "type_id": [7, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 290,
+        "evolve_to": 292
     },
     {
         "id": 292,
@@ -3209,7 +3791,9 @@
         "family_id": 161,
         "type_id": [7, 8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 291,
+        "evolve_to": ""
     },
     {
         "id": 293,
@@ -3220,7 +3804,9 @@
         "family_id": 162,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 294
     },
     {
         "id": 294,
@@ -3231,7 +3817,9 @@
         "family_id": 162,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 293,
+        "evolve_to": 295
     },
     {
         "id": 295,
@@ -3242,7 +3830,9 @@
         "family_id": 162,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 294,
+        "evolve_to": ""
     },
     {
         "id": 296,
@@ -3253,7 +3843,9 @@
         "family_id": 163,
         "type_id": [2],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 297
     },
     {
         "id": 297,
@@ -3264,7 +3856,9 @@
         "family_id": 163,
         "type_id": [2],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 296,
+        "evolve_to": ""
     },
     {
         "id": 298,
@@ -3275,7 +3869,9 @@
         "family_id": 164,
         "type_id": [1, 18],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 299,
@@ -3286,7 +3882,9 @@
         "family_id": 165,
         "type_id": [6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 300,
@@ -3297,7 +3895,9 @@
         "family_id": 166,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 301
     },
     {
         "id": 301,
@@ -3308,7 +3908,9 @@
         "family_id": 166,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 300,
+        "evolve_to": ""
     },
     {
         "id": 302,
@@ -3319,7 +3921,9 @@
         "family_id": 167,
         "type_id": [17, 8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 303,
@@ -3330,7 +3934,9 @@
         "family_id": 168,
         "type_id": [9, 18],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 304,
@@ -3341,7 +3947,9 @@
         "family_id": 169,
         "type_id": [9, 6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 305
     },
     {
         "id": 305,
@@ -3352,7 +3960,9 @@
         "family_id": 169,
         "type_id": [9, 6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 304,
+        "evolve_to": 306
     },
     {
         "id": 306,
@@ -3363,7 +3973,9 @@
         "family_id": 169,
         "type_id": [9, 6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 305,
+        "evolve_to": ""
     },
     {
         "id": 307,
@@ -3374,7 +3986,9 @@
         "family_id": 170,
         "type_id": [2, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 308
     },
     {
         "id": 308,
@@ -3385,7 +3999,9 @@
         "family_id": 170,
         "type_id": [2, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 307,
+        "evolve_to": ""
     },
     {
         "id": 309,
@@ -3396,7 +4012,9 @@
         "family_id": 171,
         "type_id": [13],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 310
     },
     {
         "id": 310,
@@ -3407,7 +4025,9 @@
         "family_id": 171,
         "type_id": [13],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 309,
+        "evolve_to": ""
     },
     {
         "id": 311,
@@ -3418,7 +4038,9 @@
         "family_id": 172,
         "type_id": [13],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 312,
@@ -3429,7 +4051,9 @@
         "family_id": 173,
         "type_id": [13],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 313,
@@ -3440,7 +4064,9 @@
         "family_id": 174,
         "type_id": [7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 314,
@@ -3451,7 +4077,9 @@
         "family_id": 175,
         "type_id": [7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 315,
@@ -3462,7 +4090,9 @@
         "family_id": 176,
         "type_id": [12, 4],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 316,
@@ -3473,7 +4103,9 @@
         "family_id": 177,
         "type_id": [4],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 317
     },
     {
         "id": 317,
@@ -3484,7 +4116,9 @@
         "family_id": 177,
         "type_id": [4],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 316,
+        "evolve_to": ""
     },
     {
         "id": 318,
@@ -3495,7 +4129,9 @@
         "family_id": 178,
         "type_id": [11, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 319
     },
     {
         "id": 319,
@@ -3506,7 +4142,9 @@
         "family_id": 178,
         "type_id": [11, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 318,
+        "evolve_to": ""
     },
     {
         "id": 320,
@@ -3517,7 +4155,9 @@
         "family_id": 179,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 321
     },
     {
         "id": 321,
@@ -3528,7 +4168,9 @@
         "family_id": 179,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 320,
+        "evolve_to": ""
     },
     {
         "id": 322,
@@ -3539,7 +4181,9 @@
         "family_id": 180,
         "type_id": [10, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 323
     },
     {
         "id": 323,
@@ -3550,7 +4194,9 @@
         "family_id": 180,
         "type_id": [10, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 322,
+        "evolve_to": ""
     },
     {
         "id": 324,
@@ -3561,7 +4207,9 @@
         "family_id": 181,
         "type_id": [10],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 325,
@@ -3572,7 +4220,9 @@
         "family_id": 182,
         "type_id": [14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 326
     },
     {
         "id": 326,
@@ -3583,7 +4233,9 @@
         "family_id": 182,
         "type_id": [14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 325,
+        "evolve_to": ""
     },
     {
         "id": 327,
@@ -3594,7 +4246,9 @@
         "family_id": 183,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 328,
@@ -3605,7 +4259,9 @@
         "family_id": 184,
         "type_id": [5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 329
     },
     {
         "id": 329,
@@ -3616,7 +4272,9 @@
         "family_id": 184,
         "type_id": [5, 16],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 328,
+        "evolve_to": 330
     },
     {
         "id": 330,
@@ -3627,7 +4285,9 @@
         "family_id": 184,
         "type_id": [5, 16],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 329,
+        "evolve_to": ""
     },
     {
         "id": 331,
@@ -3638,7 +4298,9 @@
         "family_id": 185,
         "type_id": [12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 332
     },
     {
         "id": 332,
@@ -3649,7 +4311,9 @@
         "family_id": 185,
         "type_id": [12, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 331,
+        "evolve_to": ""
     },
     {
         "id": 333,
@@ -3660,7 +4324,9 @@
         "family_id": 186,
         "type_id": [1, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 334
     },
     {
         "id": 334,
@@ -3671,7 +4337,9 @@
         "family_id": 186,
         "type_id": [16, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 333,
+        "evolve_to": ""
     },
     {
         "id": 335,
@@ -3682,7 +4350,9 @@
         "family_id": 187,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 336,
@@ -3693,7 +4363,9 @@
         "family_id": 188,
         "type_id": [4],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 337,
@@ -3704,7 +4376,9 @@
         "family_id": 189,
         "type_id": [6, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 338,
@@ -3715,7 +4389,9 @@
         "family_id": 190,
         "type_id": [6, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 339,
@@ -3726,7 +4402,9 @@
         "family_id": 191,
         "type_id": [11, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 340
     },
     {
         "id": 340,
@@ -3737,7 +4415,9 @@
         "family_id": 191,
         "type_id": [11, 5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 339,
+        "evolve_to": ""
     },
     {
         "id": 341,
@@ -3748,7 +4428,9 @@
         "family_id": 192,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 342
     },
     {
         "id": 342,
@@ -3759,7 +4441,9 @@
         "family_id": 192,
         "type_id": [11, 17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 341,
+        "evolve_to": ""
     },
     {
         "id": 343,
@@ -3770,7 +4454,9 @@
         "family_id": 193,
         "type_id": [5, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 344
     },
     {
         "id": 344,
@@ -3781,7 +4467,9 @@
         "family_id": 193,
         "type_id": [5, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 343,
+        "evolve_to": ""
     },
     {
         "id": 345,
@@ -3792,7 +4480,9 @@
         "family_id": 194,
         "type_id": [6, 12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 346
     },
     {
         "id": 346,
@@ -3803,7 +4493,9 @@
         "family_id": 194,
         "type_id": [6, 12],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 345,
+        "evolve_to": ""
     },
     {
         "id": 347,
@@ -3814,7 +4506,9 @@
         "family_id": 195,
         "type_id": [6, 7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 348
     },
     {
         "id": 348,
@@ -3825,7 +4519,9 @@
         "family_id": 195,
         "type_id": [6, 7],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 347,
+        "evolve_to": ""
     },
     {
         "id": 349,
@@ -3836,7 +4532,9 @@
         "family_id": 196,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 350
     },
     {
         "id": 350,
@@ -3847,7 +4545,9 @@
         "family_id": 196,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 349,
+        "evolve_to": ""
     },
     {
         "id": 351,
@@ -3858,7 +4558,9 @@
         "family_id": 197,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 352,
@@ -3869,7 +4571,9 @@
         "family_id": 198,
         "type_id": [1],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 353,
@@ -3880,7 +4584,9 @@
         "family_id": 199,
         "type_id": [8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 354
     },
     {
         "id": 354,
@@ -3891,7 +4597,9 @@
         "family_id": 199,
         "type_id": [8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 353,
+        "evolve_to": ""
     },
     {
         "id": 355,
@@ -3902,7 +4610,9 @@
         "family_id": 200,
         "type_id": [8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 356
     },
     {
         "id": 356,
@@ -3913,7 +4623,9 @@
         "family_id": 200,
         "type_id": [8],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 355,
+        "evolve_to": ""
     },
     {
         "id": 357,
@@ -3924,7 +4636,9 @@
         "family_id": 201,
         "type_id": [12, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 358,
@@ -3935,7 +4649,9 @@
         "family_id": 202,
         "type_id": [14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 359,
@@ -3946,7 +4662,9 @@
         "family_id": 203,
         "type_id": [17],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 360,
@@ -3957,7 +4675,9 @@
         "family_id": 204,
         "type_id": [14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 361,
@@ -3968,7 +4688,9 @@
         "family_id": 205,
         "type_id": [15],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 362
     },
     {
         "id": 362,
@@ -3979,7 +4701,9 @@
         "family_id": 205,
         "type_id": [15],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 361,
+        "evolve_to": ""
     },
     {
         "id": 363,
@@ -3990,7 +4714,9 @@
         "family_id": 206,
         "type_id": [15, 11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 364
     },
     {
         "id": 364,
@@ -4001,7 +4727,9 @@
         "family_id": 206,
         "type_id": [15, 11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 363,
+        "evolve_to": 365
     },
     {
         "id": 365,
@@ -4012,7 +4740,9 @@
         "family_id": 206,
         "type_id": [15, 11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 364,
+        "evolve_to": ""
     },
     {
         "id": 366,
@@ -4023,7 +4753,9 @@
         "family_id": 207,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 367
     },
     {
         "id": 367,
@@ -4034,7 +4766,9 @@
         "family_id": 207,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 366,
+        "evolve_to": 368
     },
     {
         "id": 368,
@@ -4045,7 +4779,9 @@
         "family_id": 207,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 367,
+        "evolve_to": ""
     },
     {
         "id": 369,
@@ -4056,7 +4792,9 @@
         "family_id": 208,
         "type_id": [11, 6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 370,
@@ -4067,7 +4805,9 @@
         "family_id": 209,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 371,
@@ -4078,7 +4818,9 @@
         "family_id": 210,
         "type_id": [16],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 372
     },
     {
         "id": 372,
@@ -4089,7 +4831,9 @@
         "family_id": 210,
         "type_id": [16],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 371,
+        "evolve_to": 373
     },
     {
         "id": 373,
@@ -4100,7 +4844,9 @@
         "family_id": 210,
         "type_id": [16, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 372,
+        "evolve_to": ""
     },
     {
         "id": 374,
@@ -4111,7 +4857,9 @@
         "family_id": 211,
         "type_id": [9, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": 375
     },
     {
         "id": 375,
@@ -4122,7 +4870,9 @@
         "family_id": 211,
         "type_id": [9, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 374,
+        "evolve_to": 376
     },
     {
         "id": 376,
@@ -4133,7 +4883,9 @@
         "family_id": 211,
         "type_id": [9, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": 375,
+        "evolve_to": ""
     },
     {
         "id": 377,
@@ -4144,7 +4896,9 @@
         "family_id": 212,
         "type_id": [6],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 378,
@@ -4155,7 +4909,9 @@
         "family_id": 213,
         "type_id": [15],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 379,
@@ -4166,7 +4922,9 @@
         "family_id": 214,
         "type_id": [9],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 380,
@@ -4177,7 +4935,9 @@
         "family_id": 215,
         "type_id": [16, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 381,
@@ -4188,7 +4948,9 @@
         "family_id": 216,
         "type_id": [16, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 382,
@@ -4199,7 +4961,9 @@
         "family_id": 217,
         "type_id": [11],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 383,
@@ -4210,7 +4974,9 @@
         "family_id": 218,
         "type_id": [5],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 384,
@@ -4221,7 +4987,9 @@
         "family_id": 219,
         "type_id": [16, 3],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 385,
@@ -4232,7 +5000,9 @@
         "family_id": 220,
         "type_id": [9, 14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 386,
@@ -4243,7 +5013,9 @@
         "family_id": 221,
         "type_id": [14],
         "region_id": 3,
-        "region": "Hoen"
+        "region": "Hoen",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 387,
@@ -4254,7 +5026,9 @@
         "family_id": 222,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 388
     },
     {
         "id": 388,
@@ -4265,7 +5039,9 @@
         "family_id": 222,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 387,
+        "evolve_to": 389
     },
     {
         "id": 389,
@@ -4276,7 +5052,9 @@
         "family_id": 222,
         "type_id": [12, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 388,
+        "evolve_to": ""
     },
     {
         "id": 390,
@@ -4287,7 +5065,9 @@
         "family_id": 223,
         "type_id": [10],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 391
     },
     {
         "id": 391,
@@ -4298,7 +5078,9 @@
         "family_id": 223,
         "type_id": [10, 2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 390,
+        "evolve_to": 392
     },
     {
         "id": 392,
@@ -4309,7 +5091,9 @@
         "family_id": 223,
         "type_id": [10, 2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 391,
+        "evolve_to": ""
     },
     {
         "id": 393,
@@ -4320,7 +5104,9 @@
         "family_id": 224,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 394
     },
     {
         "id": 394,
@@ -4331,7 +5117,9 @@
         "family_id": 224,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 393,
+        "evolve_to": 395
     },
     {
         "id": 395,
@@ -4342,7 +5130,9 @@
         "family_id": 224,
         "type_id": [11, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 394,
+        "evolve_to": ""
     },
     {
         "id": 396,
@@ -4353,7 +5143,9 @@
         "family_id": 225,
         "type_id": [1, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 397
     },
     {
         "id": 397,
@@ -4364,7 +5156,9 @@
         "family_id": 225,
         "type_id": [1, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 396,
+        "evolve_to": 398
     },
     {
         "id": 398,
@@ -4375,7 +5169,9 @@
         "family_id": 225,
         "type_id": [1, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 397,
+        "evolve_to": ""
     },
     {
         "id": 399,
@@ -4386,7 +5182,9 @@
         "family_id": 226,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 400
     },
     {
         "id": 400,
@@ -4397,7 +5195,9 @@
         "family_id": 226,
         "type_id": [1, 11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 399,
+        "evolve_to": ""
     },
     {
         "id": 401,
@@ -4408,7 +5208,9 @@
         "family_id": 227,
         "type_id": [7],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 402
     },
     {
         "id": 402,
@@ -4419,7 +5221,9 @@
         "family_id": 227,
         "type_id": [7],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 401,
+        "evolve_to": ""
     },
     {
         "id": 403,
@@ -4430,7 +5234,9 @@
         "family_id": 228,
         "type_id": [13],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 404
     },
     {
         "id": 404,
@@ -4441,7 +5247,9 @@
         "family_id": 228,
         "type_id": [13],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 403,
+        "evolve_to": 405
     },
     {
         "id": 405,
@@ -4452,7 +5260,9 @@
         "family_id": 228,
         "type_id": [13],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 404,
+        "evolve_to": ""
     },
     {
         "id": 406,
@@ -4463,7 +5273,9 @@
         "family_id": 229,
         "type_id": [12, 4],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 407
     },
     {
         "id": 407,
@@ -4474,7 +5286,9 @@
         "family_id": 229,
         "type_id": [12, 4],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 406,
+        "evolve_to": ""
     },
     {
         "id": 408,
@@ -4485,7 +5299,9 @@
         "family_id": 230,
         "type_id": [6],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 409
     },
     {
         "id": 409,
@@ -4496,7 +5312,9 @@
         "family_id": 230,
         "type_id": [6],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 408,
+        "evolve_to": ""
     },
     {
         "id": 410,
@@ -4507,7 +5325,9 @@
         "family_id": 231,
         "type_id": [6, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 411
     },
     {
         "id": 411,
@@ -4518,7 +5338,9 @@
         "family_id": 231,
         "type_id": [6, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 410,
+        "evolve_to": ""
     },
     {
         "id": 412,
@@ -4529,7 +5351,9 @@
         "family_id": 232,
         "type_id": [7],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 413
     },
     {
         "id": 413,
@@ -4540,7 +5364,9 @@
         "family_id": 232,
         "type_id": [7, 12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 412,
+        "evolve_to": 414
     },
     {
         "id": 414,
@@ -4551,7 +5377,9 @@
         "family_id": 232,
         "type_id": [7, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 413,
+        "evolve_to": ""
     },
     {
         "id": 415,
@@ -4562,7 +5390,9 @@
         "family_id": 233,
         "type_id": [7, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 416
     },
     {
         "id": 416,
@@ -4573,7 +5403,9 @@
         "family_id": 233,
         "type_id": [7, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 415,
+        "evolve_to": ""
     },
     {
         "id": 417,
@@ -4584,7 +5416,9 @@
         "family_id": 234,
         "type_id": [13],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 418,
@@ -4595,7 +5429,9 @@
         "family_id": 235,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 419
     },
     {
         "id": 419,
@@ -4606,7 +5442,9 @@
         "family_id": 235,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 418,
+        "evolve_to": ""
     },
     {
         "id": 420,
@@ -4617,7 +5455,9 @@
         "family_id": 236,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 421
     },
     {
         "id": 421,
@@ -4628,7 +5468,9 @@
         "family_id": 236,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 420,
+        "evolve_to": ""
     },
     {
         "id": 422,
@@ -4639,7 +5481,9 @@
         "family_id": 237,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 423
     },
     {
         "id": 423,
@@ -4650,7 +5494,9 @@
         "family_id": 237,
         "type_id": [11, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 422,
+        "evolve_to": ""
     },
     {
         "id": 424,
@@ -4661,7 +5507,9 @@
         "family_id": 238,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 425,
@@ -4672,7 +5520,9 @@
         "family_id": 239,
         "type_id": [8, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 426
     },
     {
         "id": 426,
@@ -4683,7 +5533,9 @@
         "family_id": 239,
         "type_id": [8, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 425,
+        "evolve_to": ""
     },
     {
         "id": 427,
@@ -4694,7 +5546,9 @@
         "family_id": 240,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 428
     },
     {
         "id": 428,
@@ -4705,7 +5559,9 @@
         "family_id": 240,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 427,
+        "evolve_to": ""
     },
     {
         "id": 429,
@@ -4716,7 +5572,9 @@
         "family_id": 241,
         "type_id": [8],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 430,
@@ -4727,7 +5585,9 @@
         "family_id": 242,
         "type_id": [17, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 431,
@@ -4738,7 +5598,9 @@
         "family_id": 243,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 432
     },
     {
         "id": 432,
@@ -4749,7 +5611,9 @@
         "family_id": 243,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 431,
+        "evolve_to": ""
     },
     {
         "id": 433,
@@ -4760,7 +5624,9 @@
         "family_id": 244,
         "type_id": [14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 434,
@@ -4771,7 +5637,9 @@
         "family_id": 245,
         "type_id": [4, 17],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 435
     },
     {
         "id": 435,
@@ -4782,7 +5650,9 @@
         "family_id": 245,
         "type_id": [4, 17],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 434,
+        "evolve_to": ""
     },
     {
         "id": 436,
@@ -4793,7 +5663,9 @@
         "family_id": 246,
         "type_id": [9, 14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 437
     },
     {
         "id": 437,
@@ -4804,7 +5676,9 @@
         "family_id": 246,
         "type_id": [9, 14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 436,
+        "evolve_to": ""
     },
     {
         "id": 438,
@@ -4815,7 +5689,9 @@
         "family_id": 247,
         "type_id": [6],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 439,
@@ -4826,7 +5702,9 @@
         "family_id": 248,
         "type_id": [14, 18],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 440,
@@ -4837,7 +5715,9 @@
         "family_id": 249,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 441,
@@ -4848,7 +5728,9 @@
         "family_id": 250,
         "type_id": [1, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 442,
@@ -4859,7 +5741,9 @@
         "family_id": 251,
         "type_id": [8, 17],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 443,
@@ -4870,7 +5754,9 @@
         "family_id": 252,
         "type_id": [16, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 444
     },
     {
         "id": 444,
@@ -4881,7 +5767,9 @@
         "family_id": 252,
         "type_id": [16, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 443,
+        "evolve_to": 445
     },
     {
         "id": 445,
@@ -4892,7 +5780,9 @@
         "family_id": 252,
         "type_id": [16, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 444,
+        "evolve_to": ""
     },
     {
         "id": 446,
@@ -4903,7 +5793,9 @@
         "family_id": 253,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 447,
@@ -4914,7 +5806,9 @@
         "family_id": 254,
         "type_id": [2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 448
     },
     {
         "id": 448,
@@ -4925,7 +5819,9 @@
         "family_id": 254,
         "type_id": [2, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 447,
+        "evolve_to": ""
     },
     {
         "id": 449,
@@ -4936,7 +5832,9 @@
         "family_id": 255,
         "type_id": [5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 450
     },
     {
         "id": 450,
@@ -4947,7 +5845,9 @@
         "family_id": 255,
         "type_id": [5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 449,
+        "evolve_to": ""
     },
     {
         "id": 451,
@@ -4958,7 +5858,9 @@
         "family_id": 256,
         "type_id": [4, 7],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 452
     },
     {
         "id": 452,
@@ -4969,7 +5871,9 @@
         "family_id": 256,
         "type_id": [4, 17],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 451,
+        "evolve_to": ""
     },
     {
         "id": 453,
@@ -4980,7 +5884,9 @@
         "family_id": 257,
         "type_id": [4, 2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 454
     },
     {
         "id": 454,
@@ -4991,7 +5897,9 @@
         "family_id": 257,
         "type_id": [4, 2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 453,
+        "evolve_to": ""
     },
     {
         "id": 455,
@@ -5002,7 +5910,9 @@
         "family_id": 258,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 456,
@@ -5013,7 +5923,9 @@
         "family_id": 259,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 457
     },
     {
         "id": 457,
@@ -5024,7 +5936,9 @@
         "family_id": 259,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 456,
+        "evolve_to": ""
     },
     {
         "id": 458,
@@ -5035,7 +5949,9 @@
         "family_id": 260,
         "type_id": [11, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 459,
@@ -5046,7 +5962,9 @@
         "family_id": 261,
         "type_id": [12, 15],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 460
     },
     {
         "id": 460,
@@ -5057,7 +5975,9 @@
         "family_id": 261,
         "type_id": [12, 15],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 459,
+        "evolve_to": ""
     },
     {
         "id": 461,
@@ -5068,7 +5988,9 @@
         "family_id": 262,
         "type_id": [17, 15],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 462,
@@ -5079,7 +6001,9 @@
         "family_id": 263,
         "type_id": [13, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 463,
@@ -5090,7 +6014,9 @@
         "family_id": 264,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 464,
@@ -5101,7 +6027,9 @@
         "family_id": 265,
         "type_id": [5, 6],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 465,
@@ -5112,7 +6040,9 @@
         "family_id": 266,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 466,
@@ -5123,7 +6053,9 @@
         "family_id": 267,
         "type_id": [13],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 467,
@@ -5134,7 +6066,9 @@
         "family_id": 268,
         "type_id": [10],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 468,
@@ -5145,7 +6079,9 @@
         "family_id": 269,
         "type_id": [18, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 469,
@@ -5156,7 +6092,9 @@
         "family_id": 270,
         "type_id": [7, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 470,
@@ -5167,7 +6105,9 @@
         "family_id": 271,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 471
     },
     {
         "id": 471,
@@ -5178,7 +6118,9 @@
         "family_id": 271,
         "type_id": [15],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 470,
+        "evolve_to": ""
     },
     {
         "id": 472,
@@ -5189,7 +6131,9 @@
         "family_id": 272,
         "type_id": [5, 3],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 473,
@@ -5200,7 +6144,9 @@
         "family_id": 273,
         "type_id": [15, 5],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 474,
@@ -5211,7 +6157,9 @@
         "family_id": 274,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 475,
@@ -5222,7 +6170,9 @@
         "family_id": 275,
         "type_id": [14, 2],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 476,
@@ -5233,7 +6183,9 @@
         "family_id": 276,
         "type_id": [6, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 477,
@@ -5244,7 +6196,9 @@
         "family_id": 277,
         "type_id": [8],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 478,
@@ -5255,7 +6209,9 @@
         "family_id": 278,
         "type_id": [15, 8],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 479,
@@ -5266,7 +6222,9 @@
         "family_id": 279,
         "type_id": [13, 8],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 480,
@@ -5277,7 +6235,9 @@
         "family_id": 280,
         "type_id": [14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 481,
@@ -5288,7 +6248,9 @@
         "family_id": 281,
         "type_id": [14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 482,
@@ -5299,7 +6261,9 @@
         "family_id": 282,
         "type_id": [14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 483,
@@ -5310,7 +6274,9 @@
         "family_id": 283,
         "type_id": [9, 16],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 484,
@@ -5321,7 +6287,9 @@
         "family_id": 284,
         "type_id": [11, 16],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 485,
@@ -5332,7 +6300,9 @@
         "family_id": 285,
         "type_id": [10, 9],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 486,
@@ -5343,7 +6313,9 @@
         "family_id": 286,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 487,
@@ -5354,7 +6326,9 @@
         "family_id": 287,
         "type_id": [8, 16],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 488,
@@ -5365,7 +6339,9 @@
         "family_id": 288,
         "type_id": [14],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 489,
@@ -5376,7 +6352,9 @@
         "family_id": 289,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": 490
     },
     {
         "id": 490,
@@ -5387,7 +6365,9 @@
         "family_id": 289,
         "type_id": [11],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": 489,
+        "evolve_to": ""
     },
     {
         "id": 491,
@@ -5398,7 +6378,9 @@
         "family_id": 290,
         "type_id": [17],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 492,
@@ -5409,7 +6391,9 @@
         "family_id": 291,
         "type_id": [12],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     },
     {
         "id": 493,
@@ -5420,7 +6404,8 @@
         "family_id": 292,
         "type_id": [1],
         "region_id": 4,
-        "region": "Sinnoh"
+        "region": "Sinnoh",
+        "evolve_from": "",
+        "evolve_to": ""
     }
 ]
-

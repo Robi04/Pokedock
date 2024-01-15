@@ -14,8 +14,7 @@ return new class extends Migration
         Schema::create('families', function (Blueprint $table) {
             $table->id('id_family');
             $table->string('label_family');
-            $table->integer('nb_candy_family')->nallable();
-            $table->string('path_img_family');
+            $table->string('path_img_family')->nullable();
         });
     }
 

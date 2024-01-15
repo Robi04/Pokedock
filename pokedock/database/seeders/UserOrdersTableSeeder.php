@@ -14,20 +14,20 @@ class UserOrdersTableSeeder extends Seeder
         $users = Users::inRandomOrder()->take(5)->get();
 
         foreach ($users as $user) {
-            
+
             UserOrders::create([
                 'id_user' => $user->id,
                 'state_order' => 'not_placed',
                 'state_date' => now(),
             ]);
-            
+
             UserOrders::create([
                 'id_user' => $user->id,
                 'state_order' => 'placed',
                 'state_date' => $this->generateRandomDate(),
             ]);
         }
-        
+
         $additionalOrders = $numberOfOrders - count($users) * 2;
 
         for ($i = 0; $i < $additionalOrders; $i++) {

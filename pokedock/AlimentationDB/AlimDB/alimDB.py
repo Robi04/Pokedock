@@ -108,46 +108,53 @@ if __name__=='__main__':
     families = getFamilies()
     for family in families:  
         final_families.append((family['id'],family['family'],0,''))
-    for family in final_families:
-        addFamily(cursor,family)
+
+    # Converting to JSON format with 'id' and 'name' properties, removing the last value
+    json_data = [{'id': pokemon[0], 'name': pokemon[1]} for pokemon in final_families]
+
+    print(json_data)
 
 
-    # Info Types
-    final_types = []
-    types = getTypes()
-    for type in types:  
-        final_types.append((type['id'],type['name'],''))
-    for type in final_types:
-        addType(cursor,type)
+    # for family in final_families:
+    #     addFamily(cursor,family)
 
 
-    # Info users
-    users = [('Robin', 'root', 10, 0),('Servan', 'root', 10, 0),('Fabien', 'root', 10, 0)]
-    for user in users:
-        addUser(cursor,user)
+    # # Info Types
+    # final_types = []
+    # types = getTypes()
+    # for type in types:  
+    #     final_types.append((type['id'],type['name'],''))
+    # for type in final_types:
+    #     addType(cursor,type)
 
 
-    # Info Regions
-    final_regions = []
-    regions = getRegions()
-    for region in regions:
-        final_regions.append((region['id'],region['name'],''))
-    for region in final_regions:
-        addRegion(cursor,region)
+    # # Info users
+    # users = [('Robin', 'root', 10, 0),('Servan', 'root', 10, 0),('Fabien', 'root', 10, 0)]
+    # for user in users:
+    #     addUser(cursor,user)
 
-    ## Info Tiers
-    tiers = getTiers()
-    for tier in tiers:
-        addTier(cursor,tier)
 
-    # Info Pokemons
-    pokemons = getPokemons()
-    for pokemon in pokemons:
-        addPokemon1(cursor,pokemon)
+    # # Info Regions
+    # final_regions = []
+    # regions = getRegions()
+    # for region in regions:
+    #     final_regions.append((region['id'],region['name'],''))
+    # for region in final_regions:
+    #     addRegion(cursor,region)
+
+    # ## Info Tiers
+    # tiers = getTiers()
+    # for tier in tiers:
+    #     addTier(cursor,tier)
+
+    # # Info Pokemons
+    # pokemons = getPokemons()
+    # for pokemon in pokemons:
+    #     addPokemon1(cursor,pokemon)
     
-    for pokemon in pokemons:
-        updatePokemonEvolution(cursor,pokemon)
+    # for pokemon in pokemons:
+    #     updatePokemonEvolution(cursor,pokemon)
 
-    # Close the connection
+    # # Close the connection
     cursor.close()
     connection.close()

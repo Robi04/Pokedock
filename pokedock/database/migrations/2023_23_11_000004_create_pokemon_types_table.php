@@ -12,7 +12,6 @@ return new class extends Migration
             $table->foreignId('id_pokemon')->constrained('pokemons', 'id_pokemon');
             $table->foreignId('id_type')->constrained('types', 'id_type');
             $table->primary(['id_pokemon', 'id_type']);
-            $table->timestamps();
         });
     }
 
