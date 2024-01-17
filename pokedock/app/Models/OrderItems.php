@@ -15,11 +15,6 @@ class OrderItems extends Model
         'quantity',
     ];
 
-    public function order()
-    {
-        return $this->belongsTo(UserOrders::class, 'id_user_order');
-    }
-
     public function shoppack()
     {
         return $this->belongsTo(Shoppacks::class, 'id_shoppack');

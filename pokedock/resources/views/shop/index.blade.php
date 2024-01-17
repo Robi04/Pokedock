@@ -11,7 +11,9 @@
     @include('header')    
     <div class="flex flex-row mt-14 items-center">
       @foreach ($shoppacks as $sp)
-        <div class="max-w-sm rounded-lg overflow-hidden shadow-lg w-1/3">
+        <form class="max-w-sm rounded-lg overflow-hidden shadow-lg w-1/3" action="{{ route('addItem')}}" method="POST">
+          @csrf
+          <input type="hidden" name="shoppack_id" value="{{ $sp->id_shoppack}}">
           <img class="w-full" src="/images/zizi.png" alt="/images/zizi.png">
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{$sp -> name_shoppack}} pack</div>
@@ -24,8 +26,8 @@
               <option value="3">3</option>
               <option value="4">4</option>
             </select>
-          <button type="button" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow items-center">Add to cart</button>
-        </div>
+          <button type="submit" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow items-center">Add to cart</button>
+          </form>
       @endforeach
     </div>
     @include('footer')

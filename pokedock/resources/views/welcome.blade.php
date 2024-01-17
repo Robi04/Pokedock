@@ -16,9 +16,6 @@
             <form action="{{ route('register') }}" method="get">
                 <button type="submit" class="btn">Sign Up</button>
             </form>
-            <form action="{{ route('shop')}}" method="GET">
-                <button type="submit" class="btn">Shop</button>
-            </form>
         </div>
     </div>
 </body>

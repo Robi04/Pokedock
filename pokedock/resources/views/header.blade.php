@@ -9,6 +9,9 @@
         <form action="{{ route('order_items') }}" method="get">
             <button type="submit" class="">Cart</button>
         </form>
+        <form action="{{ route('logout') }}" method="get">
+            <button type="submit" class="btn">Log Out</button>
+        </form>
     </div>
 </header>
 

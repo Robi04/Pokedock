@@ -15,7 +15,7 @@ class UserController extends Controller
         return view('insert-form', ['donnees' => $donnees]);
     }
 
-    public function insertData(Request $request)
+    public function insertItem(Request $request)
     {
         // Vous pouvez ajouter ici la validation des données d'entrée si nécessaire
         $id = 1;

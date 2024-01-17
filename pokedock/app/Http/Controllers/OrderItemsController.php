@@ -6,6 +6,9 @@ use App\Models\OrderItems;
 use Illuminate\View\View;
 use Illuminate\Support\Facades\DB; // Import the DB facade
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
+
 
  
 class OrderItemsController extends Controller
@@ -15,19 +18,38 @@ class OrderItemsController extends Controller
      */
     public function showAll(): View
     {
-        $donnees = DB::select('SELECT * FROM order_items;');  
         $id_user = Auth::user() -> id;
-        return view('order_items.index', compact('id_user'));
+        $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
+
+        return view('order_items.index', compact('donnees'));
     }
 
     public function addItem(Request $req)
     {
-        $id_pack = $req->id_pack;
-        $amount = $req -> amount;
-        $id_panier = 
+ 
         $id_item = DB::select('SELECT MAX(id_order_item) FROM order_items;');
-        $id_item += 1;
+        //$id_item = intval($id_item[0]) + 1;
+        $id_user = Auth::user() -> id;
+        $id_item = intval($id_item[0]->{'MAX(id_order_item)'}) + 1;
 
+        DB::insert('insert into order_items (id_order_item, id_user, id_shoppack, quantity) values (?, ?, ?, ?)', [$id_item, $id_user, $req -> shoppack_id, $req -> number]);
 
+        return redirect()->route('order_items');
+    }
+
+    public function delItem(Request $req)
+    {
+        $id_user = Auth::user() -> id;
+        $id_item = $req->id_order_item;
+        DB::delete("DELETE FROM order_items WHERE id_user = ? AND id_order_item = ?", [$id_user, $id_item]);
+        return redirect()->back();
+        
+    }
+
+    public function delAllItem()
+    {
+        $id_user = Auth::user() -> id;
+        DB::delete("DELETE FROM order_items WHERE id_user = ?", $id_user);
+        return redirect()->back();        
     }
 }
