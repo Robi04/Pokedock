@@ -1,20 +1,28 @@
 <?php
  
+// app/Http/Controllers/UserController.php
+
 namespace App\Http\Controllers;
- 
-use App\Models\UserOrders;
-use Illuminate\View\View;
- 
-class UserOrdersController extends Controller
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
+class UserController extends Controller
 {
-    /**
-     * Show the profile for a given user.
-     */
-    public function showAll(): View
+    public function showInsertForm()
     {
-        return view('user_orders.index', [
-            'user_orders' => UserOrders::all()
-            
-        ]);
+        $donnees = DB::select('select * from users');
+        return view('insert-form', ['donnees' => $donnees]);
+    }
+
+    public function insertItem(Request $request)
+    {
+        // Vous pouvez ajouter ici la validation des données d'entrée si nécessaire
+        $id = 1;
+        $name = 'Dayle';
+
+        DB::insert('insert into users (id, name) values (?, ?)', [$id, $name]);
+
+        return redirect()->back()->with('success', 'Données insérées avec succès!');
     }
 }

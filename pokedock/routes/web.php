@@ -10,6 +10,7 @@ use App\Http\Controllers\LogInController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
+use App\Http\Controllers\ShoppingList;
 
 
 /*
@@ -39,3 +40,8 @@ Route::post('/register', [SingUpController::class, 'register']);
 Route::get('/logout', [LogOutControleur::class, 'logout'])->name('logout');
 
 Route::get('/dashboard', [HomeController::class, 'showAll'])->name('dashboard');
+
+Route::post('add-item', [OrderItemsController::class, 'addItem']) -> name('addItem');
+Route::post('del-item', [OrderItemsController::class, 'delItem']) -> name('delItem');
+Route::post('del-all-item', [OrderItemsController::class, 'delAllItem']) -> name('delAllItem');
+
