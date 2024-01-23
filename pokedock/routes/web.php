@@ -45,3 +45,4 @@ Route::post('add-item', [OrderItemsController::class, 'addItem']) -> name('addIt
 Route::post('del-item', [OrderItemsController::class, 'delItem']) -> name('delItem');
 Route::post('del-all-item', [OrderItemsController::class, 'delAllItem']) -> name('delAllItem');
 
+Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
