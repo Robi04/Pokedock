@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB; // Import the DB facade
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use PDF;
 
 
  
@@ -20,8 +21,8 @@ class OrderItemsController extends Controller
     {
         $id_user = Auth::user() -> id;
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
-
-        return view('order_items.index', compact('donnees'));
+        $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+        return view('order_items.index', compact(['donnees', 'donneesShopPack']));
     }
 
     public function addItem(Request $req)
@@ -51,5 +52,20 @@ class OrderItemsController extends Controller
         $id_user = Auth::user() -> id;
         DB::delete("DELETE FROM order_items WHERE id_user = ?", $id_user);
         return redirect()->back();        
+    }
+
+    public function generateInvoice()
+    {
+        $id_user = Auth::user() -> id;
+        $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
+        $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+        $data = ['title' => 'Votre facture',
+                 'donnees' => $donnees,
+                 'donneesShopPack' =>  $donneesShopPack
+                ];
+
+        $pdf = PDF::loadView('pdf.index', $data);
+
+        return $pdf->stream('example.pdf');
     }
 }
