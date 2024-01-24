@@ -9,7 +9,8 @@ class Pokemons extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'id_user',
+        'id_pokemon',
+        'name_pokemon',
         'id_rarity',
         'id_family',
         'id_evolve_from',
@@ -18,11 +19,6 @@ class Pokemons extends Model
         'id_region',
         'path_img_pokemon',
     ];
-
-    public function user()
-    {
-        return $this->belongsTo(User::class, 'id_user');
-    }
 
     public function rarity()
     {
@@ -50,6 +46,6 @@ class Pokemons extends Model
     protected $hidden = [];
 
     protected $casts = [
-       'path_img_pokemon' => 'string',
+        'path_img_pokemon' => 'string',
     ];
 }

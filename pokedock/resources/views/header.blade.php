@@ -1,5 +1,6 @@
 <header class="flex items-center justify-between bg-gray-200 p-4">
     <div class="flex items-center">
+        <h1 class="text-xl font-bold" href=".">PokeDock</h1>
         <a href="{{ route('dashboard') }}">PokeDock</a>
     </div>
     <div class="flex items-center space-x-4 border-2 shadow-2xl">
@@ -17,4 +18,3 @@
         </form>
     </div>
 </header>
-
