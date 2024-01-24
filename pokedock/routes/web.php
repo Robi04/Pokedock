@@ -48,4 +48,4 @@ Route::post('del-all-item', [OrderItemsController::class, 'delAllItem'])->name('
 
 Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
 
-Route::get('/pokemon', [PokemonsController::class, 'showAll'])->name('pokemon');
+Route::get('/pokedex', [PokemonsController::class, 'showAll'])->name('pokemon');

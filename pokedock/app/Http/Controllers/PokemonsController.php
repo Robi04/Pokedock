@@ -17,7 +17,7 @@ class PokemonsController extends Controller
             ->pluck('id_pokemon')
             ->toArray();
 
-        return view('pokemon.index', [
+        return view('pokedex.index', [
             'pokemons' => DB::table('pokemons')->simplePaginate(200),
             'user' => auth()->user(),
             'userCaughtPokemonIds' => $userCaughtPokemonIds,
