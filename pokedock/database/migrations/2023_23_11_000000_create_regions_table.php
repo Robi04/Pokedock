@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('regions', function (Blueprint $table) {
             $table->id('id_region');
             $table->string('label_region');
-            $table->string('path_img_region');
+            $table->string('path_img_region')->nullable();
         });
     }
 

@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('types', function (Blueprint $table) {
             $table->id('id_type');
             $table->string('label_type');
-            $table->string('path_img_type');
+            $table->string('path_img_type')->nullable();
         });
     }
 

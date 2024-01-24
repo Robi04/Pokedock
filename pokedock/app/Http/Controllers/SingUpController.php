@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Validation\Rule;
+
+use App\Notifications\VerifyEmailNotification;
 use App\Models\User;
 use Illuminate\Support\Facades\DB; // Import the DB facade
 

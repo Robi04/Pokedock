@@ -14,17 +14,14 @@ return new class extends Migration
         Schema::create('pokemons', function (Blueprint $table) {
             $table->id('id_pokemon');
             $table->string('name_pokemon');
-            $table->foreignId('id_user')->constrained('users', 'id');
-            $table->foreignId('id_type')->constrained('types', 'id_type');
             $table->foreignId('id_family')->constrained('families', 'id_family');
-            $table->boolean('catched');
-            $table->unsignedBigInteger('id_evolve_from')->nullable();
-            $table->unsignedBigInteger('id_evolve_to')->nullable();
-            $table->foreign('id_evolve_from')->references('id_pokemon')->on('pokemons')->onDelete('set null');
-            $table->foreign('id_evolve_to')->references('id_pokemon')->on('pokemons')->onDelete('set null');
-            $table->foreignId('id_tier')->constrained('tiers', 'id_tier');
+            $table->string('id_evolve_from')->nullable();
+            $table->string('id_evolve_to')->nullable();
+            //$table->foreign('id_evolve_from')->references('id_pokemon')->on('pokemons')->nullable();
+            //$table->foreign('id_evolve_to')->references('id_pokemon')->on('pokemons')->nullable();
+            $table->foreignId('id_tier');
             $table->foreignId('id_region')->constrained('regions', 'id_region');
-            $table->string('path_img_pokemon');
+            $table->string('path_img_pokemon')->nullable();
             $table->timestamps();
         });
     }
