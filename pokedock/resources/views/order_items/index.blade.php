@@ -45,10 +45,11 @@
                 @endforeach
             @endforeach
             <p>Total price : {{$prixTot}}</p>
-            <form action="{{ route('generateInvoice') }}" method="get">
-                @csrf
-                <button type="submit">Order</button>
-            </form>
+    <form action="{{ route('placeOrder') }}" method="POST">
+        @csrf
+        <input type="hidden" name="prixTot" value="{{ $prixTot }}">
+        <button type="submit">Order</button>
+    </form>
         </div>
     </div>
     <div class="flex-grow"></div>
