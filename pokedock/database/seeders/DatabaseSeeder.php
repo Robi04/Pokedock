@@ -16,5 +16,10 @@ class DatabaseSeeder extends Seeder
         $this->call(UserOrdersTableSeeder::class);
         $this->call(ShoppacksTableSeeder::class);
         $this->call(OrderItemsTableSeeder::class);
+        $this->call(FamiliesTableSeeder::class);
+        $this->call(TypesTableSeeder::class);
+        $this->call(RegionsTableSeeder::class);
+        $this->call(PokemonsTableSeeder::class);
+        $this->call(PokemonTypesTableSeeder::class);
     }
 }

@@ -2,16 +2,13 @@
 <html>
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="{{ asset('css/welcome_style.css') }}">
+    @vite('resources/css/app.css')
 </head>
-<body>
-    <div class="content">
-        <h1>Hello {{ $name }} !</h1>
-        <div class="btn-container">
-            <form action="{{ route('logout') }}" method="get">
-                <button type="submit" class="btn">Log Out</button>
-            </form>
-        </div>
+<body class="flex flex-col h-screen justify-between">
+    @include('header')
+    <div class="flex-grow">
+        <h1>Bonjour {{$name}}</h1>
     </div>
+    @include('footer')
 </body>
 </html>
