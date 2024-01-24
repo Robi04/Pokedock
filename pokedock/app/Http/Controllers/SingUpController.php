@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Models\Pokedex;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Validation\Rule;
@@ -29,8 +29,16 @@ class SingUpController extends Controller
             'password' => bcrypt($request->input('password')),
         ]);
 
+        for ($pokemonId = 1; $pokemonId <= 493; $pokemonId++) {
+            Pokedex::create([
+                'id_user' => $user->id,
+                'id_pokemon' => $pokemonId,
+                'nb_candy_family' => 0,
+                'catched' => false,
+            ]);
+        }
+
 
         return redirect()->route('login')->with('success', 'Your account has been created. You can now log in.');
     }
 }
-
