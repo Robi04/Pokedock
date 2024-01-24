@@ -11,6 +11,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
 use App\Http\Controllers\ShoppingList;
+use App\Http\Controllers\ProfileController;
 
 
 /*
@@ -46,3 +47,6 @@ Route::post('del-item', [OrderItemsController::class, 'delItem']) -> name('delIt
 Route::post('del-all-item', [OrderItemsController::class, 'delAllItem']) -> name('delAllItem');
 
 Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
+Route::post('place-order', [OrderItemsController::class, 'placeOrder'])->name('placeOrder');
+
+Route::get('/profil', [ProfileController::class, 'showAll'])->name('profil');

@@ -46,8 +46,9 @@
         @endforeach
         <p>Prix total : {{$prixTot}}</p>
 
-    <form action="{{ route('generateInvoice') }}" method="get">
+    <form action="{{ route('placeOrder') }}" method="POST">
         @csrf
+        <input type="hidden" name="prixTot" value="{{ $prixTot }}">
         <button type="submit">Commander</button>
     </form>
     </div>
