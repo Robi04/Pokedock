@@ -87,6 +87,6 @@ class OrderItemsController extends Controller
 
         DB::table('order_items')->where('id_user', '=', $id_user)->delete();
 
-        return $pdf->download('example.pdf')->redirect('/dashboard');
+        return redirect('/dashboard');
     }
 }
