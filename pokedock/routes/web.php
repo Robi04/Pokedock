@@ -12,6 +12,7 @@ use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
 use App\Http\Controllers\PokemonsController;
 use App\Http\Controllers\ShoppingList;
+use App\Http\Controllers\ProfileController;
 
 
 /*
@@ -49,3 +50,8 @@ Route::post('del-all-item', [OrderItemsController::class, 'delAllItem'])->name('
 Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
 
 Route::get('/pokedex', [PokemonsController::class, 'showAll'])->name('pokemon');
+
+Route::post('place-order', [OrderItemsController::class, 'placeOrder'])->name('placeOrder');
+
+Route::get('/profil', [ProfileController::class, 'showAll'])->name('profil');
+
