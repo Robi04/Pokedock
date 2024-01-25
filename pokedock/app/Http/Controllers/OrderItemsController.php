@@ -60,10 +60,10 @@ class OrderItemsController extends Controller
     public function placeOrder(Request $req)
     {
         $id_user = Auth::user() -> id;
-
-        DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', round($req->prixTot, 0));
-        
-        DB::table('users')->where('id', '=', $id_user)->update(['fidelity_point' => 0]);
+        $fp = DB::select("SELECT fidelity_point FROM users WHERE id = $id_user;");
+        if ($fp != 0) DB::table('users')->where('id', '=', $id_user)->update(['fidelity_point' => 0]);
+        DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', $req->prixTot * 0.01);
+        DB::delete("DELETE FROM order_items WHERE id_user = $id_user");
 
         return redirect()->route('thanks');
     }

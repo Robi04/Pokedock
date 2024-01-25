@@ -84,7 +84,7 @@
                             <p>Total Price : {{$prixTot}}€</p>
                         </th>
                         <th>
-                            <p>Discount pirce : {{$prixTot - $user_fidelity_point}} €</p>
+                            <p>Discount Price : {{$prixTot - $user_fidelity_point}} €</p>
                         </th>
                     </tr>
                 </tbody>
