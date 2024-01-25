@@ -28,9 +28,9 @@
             @if(in_array($pk->id_pokemon, $userCaughtPokemonIds))
             <img class="w-full" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{$pk->id_pokemon}}.png" alt="{{$pk->name_pokemon}}">
             @else
-            <img style="filter:grayscale(100%)" class="w-full" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{$pk->id_pokemon}}.png" alt="{{$pk->name_pokemon}}">
+            <img style="filter: blur(4.8px);" class="w-full" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{$pk->id_pokemon}}.png" alt="{{$pk->name_pokemon}}">
             @endif
-            <div class="font-bold text-xl mb-2">{{$pk -> name_pokemon}} </div>
+            <div class="font-bold text-xl mb-2">#{{$pk->id_pokemon}} - {{ucfirst($pk -> name_pokemon)}} </div>
         </div>
         @endforeach
     </div>
