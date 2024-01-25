@@ -20,10 +20,11 @@ class OrderItemsController extends Controller
      */
     public function showAll(): View
     {
+        $user_fidelity_point = Auth::user() -> fidelity_point;
         $id_user = Auth::user() -> id;
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
         $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
-        return view('order_items.index', compact(['donnees', 'donneesShopPack']));
+        return view('order_items.index', compact(['donnees', 'donneesShopPack', 'user_fidelity_point']));
     }
 
     public function addItem(Request $req)
@@ -87,6 +88,6 @@ class OrderItemsController extends Controller
 
         DB::table('order_items')->where('id_user', '=', $id_user)->delete();
 
-        return redirect('/dashboard');
+        return $pdf->download('example.pdf');
     }
 }

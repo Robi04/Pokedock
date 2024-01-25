@@ -44,7 +44,9 @@
                     @endif
                 @endforeach
             @endforeach
-            <p>Total price : {{$prixTot}}</p>
+            <p>Total price before discount : {{$prixTot}} €</p>
+            <p>Your fidelity point : {{$user_fidelity_point}}</p>
+            <p>Price after discount : {{$prixTot - $user_fidelity_point}} €</p>
     <form action="{{ route('placeOrder') }}" method="POST">
         @csrf
         <input type="hidden" name="prixTot" value="{{ $prixTot }}">
