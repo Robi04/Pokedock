@@ -4,7 +4,6 @@
 <head>
     <title>{{ $title }}</title>
 </head>
-
 <body>
     <h1>{{ $title }}</h1>
     <div class="m-12">

@@ -59,3 +59,4 @@ Route::get('/catch',[PokemonsController::class,'showCatchPage'])->name('catch');
 
 Route::post('/catch-pokemons', [PokemonsController::class, 'catchPokemons'])->name('catch-pokemon');
 Route::get('/catched-pokemons', [PokemonsController::class, 'showCatchedPokemons']);
+Route::get('/thanks', [OrderItemsController::class, 'showThanks'])->name('thanks');
