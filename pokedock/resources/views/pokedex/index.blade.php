@@ -11,7 +11,18 @@
 
 <body>
     @include('header')
-    <div class="flex flex-wrap -mx-4 mt-14" style="max-width:90vw; margin-left:auto; position:relative; margin-right:auto">
+        <form action="{{ route('pokemon') }}" method="get">
+    <select name="region">
+        <option value="">Select Region</option>
+        @foreach ($regions as $region)
+            <option value="{{ $region->id_region}}">{{ $region->label_region }}</option>
+        @endforeach
+    </select>
+       <button type="submit">Filter</button>
+</form>
+
+<div>Total Caught: {{ count($userCaughtPokemonIds) }} </div>
+  <div class="flex flex-wrap -mx-4 mt-14" style="max-width:80vw; margin-left:auto; position:relative; margin-right:auto">
         @foreach ($pokemons as $pk) @csrf
         <div class="w-full sm:w-1/4 md:w-1/4 px-4 py-4">
             @if(in_array($pk->id_pokemon, $userCaughtPokemonIds))
@@ -23,6 +34,9 @@
         </div>
         @endforeach
     </div>
+
+
+
     {{ $pokemons->links() }}
     @include('footer')
 </body>
