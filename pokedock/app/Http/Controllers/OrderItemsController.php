@@ -37,7 +37,7 @@ class OrderItemsController extends Controller
 
         DB::insert('insert into order_items (id_order_item, id_user, id_shoppack, quantity) values (?, ?, ?, ?)', [$id_item, $id_user, $req -> shoppack_id, $req -> number]);
 
-        return redirect()->route('order_items');
+        return redirect()->route('shop');
     }
 
     public function delItem(Request $req)
@@ -52,31 +52,29 @@ class OrderItemsController extends Controller
     public function delAllItem()
     {
         $id_user = Auth::user() -> id;
-        DB::delete("DELETE FROM order_items WHERE id_user = ?", $id_user);
+        DB::delete("DELETE FROM order_items WHERE id_user = $id_user");
         return redirect()->back();        
     }
 
-    // public function generateInvoice()
-    // {
-    //     $id_user = Auth::user() -> id;
-    //     $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
-    //     $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
-    //     $data = ['title' => 'Votre facture',
-    //              'donnees' => $donnees,
-    //              'donneesShopPack' =>  $donneesShopPack
-    //             ];
-
-    //     $pdf = PDF::loadView('pdf.index', $data);
-
-    //     return $pdf->stream('example.pdf');
-    // }
 
     public function placeOrder(Request $req)
     {
         $id_user = Auth::user() -> id;
 
         DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', round($req->prixTot, 0));
+        
+        DB::table('users')->where('id', '=', $id_user)->update(['fidelity_point' => 0]);
 
+        return redirect()->route('thanks');
+    }
+
+    public function showThanks() {
+        return view('order_items.thanks');
+    }
+
+    public function generateInvoice()
+    {
+        $id_user = Auth::user() -> id;
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
         $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
 
@@ -86,8 +84,6 @@ class OrderItemsController extends Controller
                 ];
         $pdf = PDF::loadView('pdf.index', $data);
 
-        DB::table('order_items')->where('id_user', '=', $id_user)->delete();
-
-        return $pdf->download('example.pdf');
+        return $pdf->stream('invoice.pdf');
     }
 }

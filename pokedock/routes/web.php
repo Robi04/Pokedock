@@ -55,3 +55,5 @@ Route::post('place-order', [OrderItemsController::class, 'placeOrder'])->name('p
 
 Route::get('/profil', [ProfileController::class, 'showAll'])->name('profil');
 
+Route::get('/thanks', [OrderItemsController::class, 'showThanks'])->name('thanks');
+
