@@ -12,6 +12,7 @@
       <img class="m-4 mx-auto" src="{{$user_info->profile_photo_url}}" alt="">
       <p class="m-4">email : {{$user_info->email}}</p>
       <p class="m-4">Fidelity points : {{$user_info->fidelity_point}}</p>
+      <p class="m-4">Credit : {{$user_info->credit}}</p>
     </div>
     <div class="flex-grow"></div> 
       @include('footer')

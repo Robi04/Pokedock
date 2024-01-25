@@ -11,7 +11,7 @@
     <a class="font-pokeFont text-white text-4xl" href="{{ route('profil') }}">PokeDock</a>
     <div class="flex items-center space-x-4 text-white font-mono text-2xl">
         <form action="{{ route('catch') }}" method="get">
-                <button type="submit" class="btn mr-4">Catch Pokémon</button>
+                <button type="submit" class="btn mr-4">Catch-Pokemons</button>
         </form>
         <form action="{{ route('pokemon') }}" method="get">
             <button type="submit" class="btn mr-4">Pokedex</button>

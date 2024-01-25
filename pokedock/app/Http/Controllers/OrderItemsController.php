@@ -58,10 +58,23 @@ class OrderItemsController extends Controller
     public function placeOrder(Request $req)
     {
         $id_user = Auth::user() -> id;
+
+        $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
+
+        if(count($donnees) > 0)
+        {
+            $totCredit = 0;
+            foreach($donnees as $d)
+            {
+               $totCredit += $d->quantity * DB::select("SELECT nb_credit_shoppack FROM shoppacks WHERE id_shoppack = $d->id_shoppack;")[0]->nb_credit_shoppack;
+            }
+            DB::table('users')->where('id', '=', $id_user)->increment('credit', $totCredit);
+        }
+
         $fp = DB::select("SELECT fidelity_point FROM users WHERE id = $id_user;");
-        if ($fp != 0) DB::table('users')->where('id', '=', $id_user)->update(['fidelity_point' => 0]);
-        DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', $req->prixTot * 0.01);
-        DB::delete("DELETE FROM order_items WHERE id_user = $id_user");
+        if ($fp[0]->fidelity_point != 0) DB::table('users')->where('id', '=', $id_user)->update(['fidelity_point' => 0]);
+        DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', $req->prixTot * 0.1);
+      //  DB::delete("DELETE FROM order_items WHERE id_user = $id_user");
 
         return redirect()->route('thanks');
     }
@@ -74,15 +87,14 @@ class OrderItemsController extends Controller
     {
         $id_user = Auth::user() -> id;
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
-        $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+        $donneesShopPack = DB::select("SELECT * FROM shoppacks;");
 
         $data = [
-            'title' => 'Votre facture',
             'donnees' => $donnees,
             'donneesShopPack' =>  $donneesShopPack
         ];
         $pdf = PDF::loadView('pdf.index', $data);
 
-        return $pdf->download('invoice.pdf');
+        return $pdf->stream('invoice.pdf');
     }
 }
