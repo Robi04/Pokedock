@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'pokeFont';
+    src: url('/fonts/pokemon_solid.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'sigmarOne';
+    src: url('/fonts/sigmarOne.ttf') format('truetype');
+  }
