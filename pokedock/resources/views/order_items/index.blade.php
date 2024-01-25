@@ -7,7 +7,7 @@
 <body class="flex flex-col min-h-screen bg-slate-200 font-mono">
     @include('header')
     <div class="flex-grow">
-    <h1 class="text-center font-bold text-6xl m-4 font-pokeFont text-pokeBlue">Cart</h1>
+    <h1 class="text-center font-bold text-6xl m-10 font-pokeFont text-pokeBlue">Cart</h1>
             @php
             $prixTot = 0;
             @endphp

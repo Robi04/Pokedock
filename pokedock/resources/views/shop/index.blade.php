@@ -9,7 +9,7 @@
   </head>
   <body class="flex flex-col min-h-screen bg-slate-200 font-mono">
     @include('header')  
-    <h1 class="text-center font-bold text-6xl m-4 font-pokeFont text-pokeBlue">Shop</h1>
+    <h1 class="text-center font-bold text-6xl m-10 font-pokeFont text-pokeBlue">Shop</h1>
     <div class="flex justify-between m-10">
     @foreach ($shoppacks as $sp)
         <form class="max-w-sm rounded-lg overflow-hidden shadow-md w-1/3 p-10 bg-slate-50" action="{{ route('addItem')}}" method="POST">

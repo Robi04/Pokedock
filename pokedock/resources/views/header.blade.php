@@ -7,19 +7,15 @@
 </head>
 
 <header class="flex items-center justify-between bg-pokeBlue p-4 shadow-md">
-    <div class="flex items-center">
-        <h1 class="text-xl font-bold">PokeDock</h1>
-    </div>
-    <div class="flex items-center space-x-4 border-2 shadow-2xl">
-         <form action="{{ route('catch') }}" method="get">
-            <button type="submit" class="btn">Catch Pokémon</button>
-        </form>
-
-        <form action="{{ route('pokemon') }}" method="get">
-            <button type="submit" class="btn">Pokedex</button>
-        <a class="font-pokeFont text-white text-4xl" href="{{ route('profil') }}">PokeDock</a>
-    </div>
+         
+    <a class="font-pokeFont text-white text-4xl" href="{{ route('profil') }}">PokeDock</a>
     <div class="flex items-center space-x-4 text-white font-mono text-2xl">
+        <form action="{{ route('catch') }}" method="get">
+                <button type="submit" class="btn mr-4">Catch Pokémon</button>
+        </form>
+        <form action="{{ route('pokemon') }}" method="get">
+            <button type="submit" class="btn mr-4">Pokedex</button>
+        </form>
         <form action="{{ route('profil') }}" method="get">
             <button type="submit" class="mr-4">Profil</button>
         </form>
@@ -32,6 +28,5 @@
         <form action="{{ route('logout') }}" method="get">
             <button type="submit" class="btn mr-4">Log Out</button>
         </form>
-
     </div>
 </header>
