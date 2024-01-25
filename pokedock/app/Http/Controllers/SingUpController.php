@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pokedex;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Illuminate\Validation\Rule;
 
 use App\Notifications\VerifyEmailNotification;
 use App\Models\User;
+use Illuminate\Support\Facades\DB; // Import the DB facade
+
 
 class SingUpController extends Controller
 {
@@ -30,8 +33,20 @@ class SingUpController extends Controller
             'password' => bcrypt($request->input('password')),
         ]);
 
+        for ($pokemonId = 1; $pokemonId <= 493; $pokemonId++) {
+            Pokedex::create([
+                'id_user' => $user->id,
+                'id_pokemon' => $pokemonId,
+                'nb_candy_family' => 0,
+                'catched' => false,
+            ]);
+        }
+      
+        $id_user = DB::select('SELECT MAX(id) FROM users;');
+        $id_user = intval($id_user[0]->{'MAX(id)'});
+        DB::update('UPDATE users SET fidelity_point = ? WHERE id = ?', [0, $id_user]);
+
 
         return redirect()->route('login')->with('success', 'Your account has been created. You can now log in.');
     }
 }
-

@@ -10,7 +10,9 @@ use App\Http\Controllers\LogInController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\SingUpController;
 use App\Http\Controllers\LogOutControleur;
+use App\Http\Controllers\PokemonsController;
 use App\Http\Controllers\ShoppingList;
+use App\Http\Controllers\ProfileController;
 
 
 /*
@@ -41,8 +43,15 @@ Route::get('/logout', [LogOutControleur::class, 'logout'])->name('logout');
 
 Route::get('/dashboard', [HomeController::class, 'showAll'])->name('dashboard');
 
-Route::post('add-item', [OrderItemsController::class, 'addItem']) -> name('addItem');
-Route::post('del-item', [OrderItemsController::class, 'delItem']) -> name('delItem');
-Route::post('del-all-item', [OrderItemsController::class, 'delAllItem']) -> name('delAllItem');
+Route::post('add-item', [OrderItemsController::class, 'addItem'])->name('addItem');
+Route::post('del-item', [OrderItemsController::class, 'delItem'])->name('delItem');
+Route::post('del-all-item', [OrderItemsController::class, 'delAllItem'])->name('delAllItem');
 
 Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
+
+Route::get('/pokemon', [PokemonsController::class, 'showAll'])->name('pokemon');
+
+Route::post('place-order', [OrderItemsController::class, 'placeOrder'])->name('placeOrder');
+
+Route::get('/profil', [ProfileController::class, 'showAll'])->name('profil');
+

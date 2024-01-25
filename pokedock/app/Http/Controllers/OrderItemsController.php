@@ -7,6 +7,7 @@ use Illuminate\View\View;
 use Illuminate\Support\Facades\DB; // Import the DB facade
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Log;
 use PDF;
 
@@ -54,18 +55,38 @@ class OrderItemsController extends Controller
         return redirect()->back();        
     }
 
-    public function generateInvoice()
+    // public function generateInvoice()
+    // {
+    //     $id_user = Auth::user() -> id;
+    //     $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
+    //     $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+    //     $data = ['title' => 'Votre facture',
+    //              'donnees' => $donnees,
+    //              'donneesShopPack' =>  $donneesShopPack
+    //             ];
+
+    //     $pdf = PDF::loadView('pdf.index', $data);
+
+    //     return $pdf->stream('example.pdf');
+    // }
+
+    public function placeOrder(Request $req)
     {
         $id_user = Auth::user() -> id;
+
+        DB::table('users')->where('id', '=', $id_user)->increment('fidelity_point', round($req->prixTot, 0));
+
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
         $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+
         $data = ['title' => 'Votre facture',
                  'donnees' => $donnees,
                  'donneesShopPack' =>  $donneesShopPack
                 ];
-
         $pdf = PDF::loadView('pdf.index', $data);
 
-        return $pdf->stream('example.pdf');
+        DB::table('order_items')->where('id_user', '=', $id_user)->delete();
+
+        return redirect('/dashboard');
     }
 }

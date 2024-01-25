@@ -15,7 +15,7 @@
 
 <body>
     zizi
-    <p>The Pokemon ID is: {{ $id }}</p>
+    <p>The Pokemon ID is:</p>
 </body>
 
 </html>

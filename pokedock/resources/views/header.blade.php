@@ -10,7 +10,10 @@
     <div class="flex items-center">
         <a class="font-pokeFont text-white text-4xl" href="{{ route('dashboard') }}">PokeDock</a>
     </div>
-    <div class="flex items-center space-x-4 font-mono text-2xl">
+    <div class="flex items-center space-x-4 border-2 shadow-2xl">
+        <form action="{{ route('profil') }}" method="get">
+            <button type="submit" class="">Profil</button>
+        </form>
         <form action="{{ route('shop') }}" method="get">
             <button type="submit" class="text-white">Shop</button>
         </form>
@@ -22,4 +25,3 @@
         </form>
     </div>
 </header>
-
