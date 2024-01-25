@@ -15,7 +15,7 @@
         <form class="max-w-sm rounded-lg overflow-hidden shadow-md w-1/3 p-10 bg-slate-50" action="{{ route('addItem')}}" method="POST">
           @csrf
           <input type="hidden" name="shoppack_id" value="{{ $sp->id_shoppack}}">
-          <img class="w-full" src={{$sp -> path_img_shoppack }} alt="/images/zizi.png">
+          <img class="w-full" src={{$sp -> path_img_shoppack }}>
           <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">{{$sp -> name_shoppack}} pack</div>
             <p class="text-gray-700 text-base">Number of candies : {{$sp -> nb_credit_shoppack}}

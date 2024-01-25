@@ -16,4 +16,4 @@
     <div class="flex-grow"></div> 
       @include('footer')
   </body>
-</html>
+</html> 
