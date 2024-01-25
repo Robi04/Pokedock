@@ -23,7 +23,7 @@ class OrderItemsController extends Controller
         $user_fidelity_point = Auth::user() -> fidelity_point;
         $id_user = Auth::user() -> id;
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
-        $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
+        $donneesShopPack = DB::select("SELECT * FROM shoppacks;");
         return view('order_items.index', compact(['donnees', 'donneesShopPack', 'user_fidelity_point']));
     }
 

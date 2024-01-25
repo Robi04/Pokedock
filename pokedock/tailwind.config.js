@@ -17,6 +17,7 @@ module.exports = {
           colors: {
             pokeBlue: 'rgb(23 89 139 / 62%)',
             pokeBlueB: 'rgb(241 247 255)',
+            pokeBlueC: 'rgb(241 247 255/ 30%)',
           }
         },
       },
