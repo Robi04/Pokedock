@@ -44,7 +44,7 @@ class SingUpController extends Controller
       
         $id_user = DB::select('SELECT MAX(id) FROM users;');
         $id_user = intval($id_user[0]->{'MAX(id)'});
-        DB::update('UPDATE users SET fidelity_point = ? WHERE id = ?', [0, $id_user]);
+        DB::update('UPDATE users SET fidelity_point = ?, credit = ? WHERE id = ?', [0, 0, $id_user]);
 
 
         return redirect()->route('login')->with('success', 'Your account has been created. You can now log in.');
