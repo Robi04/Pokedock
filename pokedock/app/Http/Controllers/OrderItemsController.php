@@ -1,7 +1,7 @@
 <?php
- 
+
 namespace App\Http\Controllers;
- 
+
 use App\Models\OrderItems;
 use Illuminate\View\View;
 use Illuminate\Support\Facades\DB; // Import the DB facade
@@ -12,7 +12,6 @@ use Illuminate\Support\Facades\Log;
 use PDF;
 
 
- 
 class OrderItemsController extends Controller
 {
     /**
@@ -29,24 +28,23 @@ class OrderItemsController extends Controller
 
     public function addItem(Request $req)
     {
- 
+
         $id_item = DB::select('SELECT MAX(id_order_item) FROM order_items;');
         //$id_item = intval($id_item[0]) + 1;
-        $id_user = Auth::user() -> id;
+        $id_user = Auth::user()->id;
         $id_item = intval($id_item[0]->{'MAX(id_order_item)'}) + 1;
 
-        DB::insert('insert into order_items (id_order_item, id_user, id_shoppack, quantity) values (?, ?, ?, ?)', [$id_item, $id_user, $req -> shoppack_id, $req -> number]);
+        DB::insert('insert into order_items (id_order_item, id_user, id_shoppack, quantity) values (?, ?, ?, ?)', [$id_item, $id_user, $req->shoppack_id, $req->number]);
 
         return redirect()->route('shop');
     }
 
     public function delItem(Request $req)
     {
-        $id_user = Auth::user() -> id;
+        $id_user = Auth::user()->id;
         $id_item = $req->id_order_item;
         DB::delete("DELETE FROM order_items WHERE id_user = ? AND id_order_item = ?", [$id_user, $id_item]);
         return redirect()->back();
-        
     }
 
     public function delAllItem()
@@ -78,12 +76,13 @@ class OrderItemsController extends Controller
         $donnees = DB::select("SELECT * FROM order_items WHERE id_user = $id_user;");
         $donneesShopPack = DB::select("SELECT id_shoppack, price_shoppack FROM shoppacks;");
 
-        $data = ['title' => 'Votre facture',
-                 'donnees' => $donnees,
-                 'donneesShopPack' =>  $donneesShopPack
-                ];
+        $data = [
+            'title' => 'Votre facture',
+            'donnees' => $donnees,
+            'donneesShopPack' =>  $donneesShopPack
+        ];
         $pdf = PDF::loadView('pdf.index', $data);
 
-        return $pdf->stream('invoice.pdf');
+        return $pdf->download('invoice.pdf');
     }
 }

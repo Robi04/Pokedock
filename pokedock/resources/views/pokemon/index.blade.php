@@ -11,20 +11,20 @@
 
 <body>
     @include('header')
-    <div class="flex flex-wrap -mx-4 mt-14" style="max-width:90vw; margin-left:auto; position:relative; margin-right:auto">
-        @foreach ($pokemons as $pk) @csrf
-        <div class="w-full sm:w-1/4 md:w-1/4 px-4 py-4">
-            @if(in_array($pk->id_pokemon, $userCaughtPokemonIds))
-            <img class="w-full" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{$pk->id_pokemon}}.png" alt="{{$pk->name_pokemon}}">
-            @else
-            <img style="filter:grayscale(100%)" class="w-full" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{$pk->id_pokemon}}.png" alt="{{$pk->name_pokemon}}">
-            @endif
-            <div class="font-bold text-xl mb-2">{{$pk -> name_pokemon}} </div>
-        </div>
-        @endforeach
-    </div>
-    {{ $pokemons->links() }}
-    @include('footer')
+    <div class="flex flex-wrap -mx-4 mt-14" style="max-width:80vw; margin-left:auto; position:relative; margin-right:auto">
+        <form action="./catch-pokemons" method="POST" style="display:flex;">
+            @csrf
+            <label for="NbrPoke">Number of Pokémon you want to catch:</label>
+            <input type="number" id="nbrPokemons" name="nbrPokemons" min="1" max="{{$credit}}" style="border:1px solid black; width:20%; margin:10px" />
+            <input type="submit" value="Catch" style="border:1px solid black; width:20%" >
+        </form>
+</div>
+  <div class ="-mx-4 mt-14" style="margin-left:20px">
+
+                You have {{$credit}} pokeballs
+            </div>
+
+
 </body>
 
 </html>

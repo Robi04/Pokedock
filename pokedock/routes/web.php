@@ -49,11 +49,14 @@ Route::post('del-all-item', [OrderItemsController::class, 'delAllItem'])->name('
 
 Route::get('generate-invoice', [OrderItemsController::class, 'generateInvoice'])->name('generateInvoice');
 
-Route::get('/pokemon', [PokemonsController::class, 'showAll'])->name('pokemon');
 
 Route::post('place-order', [OrderItemsController::class, 'placeOrder'])->name('placeOrder');
 
 Route::get('/profil', [ProfileController::class, 'showAll'])->name('profil');
+Route::get('/pokedex', [PokemonsController::class, 'showAll'])->name('pokemon');
 
+Route::get('/catch',[PokemonsController::class,'showCatchPage'])->name('catch');
+
+Route::post('/catch-pokemons', [PokemonsController::class, 'catchPokemons'])->name('catch-pokemon');
+Route::get('/catched-pokemons', [PokemonsController::class, 'showCatchedPokemons']);
 Route::get('/thanks', [OrderItemsController::class, 'showThanks'])->name('thanks');
-
