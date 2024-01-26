@@ -1,0 +1,22 @@
+/* Base Styles */
+
+#burger {
+    display: none;
+    text-align: center;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+    #header-col {
+        flex-direction: column;
+        text-align: center;
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+}
+
+/* You might need to add more specific styles based on your design requirements */

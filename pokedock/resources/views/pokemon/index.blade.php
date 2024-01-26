@@ -19,7 +19,7 @@
             <form action="./catch-pokemons" method="POST" style="display:flex;">
                 @csrf
                 <label class="m-4" for="NbrPoke">Number of Pokémon you want to catch : </label>
-                <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-2xl mr-4" name="nbrPokemons" min="1" max="{{$credit}}" required>
+                <input type="number" style="width:100px" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-2xl mr-4" name="nbrPokemons" min="1" max="{{$credit}}" required>
                 <input type="submit" class="bg-pokeBlue text-pokeBlueB p-2 rounded-2xl" value="Catch">
             </form>
         </div>

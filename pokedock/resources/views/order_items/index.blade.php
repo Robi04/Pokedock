@@ -72,7 +72,7 @@
                                             <button type="submit" class="text-blue-600">delete</button>
                                         </form>
                                     </td>
-                                </tr>                          
+                                </tr>
                             @endif
                         @endforeach
                     @endforeach
@@ -96,15 +96,19 @@
                 @csrf
                 <button type="submit">Delete all</button>
             </form>
-        
-            <form action="{{ route('placeOrder') }}" method="POST" class="bg-pokeBlue p-3 rounded-2xl">
-                @csrf
-                <input type="hidden" name="prixTot" value="{{ $prixTot }}">
-                <button type="submit">Order</button>
-            </form>
+
+          <form action="{{ route('placeOrder') }}" method="POST" class="bg-pokeBlue p-3 rounded-2xl">
+
+        @csrf
+            <input type="hidden" name="prixTot" value="{{ $prixTot }}">
+        @if ($prixTot - $user_fidelity_point > 0)
+            <button type="submit">Order</button>
+        @else
+            <button type="submit" disabled>Order</button>
+        @endif
+        </form>
         </div>
 
-        </div>
     </div>
     <div class="flex-grow"></div>
     @include('footer')
